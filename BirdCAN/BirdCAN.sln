@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdCAN", "BirdCAN\BirdCAN.csproj", "{DBCDF7EC-6F86-4790-B286-7FA97206CAEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBCDF7EC-6F86-4790-B286-7FA97206CAEF}.Debug|x64.ActiveCfg = Debug|x64
+		{DBCDF7EC-6F86-4790-B286-7FA97206CAEF}.Debug|x64.Build.0 = Debug|x64
+		{DBCDF7EC-6F86-4790-B286-7FA97206CAEF}.Release|x64.ActiveCfg = Release|x64
+		{DBCDF7EC-6F86-4790-B286-7FA97206CAEF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F9CDDDA-FA57-4824-A18F-B3868E07FAD1}
+	EndGlobalSection
+EndGlobal
