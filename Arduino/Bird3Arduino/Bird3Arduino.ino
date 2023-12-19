@@ -1,5 +1,6 @@
 #include "driver/twai.h"
 #include "ADebouncer.h"
+void IRAM_ATTR Timer0_ISR(void);
 
 // Define whether we're compiling for an EA00004 or an EA00022.
 // Comment out the one we're compiling for
@@ -220,18 +221,50 @@ void loop() {
   throttlePos = ThrottleAFiltered;
   StartStopDebouncer.debounce(digitalRead(START_STOP_PIN));
   if (StartStopDebouncer.falling()) {
-    // TODO: Authentication of some sort
-    scooterEnabled = !scooterEnabled;
-    if (scooterEnabled) {
-      updateColor(0, 255, 0);
-      digitalWrite(HEADLIGHT_PIN, HIGH);
-      unlockBattery = true;
-      rearLight = true;
+    if (!driver_installed) {
+      
+      // Initialize configuration structures using macro initializers
+      twai_general_config_t g_config = TWAI_GENERAL_CONFIG_DEFAULT((gpio_num_t)CAN_TX_PIN, (gpio_num_t)CAN_RX_PIN, TWAI_MODE_NO_ACK);
+      twai_timing_config_t t_config = TWAI_TIMING_CONFIG_500KBITS();  //Look in the api-reference for other speed sets.
+      twai_filter_config_t f_config = TWAI_FILTER_CONFIG_ACCEPT_ALL();
+      f_config.acceptance_mask = 0;
+
+      // Install TWAI driver
+      if (twai_driver_install(&g_config, &t_config, &f_config) == ESP_OK) {
+        Serial.println("Driver installed");
+      } else {
+        Serial.println("Failed to install driver");
+        //return;
+      }
+      // Start TWAI driver
+      if (twai_start() == ESP_OK) {
+        Serial.println("Driver started");
+        // TWAI driver is now successfully installed and started
+        driver_installed = true;
+      } else {
+        Serial.println("Failed to start driver");
+      }
+
+
+      // Setup the timer https://deepbluembedded.com/esp32-timers-timer-interrupt-tutorial-arduino-ide/
+      twoMSTimer = timerBegin(0, 80, true);
+      timerAttachInterrupt(twoMSTimer, &Timer0_ISR, true);
+      timerAlarmWrite(twoMSTimer, timerIntervalMS * 1000, true);
+      timerAlarmEnable(twoMSTimer);
     } else {
-      updateColor(255, 0, 0);
-      digitalWrite(HEADLIGHT_PIN, LOW);
-      unlockBattery = false;
-      rearLight = false;
+      // TODO: Authentication of some sort
+      scooterEnabled = !scooterEnabled;
+      if (scooterEnabled) {
+        updateColor(0, 255, 0);
+        digitalWrite(HEADLIGHT_PIN, HIGH);
+        unlockBattery = true;
+        rearLight = true;
+      } else {
+        updateColor(255, 0, 0);
+        digitalWrite(HEADLIGHT_PIN, LOW);
+        unlockBattery = false;
+        rearLight = false;
+      }
     }
   }
 }
@@ -244,21 +277,23 @@ void updateColor(uint8_t R, uint8_t G, uint8_t B) {
 }
 
 void sendCANMessage(uint32_t identifier, uint8_t length, uint8_t data[]) {
-  // Configure message to transmit
-  twai_message_t message;
-  message.extd = 0;
-  message.flags = 0;
-  message.rtr = 0;
-  message.identifier = identifier;
-  message.data_length_code = length;
-  for (int i = 0; i < length; i++) {
-    message.data[i] = data[i];
-  }
-  auto result = twai_transmit(&message, pdMS_TO_TICKS(1));
-  // Queue message for transmission
-  if (result != ESP_OK) {
-    Serial.print("Failed to queue message for transmission: ");
-    Serial.println(result);
+  if (driver_installed) {
+    // Configure message to transmit
+    twai_message_t message;
+    message.extd = 0;
+    message.flags = 0;
+    message.rtr = 0;
+    message.identifier = identifier;
+    message.data_length_code = length;
+    for (int i = 0; i < length; i++) {
+      message.data[i] = data[i];
+    }
+    auto result = twai_transmit(&message, pdMS_TO_TICKS(1));
+    // Queue message for transmission
+    if (result != ESP_OK) {
+      Serial.print("Failed to queue message for transmission: ");
+      Serial.println(result);
+    }
   }
 }
 
@@ -366,33 +401,4 @@ void setup() {
   ledcSetup(2, 12000, 8);
   ledcSetup(3, 12000, 8);
   updateColor(255, 0, 0);
-
-  // Initialize configuration structures using macro initializers
-  twai_general_config_t g_config = TWAI_GENERAL_CONFIG_DEFAULT((gpio_num_t)CAN_TX_PIN, (gpio_num_t)CAN_RX_PIN, TWAI_MODE_NO_ACK);
-  twai_timing_config_t t_config = TWAI_TIMING_CONFIG_500KBITS();  //Look in the api-reference for other speed sets.
-  twai_filter_config_t f_config = TWAI_FILTER_CONFIG_ACCEPT_ALL();
-  f_config.acceptance_mask = 0;
-  
-  // Install TWAI driver
-  if (twai_driver_install(&g_config, &t_config, &f_config) == ESP_OK) {
-    Serial.println("Driver installed");
-  } else {
-    Serial.println("Failed to install driver");
-    //return;
-  }
-  // Start TWAI driver
-  if (twai_start() == ESP_OK) {
-    Serial.println("Driver started");
-    // TWAI driver is now successfully installed and started
-    driver_installed = true;
-  } else {
-    Serial.println("Failed to start driver");
-  }
-
-
-  // Setup the timer https://deepbluembedded.com/esp32-timers-timer-interrupt-tutorial-arduino-ide/
-  twoMSTimer = timerBegin(0, 80, true);
-  timerAttachInterrupt(twoMSTimer, &Timer0_ISR, true);
-  timerAlarmWrite(twoMSTimer, timerIntervalMS * 1000, true);
-  timerAlarmEnable(twoMSTimer);
 }
