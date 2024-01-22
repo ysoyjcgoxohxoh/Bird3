@@ -4,8 +4,8 @@ void IRAM_ATTR Timer0_ISR(void);
 
 // Define whether we're compiling for an EA00004 or an EA00022.
 // Comment out the one we're compiling for
-#define EA00004 1
-//#define EA00022 1
+//#define EA00004 1
+#define EA00022 1
 
 // Communication Pins
 #define CAN_RX_PIN 44
@@ -35,6 +35,8 @@ volatile bool unlockBattery = false;
 volatile bool brakeEnabled = false;
 volatile bool scooterEnabled = false;
 volatile int keepAliveIndex = 0;
+volatile int keepAliveCode = 0x9E;  // 0xC4;
+volatile uint16_t uptime = 1;
 
 ADebouncer StartStopDebouncer;
 
@@ -135,6 +137,7 @@ uint8_t BMSOutputEnable[8] = { 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 uint8_t BMSOutputDisable[8] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 uint8_t RearLightEnable[8] = { 0x01, 0x00, 0x00 };
 uint8_t RearLightDisable[8] = { 0x00, 0x00, 0x00 };
+uint8_t bmsAlive[4] = { 0x2C, 0x00, 0x41, 0x00 };
 
 volatile double TorqueOutputMax = 900L;
 #define TorqueOutputReference 800L
@@ -222,7 +225,7 @@ void loop() {
   StartStopDebouncer.debounce(digitalRead(START_STOP_PIN));
   if (StartStopDebouncer.falling()) {
     if (!driver_installed) {
-      
+
       // Initialize configuration structures using macro initializers
       twai_general_config_t g_config = TWAI_GENERAL_CONFIG_DEFAULT((gpio_num_t)CAN_TX_PIN, (gpio_num_t)CAN_RX_PIN, TWAI_MODE_NO_ACK);
       twai_timing_config_t t_config = TWAI_TIMING_CONFIG_500KBITS();  //Look in the api-reference for other speed sets.
@@ -314,10 +317,43 @@ void sendMotorTorque() {
 }
 
 void sendKeepAlive() {
+  /*
   sendCANMessage(0x742, 8, keepaliveCodes[keepAliveIndex]);
   keepAliveIndex++;
   if (keepAliveIndex > keepAliveMax) {
     keepAliveIndex = keepAliveResetIndex;
+  }*/
+
+  if (driver_installed) {
+    byte keepAlive[8];
+    keepAlive[0] = (uint8_t)(uptime & 0xFF);
+    keepAlive[1] = (uint8_t)(uptime >> 8);
+
+    if (uptime != 1) {
+      keepAlive[3] = keepAliveCode;
+    }
+    if (uptime < 6) {
+      keepAlive[2] = 0xdd;
+    } else {
+      keepAlive[2] = (uint8_t)random(0x00, 0xff);
+    }
+    if (uptime % 5 == 0) {
+      keepAlive[4] = (uint8_t)bmsAlive[0];
+      keepAlive[5] = (uint8_t)bmsAlive[1];
+      keepAlive[6] = (uint8_t)bmsAlive[2];
+      keepAlive[7] = (uint8_t)bmsAlive[3];
+      
+      Serial.print("Keepalive: 0x");
+      uint8_t i;
+      for (i = 0; i < 8; i++) {
+        Serial.print(keepAlive[i], HEX);
+        if (i < 7)
+          Serial.print(", 0x");
+      }
+      Serial.println();
+      sendCANMessage(0x742, 8, keepAlive);
+    }
+    uptime++;
   }
 }
 
@@ -338,14 +374,14 @@ void sendRearLight() {
 }
 
 void sendDebugVariables() {
-  Serial.print("Bottom:0 Top:4000 ThrottleA:");
-  Serial.print(ThrottleAFiltered);
-  Serial.print("  ThrottleB:");
-  Serial.print(ThrottleBFiltered);
-  Serial.print("  BrakeR:");
-  Serial.print(BrakeRFiltered);
-  Serial.print("  BrakeL:");
-  Serial.println(BrakeLFiltered);
+  //Serial.print("Bottom:0 Top:4000 ThrottleA:");
+  //Serial.print(ThrottleAFiltered);
+  //Serial.print("  ThrottleB:");
+  //Serial.print(ThrottleBFiltered);
+  //Serial.print("  BrakeR:");
+  //Serial.print(BrakeRFiltered);
+  //Serial.print("  BrakeL:");
+  //Serial.println(BrakeLFiltered);
 }
 
 void IRAM_ATTR Timer0_ISR() {
