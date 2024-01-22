@@ -37,7 +37,7 @@ uint8_t BMSOutputEnable[8] = { 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 uint8_t BMSOutputDisable[8] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 uint8_t RearLightEnable[8] = { 0x01, 0x00, 0x00 };
 uint8_t RearLightDisable[8] = { 0x00, 0x00, 0x00 };
-volatile uint8_t bmsAlive[4] = { 0x2C, 0x00, 0x41, 0x00 }; // Read from 0x60C message sent by BMS
+volatile uint8_t bmsAlive[4]; // Read from 0x60C message sent by BMS
 
 volatile double TorqueOutputMax = 900L;
 #define TorqueOutputReference 800L
@@ -127,10 +127,9 @@ void loop() {
     if (!driver_installed) {
 
       // Initialize configuration structures using macro initializers
-      twai_general_config_t g_config = TWAI_GENERAL_CONFIG_DEFAULT((gpio_num_t)CAN_TX_PIN, (gpio_num_t)CAN_RX_PIN, TWAI_MODE_NO_ACK);
+      twai_general_config_t g_config = TWAI_GENERAL_CONFIG_DEFAULT((gpio_num_t)CAN_TX_PIN, (gpio_num_t)CAN_RX_PIN, TWAI_MODE_NORMAL);
       twai_timing_config_t t_config = TWAI_TIMING_CONFIG_500KBITS();  //Look in the api-reference for other speed sets.
       twai_filter_config_t f_config = TWAI_FILTER_CONFIG_ACCEPT_ALL();
-      f_config.acceptance_mask = 0;
 
       // Install TWAI driver
       if (twai_driver_install(&g_config, &t_config, &f_config) == ESP_OK) {
@@ -168,6 +167,31 @@ void loop() {
         unlockBattery = false;
         rearLight = false;
       }
+    }
+  }
+
+  if (driver_installed) {
+    //Wait for message to be received
+    twai_message_t message;
+    if (twai_receive(&message, pdMS_TO_TICKS(0)) == ESP_OK) {
+      if (message.identifier == 0x60C) {
+        Serial.print("Received: 0x");
+        Serial.print(message.identifier, HEX);
+        Serial.print(": 0x");
+        uint8_t i;
+        for (i = 0; i < message.data_length_code; i++) {
+          Serial.print(message.data[i], HEX);
+          if (i < message.data_length_code - 1)
+            Serial.print(", 0x");
+        }
+        Serial.println();
+        bmsAlive[0] = message.data[0];
+        bmsAlive[1] = message.data[1];
+        bmsAlive[2] = message.data[2];
+        bmsAlive[3] = message.data[3];
+      }
+    } else {
+      //Serial.println("Failed to receive message");
     }
   }
 }
@@ -236,7 +260,7 @@ void sendKeepAlive() {
       keepAlive[5] = (uint8_t)bmsAlive[1];
       keepAlive[6] = (uint8_t)bmsAlive[2];
       keepAlive[7] = (uint8_t)bmsAlive[3];
-      
+
       Serial.print("Keepalive: 0x");
       uint8_t i;
       for (i = 0; i < 8; i++) {
@@ -308,6 +332,8 @@ void IRAM_ATTR Timer0_ISR() {
     timerCounter = 0;
   }
 }
+
+
 
 void setup() {
   Serial.begin(115200);
