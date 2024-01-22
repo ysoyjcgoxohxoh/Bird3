@@ -304,7 +304,7 @@ void IRAM_ATTR Timer0_ISR() {
   }
 
   timerCounter += timerIntervalMS;
-  if (timerCounter > timerCounterMax) {
+  if (timerCounter >= timerCounterMax) {
     timerCounter = 0;
   }
 }
