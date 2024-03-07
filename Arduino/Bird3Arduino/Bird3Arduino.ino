@@ -68,11 +68,11 @@ uint32_t BrakeL_Buffer[FILTER_LEN] = { 0 };
 #define ThrottleBADCMax 3100
 #define ThrottlePositionCount 1000
 
-#define BrakeRADCMin 0
-#define BrakeRADCMax 0
-#define BrakeLADCMin 0
-#define BrakeLADCMax 0
-#define BrakePositionCount 1000
+#define BrakeRADCMin 1100
+#define BrakeRADCMax 2300
+#define BrakeLADCMin 1050
+#define BrakeLADCMax 2000
+#define BrakePositionCount 255
 
 volatile uint32_t ThrottleAFiltered = 0;
 volatile uint32_t ThrottleBFiltered = 0;
@@ -232,12 +232,16 @@ void sendMotorTorque() {
     uint32_t x;
     byte myData[4];  //little endian
   } data;
+
+  data.x = 0;
   if (scooterEnabled) {
-    double throttleF = pow((double)throttlePos, 2.2L) / 5700L;
-    throttleF = throttleF * TorqueOutputMax / TorqueOutputReference;
-    data.x = lround(throttleF);
-  } else {
-    data.x = 0;
+    if (BrakeRFiltered > 0) {
+      data.x = BrakeRFiltered << 16;
+    } else if (throttlePos > 0) {
+      double throttleF = pow((double)throttlePos, 2.2L) / 5700L;
+      throttleF = throttleF * TorqueOutputMax / TorqueOutputReference;
+      data.x = lround(throttleF);
+    }
   }
   sendCANMessage(0x153, 4, data.myData);
 }
