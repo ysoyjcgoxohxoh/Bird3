@@ -30,6 +30,10 @@ volatile bool unlockBattery = false;
 volatile bool brakeEnabled = false;
 volatile bool scooterEnabled = false;
 volatile uint32_t uptime = 1;
+volatile int16_t currentSpeed = 0;
+#define TireDiameterMM 254.0  // OE tires are 10x2.5
+#define SpeedToKPH TireDiameterMM * 3.141592653 * 60.0 / 1000.0 / 1000.0
+#define SpeedToMPH TireDiameterMM * 3.141592653 * 60.0 / 25.4 / 12.0 / 5280.0
 
 ADebouncer StartStopDebouncer;
 
@@ -37,7 +41,8 @@ uint8_t BMSOutputEnable[8] = { 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 uint8_t BMSOutputDisable[8] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 uint8_t RearLightEnable[8] = { 0x01, 0x00, 0x00 };
 uint8_t RearLightDisable[8] = { 0x00, 0x00, 0x00 };
-volatile uint8_t bmsAlive[4]; // Read from 0x60C message sent by BMS
+volatile uint8_t bmsAlive[4];  // Read from 0x60C message sent by BMS
+volatile uint16_t cellVoltages[10];
 
 volatile double TorqueOutputMax = 900L;
 #define TorqueOutputReference 800L
@@ -175,20 +180,17 @@ void loop() {
     twai_message_t message;
     if (twai_receive(&message, pdMS_TO_TICKS(0)) == ESP_OK) {
       if (message.identifier == 0x60C) {
-        Serial.print("Received: 0x");
-        Serial.print(message.identifier, HEX);
-        Serial.print(": 0x");
-        uint8_t i;
-        for (i = 0; i < message.data_length_code; i++) {
-          Serial.print(message.data[i], HEX);
-          if (i < message.data_length_code - 1)
-            Serial.print(", 0x");
-        }
-        Serial.println();
+        // Read BMS ID message used for keepalive
         bmsAlive[0] = message.data[0];
         bmsAlive[1] = message.data[1];
         bmsAlive[2] = message.data[2];
         bmsAlive[3] = message.data[3];
+      } else if (0x701 <= message.identifier && message.identifier <= 0x70A) {
+        // Read cell voltage
+        uint16_t voltage = message.data[0] | message.data[1] << 8;
+        cellVoltages[message.identifier - 0x701] = voltage;
+      } else if (message.identifier == 0x152) {
+        currentSpeed = message.data[2] | message.data[3] << 8;
       }
     } else {
       //Serial.println("Failed to receive message");
@@ -292,14 +294,23 @@ void sendRearLight() {
 }
 
 void sendDebugVariables() {
-  //Serial.print("Bottom:0 Top:4000 ThrottleA:");
-  //Serial.print(ThrottleAFiltered);
-  //Serial.print("  ThrottleB:");
-  //Serial.print(ThrottleBFiltered);
-  //Serial.print("  BrakeR:");
-  //Serial.print(BrakeRFiltered);
-  //Serial.print("  BrakeL:");
-  //Serial.println(BrakeLFiltered);
+  /*
+  Serial.print("Bottom:0 Top:4000 ThrottleA:");
+  Serial.print(ThrottleAFiltered);
+  Serial.print("  ThrottleB:");
+  Serial.print(ThrottleBFiltered);
+  Serial.print("  BrakeR:");
+  Serial.print(BrakeRFiltered);
+  Serial.print("  BrakeL:");
+  Serial.println(BrakeLFiltered);*/
+
+  Serial.print("Speed: ");
+  Serial.print(currentSpeed);
+  Serial.print(" ");
+  Serial.print(currentSpeed * SpeedToMPH);
+  Serial.print("mph ");
+  Serial.print(currentSpeed * SpeedToKPH);
+  Serial.println("kph ");
 }
 
 void IRAM_ATTR Timer0_ISR() {
@@ -314,17 +325,27 @@ void IRAM_ATTR Timer0_ISR() {
   // Every 50 ms
   if (timerCounter % 50 == 0) {
     sendRearLight();
-    sendDebugVariables();
+    //sendDebugVariables();
   }
 
   // Every 200 ms
   if (timerCounter % 200 == 0) {
     sendBMSEnable();
+    sendDebugVariables();
   }
 
   // Every 1000 ms
   if (timerCounter % 1000 == 0) {
     sendKeepAlive();
+    uint16_t totalVoltage = 0;
+    uint8_t i;
+    for (i = 0; i < 10; i++) {
+      totalVoltage += cellVoltages[i];
+    }
+
+    Serial.print("Battery Voltage: ");
+    Serial.print(totalVoltage);
+    Serial.println("mv");
   }
 
   timerCounter += timerIntervalMS;
