@@ -243,34 +243,19 @@ void sendMotorTorque() {
 }
 
 void sendKeepAlive() {
-  /*
-  sendCANMessage(0x742, 8, keepaliveCodes[keepAliveIndex]);
-  keepAliveIndex++;
-  if (keepAliveIndex > keepAliveMax) {
-    keepAliveIndex = keepAliveResetIndex;
-  }*/
-
   if (driver_installed) {
-    byte keepAlive[8];
-    keepAlive[0] = (uint8_t)(uptime & 0xFF);
-    keepAlive[1] = (uint8_t)((uptime >> 8) & 0xFF);
-    keepAlive[2] = (uint8_t)((uptime >> 16) & 0xFF);
-    keepAlive[3] = (uint8_t)((uptime >> 24) & 0xFF);
-
     if (uptime % 5 == 0) {
-      keepAlive[4] = (uint8_t)bmsAlive[0];
-      keepAlive[5] = (uint8_t)bmsAlive[1];
-      keepAlive[6] = (uint8_t)bmsAlive[2];
-      keepAlive[7] = (uint8_t)bmsAlive[3];
+      byte keepAlive[8] = {
+        (uint8_t)(uptime & 0xFF),
+        (uint8_t)((uptime >> 8) & 0xFF),
+        (uint8_t)((uptime >> 16) & 0xFF),
+        (uint8_t)((uptime >> 24) & 0xFF),
+        (uint8_t)bmsAlive[0],
+        (uint8_t)bmsAlive[1],
+        (uint8_t)bmsAlive[2],
+        (uint8_t)bmsAlive[3]
+      };
 
-      Serial.print("Keepalive: 0x");
-      uint8_t i;
-      for (i = 0; i < 8; i++) {
-        Serial.print(keepAlive[i], HEX);
-        if (i < 7)
-          Serial.print(", 0x");
-      }
-      Serial.println();
       sendCANMessage(0x742, 8, keepAlive);
     }
     uptime++;
