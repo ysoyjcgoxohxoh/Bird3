@@ -3,18 +3,18 @@
 void IRAM_ATTR Timer0_ISR(void);
 
 // Communication Pins
-#define CAN_RX_PIN 44
-#define CAN_TX_PIN 43
+#define CAN_RX_PIN 44  // RX0
+#define CAN_TX_PIN 43  // TX1
 
 // Inputs
-#define THROTTLEA_PIN A0   // TR_WP1 - Increases as throttle is pressed
-#define THROTTLEB_PIN A1   // TR_WP2 - Decreases as throttle is pressed
-#define BRAKER_PIN A2      // Brake #1, Front Brake
-#define BRAKEL_PIN A3      // Brake #2, Rear Brake
+#define THROTTLEA_PIN A0   // TR_WP1 - Increases as throttle is pressed, Connector Pin 13
+#define THROTTLEB_PIN A1   // TR_WP2 - Decreases as throttle is pressed, Connector Pin 15
+#define BRAKEL_PIN A2      // Brake #2, Rear Brake, Connector Pin #11
+#define BRAKER_PIN A3      // Brake #1, Front Brake, Connector Pin #9
 #define START_STOP_PIN D3  // Input
 
 // Outputs
-#define HEADLIGHT_PIN A6  // Output. PWM in future, but for now, just on/off
+#define HEADLIGHT_PIN A6  // Output to LED Driver. PWM in future, but for now, just on/off
 
 // Set up the rgb led names (Arduino Nano ESP32)
 #define ledR 14
