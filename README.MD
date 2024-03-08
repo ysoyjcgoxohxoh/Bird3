@@ -40,7 +40,7 @@ More details are in the documentation for `0x742`.
 ### `0x152` - Motor Speed ###
 Bytes 3 and 4 of this message contain the motor's current speed as a signed 16-bit integer representing the current RPM of the rear wheel.
 
-At full speed, the highest number I've seen is 516. With a nominally 10" wheel, this works out to 24.7KM/h or 15.35mph.
+At full speed, the highest number I've seen is 720. With a nominally 10" wheel, this works out to 21.42mph or 34.47kph.
 
 ### `0x701` - `0x70A` - Cell Voltage ###
 The 10s6p battery configuration means there are 10 cells. The BMS monitors the voltage of each of these and reports it with these messages.
