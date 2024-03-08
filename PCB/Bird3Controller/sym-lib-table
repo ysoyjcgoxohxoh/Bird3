@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Bird3Controller")(type "KiCad")(uri "${KIPRJMOD}/Bird3Controller.kicad_sym")(options "")(descr ""))
+)
