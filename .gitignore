@@ -14,11 +14,11 @@
 /PCB/Bird3Controller.ToSend/
 /PCB/Bird3Controller.zip
 *.lck
-/PCB/Bird3Controller/Bird3Controller.csv
-/PCB/Bird3Controller/plots/
+/PCB/Bird3Controller*/Bird3Controller.csv
+/PCB/Bird3Controller*/plots/
 /PCB/Components/
 #auto_saved_files#
-/PCB/Bird3Controller/#auto_saved_files#
+/PCB/Bird3Controller*/#auto_saved_files#
 /PCB/Bird3Controller/*.png
 /Firmware/
 /PCB/LIB_LM5012DDAR
