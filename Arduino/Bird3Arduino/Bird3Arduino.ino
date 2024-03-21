@@ -31,18 +31,19 @@ void IRAM_ATTR Timer0_ISR(void);
 #ifdef ESP32BirdBrainRev1
 
 // Communication Pins
-#define CAN_RX_PIN 9  // ESP Pin 17
-#define CAN_TX_PIN 8  // ESP Pin 12
+#define CAN_RX_PIN     9   // ESP Pin 17
+#define CAN_TX_PIN     8   // ESP Pin 12
 
 // Inputs
-#define THROTTLEA_PIN 4    // ESP Pin 4  - TR_WP1 - Increases as throttle is pressed, Connector Pin 13
-#define THROTTLEB_PIN 5    // ESP Pin 5  - TR_WP2 - Decreases as throttle is pressed, Connector Pin 15
-#define BRAKEL_PIN 6       // ESP Pin 6  - Brake #2, Rear Brake, Connector Pin #11
-#define BRAKER_PIN 7       // ESP Pin 7  - Brake #1, Front Brake, Connector Pin #9
+#define THROTTLEA_PIN  4   // ESP Pin 4  - TR_WP1 - Increases as throttle is pressed, Connector Pin 13
+#define THROTTLEB_PIN  5   // ESP Pin 5  - TR_WP2 - Decreases as throttle is pressed, Connector Pin 15
+#define BRAKEL_PIN     6   // ESP Pin 6  - Brake #2, Rear Brake, Connector Pin #11
+#define BRAKER_PIN     7   // ESP Pin 7  - Brake #1, Front Brake, Connector Pin #9
 #define START_STOP_PIN 11  // ESP Pin 19 - Input
 
 // Outputs
-#define HEADLIGHT_PIN 10  // ESP Pin 18 - Output to LED Driver. PWM in future, but for now, just on/off
+#define HEADLIGHT_PIN  10  // ESP Pin 18 - Output to LED Driver. PWM in future, but for now, just on/off
+#define LCD_BL_SIG     48  // ESP Pin 25 - Output to LCD Backlight driver
 
 // LCD Pins
 // Changes must be made in ..\libraries\TFT_eSPI\User_Setup.h starting at line 254
@@ -61,7 +62,6 @@ void IRAM_ATTR Timer0_ISR(void);
 #define TFT_D7 47   // ESP Pin 24
 
 
-#define LCD_BL_SIG 48  // ESP Pin 25 - Output to LCD Backlight driver
 
 #include "TFT_eSPI.h" // TFT_eSPI 2.5.43 by Bodmer
 #include "OpenFontRender.h" // Git Submodule
