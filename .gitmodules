@@ -1,0 +1,4 @@
+[submodule "OpenFontRender"]
+	path = Arduino/libraries/OpenFontRender
+	url = https://github.com/takkaO/OpenFontRender.git
+	branch = master

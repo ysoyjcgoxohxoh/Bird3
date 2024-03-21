@@ -1,6 +1,12 @@
-#include "driver/twai.h"
-#include "ADebouncer.h"  // ADebouncer by MicroBeaut
+//#define Arduino_Nano_ESP32
+#define ESP32BirdBrainRev1
+
+#include "driver/twai.h"  // ESP32 Driver
+#include "ADebouncer.h"   // ADebouncer 1.1.0 by MicroBeaut
+
 void IRAM_ATTR Timer0_ISR(void);
+
+#ifdef Arduino_Nano_ESP32
 
 // Communication Pins
 #define CAN_RX_PIN 44  // RX0
@@ -20,8 +26,57 @@ void IRAM_ATTR Timer0_ISR(void);
 #define ledR 14
 #define ledG 15
 #define ledB 16
+#endif
+
+#ifdef ESP32BirdBrainRev1
+
+// Communication Pins
+#define CAN_RX_PIN 9  // ESP Pin 17
+#define CAN_TX_PIN 8  // ESP Pin 12
+
+// Inputs
+#define THROTTLEA_PIN 4    // ESP Pin 4  - TR_WP1 - Increases as throttle is pressed, Connector Pin 13
+#define THROTTLEB_PIN 5    // ESP Pin 5  - TR_WP2 - Decreases as throttle is pressed, Connector Pin 15
+#define BRAKEL_PIN 6       // ESP Pin 6  - Brake #2, Rear Brake, Connector Pin #11
+#define BRAKER_PIN 7       // ESP Pin 7  - Brake #1, Front Brake, Connector Pin #9
+#define START_STOP_PIN 11  // ESP Pin 19 - Input
+
+// Outputs
+#define HEADLIGHT_PIN 10  // ESP Pin 18 - Output to LED Driver. PWM in future, but for now, just on/off
+
+// LCD Pins
+// Changes must be made in ..\libraries\TFT_eSPI\User_Setup.h starting at line 254
+#define TFT_RST 12  // ESP Pin 20
+#define TFT_DC 13   // ESP Pin 21; LCD RS/DC
+#define TFT_CS 14   // ESP Pin 22
+#define TFT_WR 15   // ESP Pin 08
+#define TFT_RD 16   // ESP Pin 09
+#define TFT_D0 39   // Moved to ESP Pin 32  //17 // ESP Pin 10
+#define TFT_D1 40   // Moved to ESP Pin 33  //18 // ESP Pin 11
+#define TFT_D2 41   // Moved to ESP Pin 34  //21 // ESP Pin 23
+#define TFT_D3 35   // ESP Pin 28
+#define TFT_D4 36   // ESP Pin 29
+#define TFT_D5 37   // ESP Pin 30
+#define TFT_D6 38   // ESP Pin 31
+#define TFT_D7 47   // ESP Pin 24
 
 
+#define LCD_BL_SIG 48  // ESP Pin 25 - Output to LCD Backlight driver
+
+#include "TFT_eSPI.h" // TFT_eSPI 2.5.43 by Bodmer
+#include "OpenFontRender.h" // Git Submodule
+#include "NotoSans_Bold.h"
+
+TFT_eSPI tft = TFT_eSPI();
+// Drawing directly to the display introduces a lot of flickering. Using a Sprite as an intermediary eliminates the flickering.
+TFT_eSprite screen = TFT_eSprite(&tft); 
+OpenFontRender ofr;
+#endif
+
+// Whether the CANbus driver and the associated 2ms timer has been initialized.
+// When paired with certain CAN chips, the ESP32 crashes repeatedly if not connected
+// to a live CANbus, preventing us from debugging or programming it. This solution
+// delays initialization of the CANbus and the timer until the user presses the button. 
 static bool driver_installed = false;
 
 volatile uint16_t throttlePos = 0;
@@ -42,13 +97,20 @@ uint8_t BMSOutputDisable[8] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 uint8_t RearLightEnable[8] = { 0x01, 0x00, 0x00 };
 uint8_t RearLightDisable[8] = { 0x00, 0x00, 0x00 };
 volatile uint8_t bmsAlive[4];  // Read from 0x60C message sent by BMS
-volatile uint16_t cellVoltages[10];
+
+
+//volatile bool testPercentCountUp = true;
+//volatile int8_t testPercent = 0;
+
+#define VoltageEmpty 30000
+#define VoltageFull 41000
+volatile uint16_t cellVoltages[10] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 
 volatile double TorqueOutputMax = 900L;
 #define TorqueOutputReference 800L
 
 // https://deepbluembedded.com/esp32-timers-timer-interrupt-tutorial-arduino-ide/
-hw_timer_t *twoMSTimer = NULL;
+hw_timer_t* twoMSTimer = NULL;
 volatile uint16_t timerCounter;
 #define timerCounterMax 5000
 #define timerIntervalMS 2
@@ -79,6 +141,7 @@ volatile uint32_t ThrottleBFiltered = 0;
 volatile uint32_t BrakeRFiltered = 0;
 volatile uint32_t BrakeLFiltered = 0;
 
+volatile bool timeToRedraw = false;
 
 
 uint32_t readADC_Avg(uint8_t pinNumber, uint32_t buffer[], uint32_t adcMin, uint32_t adcMax, uint32_t outputMax) {
@@ -125,10 +188,24 @@ void loop() {
   if (filterIndex == FILTER_LEN) {
     filterIndex = 0;
   }
+/*
+  if (Serial.available() >= 3) {
+    Serial.setTimeout(10);
+    testPercent = Serial.parseInt();
+    timeToRedraw = true;
+    Serial.setTimeout(1000);
+  }*/
+
+  if (timeToRedraw) {
+    RedrawScreen();
+    timeToRedraw = false;
+  }
   // TODO: Based on the two values, Figure out if the throttle has borked, and do something sensible
   throttlePos = ThrottleAFiltered;
   StartStopDebouncer.debounce(digitalRead(START_STOP_PIN));
   if (StartStopDebouncer.falling()) {
+    //screenServer();
+
     if (!driver_installed) {
 
       // Initialize configuration structures using macro initializers
@@ -155,7 +232,7 @@ void loop() {
 
       // Setup the timer https://deepbluembedded.com/esp32-timers-timer-interrupt-tutorial-arduino-ide/
       twoMSTimer = timerBegin(0, 80, true);
-      timerAttachInterrupt(twoMSTimer, &Timer0_ISR, true);
+      timerAttachInterrupt(twoMSTimer, &Timer0_ISR, false);
       timerAlarmWrite(twoMSTimer, timerIntervalMS * 1000, true);
       timerAlarmEnable(twoMSTimer);
     } else {
@@ -164,11 +241,17 @@ void loop() {
       if (scooterEnabled) {
         updateColor(0, 255, 0);
         digitalWrite(HEADLIGHT_PIN, HIGH);
+#ifdef LCD_BL_SIG
+        ledcWrite(4, 255);
+#endif
         unlockBattery = true;
         rearLight = true;
       } else {
         updateColor(255, 0, 0);
         digitalWrite(HEADLIGHT_PIN, LOW);
+#ifdef LCD_BL_SIG
+        ledcWrite(4, 30);
+#endif
         unlockBattery = false;
         rearLight = false;
       }
@@ -199,10 +282,12 @@ void loop() {
 }
 
 void updateColor(uint8_t R, uint8_t G, uint8_t B) {
+#ifdef ledR
   // write the RGB values to the pins
   ledcWrite(1, 255 - R);  // write red component to channel 1, etc.
   ledcWrite(2, 255 - G);
   ledcWrite(3, 255 - B);
+#endif
 }
 
 void sendCANMessage(uint32_t identifier, uint8_t length, uint8_t data[]) {
@@ -217,7 +302,7 @@ void sendCANMessage(uint32_t identifier, uint8_t length, uint8_t data[]) {
     for (int i = 0; i < length; i++) {
       message.data[i] = data[i];
     }
-    auto result = twai_transmit(&message, pdMS_TO_TICKS(1));
+    auto result = twai_transmit(&message, pdMS_TO_TICKS(1) / 100);
     // Queue message for transmission
     if (result != ESP_OK) {
       Serial.print("Failed to queue message for transmission: ");
@@ -291,7 +376,7 @@ void sendDebugVariables() {
   Serial.print("  BrakeR:");
   Serial.print(BrakeRFiltered);
   Serial.print("  BrakeL:");
-  Serial.println(BrakeLFiltered);*/
+  Serial.println(BrakeLFiltered);
 
   Serial.print("Speed: ");
   Serial.print(currentSpeed);
@@ -299,7 +384,97 @@ void sendDebugVariables() {
   Serial.print(currentSpeed * SpeedToMPH);
   Serial.print("mph ");
   Serial.print(currentSpeed * SpeedToKPH);
-  Serial.println("kph ");
+  Serial.println("kph ");*/
+}
+
+void DrawCenteredString(const char* text, uint16_t size, uint16_t color, uint16_t x, uint16_t y, uint16_t w, uint16_t h) {
+  TFT_eSprite spr = TFT_eSprite(&tft);
+  spr.createSprite(w, h);
+  spr.setColorDepth(16);
+  ofr.setDrawer(spr);
+
+  ofr.setFontSize(size);
+  ofr.setAlignment(Align::TopLeft);
+  FT_BBox textSize = ofr.calculateBoundingBox(0, 0, size, Align::TopLeft, Layout::Horizontal, text);
+  ofr.drawString(text, w / 2 - (textSize.xMax - textSize.xMin) / 2 - textSize.xMin, h / 2 - (textSize.yMax - textSize.yMin) / 2 - textSize.yMin, color, TFT_BLACK, Layout::Horizontal);
+
+  spr.pushToSprite(&screen, x, y, TFT_BLACK);
+  spr.deleteSprite();
+}
+
+void RedrawScreen() {
+  screen.fillScreen(TFT_BLACK);
+
+  // Calculate Battery Percentage
+  bool voltageTBD = false;
+  double totalVoltage = 0;
+  for (uint8_t i = 0; i < 10; i++) {
+    //Serial.println(cellVoltages[i]);
+    if (cellVoltages[i] == 0) {
+      // Zero indicates we haven't received one of the cell voltages yet, so rather than showing a partial voltage, just display `TBD...`
+      voltageTBD = true; 
+      break;
+    }
+    totalVoltage += cellVoltages[i];
+  }
+
+  // Debug stuff
+  //voltageTBD = false;
+  //totalVoltage = 42000;
+
+  uint16_t batteryBorder;
+  uint16_t batteryFill;
+  String batteryString;
+  int16_t batteryPercent;
+  if (voltageTBD) {
+    batteryBorder = tft.color565(0xFF, 0xFF, 0xFF);
+    batteryFill = tft.color565(0x00, 0x00, 0x00);
+    batteryString = String("TBD...");
+    batteryPercent = 0;
+  } else {
+    batteryPercent = (int16_t)((totalVoltage - VoltageEmpty) / (VoltageFull - VoltageEmpty) * 100);
+    batteryPercent = min(batteryPercent, (int16_t)100);
+    //batteryPercent = testPercent;
+    batteryString = String(batteryPercent);
+    batteryString.concat("%");
+    if (batteryPercent > 20) {
+      batteryBorder = TFT_GREEN;
+      batteryFill = TFT_DARKGREEN;
+    } else if (batteryPercent < 5) {
+      batteryBorder = tft.color565(0xFF, 0x00, 0x00);
+      batteryFill = tft.color565(0x7F, 0x00, 0x00);
+    } else {
+      batteryBorder = tft.color565(0xFF, 0xD8, 0x00);
+      batteryFill = tft.color565(0xA8, 0x8C, 0x00);
+    }
+  }
+
+  
+#define FillX 8
+#define FillY 8
+#define FillWidth 225
+#define FillHeight 45
+#define FillRadius 9
+
+  if (batteryPercent > 0) { // Don't bother drawing 
+    // Draw internal rounded border of the fill
+    screen.fillSmoothRoundRect(FillX, FillY, FillWidth, FillHeight, FillRadius, batteryFill, batteryBorder);
+    // Erase the part of the bar that we don't want. This allows us to precisely remove the part we don't want
+    uint8_t PixelsToErase = FillWidth * (100 - batteryPercent) / 100;
+    screen.fillRect(FillX + FillWidth - PixelsToErase, FillY, PixelsToErase, FillHeight, TFT_BLACK);
+  }
+  // Draw border
+  screen.drawSmoothRoundRect(5, 5, 11, 9, 230, 50, batteryBorder, batteryFill, 0xF);
+  DrawCenteredString(batteryString.c_str(), 80, TFT_WHITE, 0, 4, 240, 50);
+
+  // Speed
+  int8_t speed = (((double)currentSpeed) * SpeedToMPH);
+  DrawCenteredString(String(speed).c_str(), 330, TFT_WHITE, 0, 60, 240, 140);
+  DrawCenteredString("mph", 50, TFT_WHITE, 0, 200, 240, 40);
+
+  tft.setSwapBytes(false);
+  screen.pushSprite(0, 0);
+  tft.setSwapBytes(true);
 }
 
 void IRAM_ATTR Timer0_ISR() {
@@ -321,6 +496,19 @@ void IRAM_ATTR Timer0_ISR() {
   if (timerCounter % 200 == 0) {
     sendBMSEnable();
     sendDebugVariables();
+/*
+    if (testPercentCountUp) {
+      testPercent++;
+      if (testPercent >= 100) {
+        testPercentCountUp = false;
+      }
+    } else {
+      testPercent--;
+      if (testPercent <= -20) {
+        testPercentCountUp = true;
+      }
+    }*/
+    timeToRedraw = true;
   }
 
   // Every 1000 ms
@@ -332,9 +520,9 @@ void IRAM_ATTR Timer0_ISR() {
       totalVoltage += cellVoltages[i];
     }
 
-    Serial.print("Battery Voltage: ");
-    Serial.print(totalVoltage);
-    Serial.println("mv");
+    //Serial.print("Battery Voltage: ");
+    //Serial.print(totalVoltage);
+    //Serial.println("mv");
   }
 
   timerCounter += timerIntervalMS;
@@ -346,7 +534,8 @@ void IRAM_ATTR Timer0_ISR() {
 
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(921600);
+  Serial.println("Started Serial");
   analogReadResolution(12);
 
   // Configure the Start/Stop button
@@ -355,6 +544,27 @@ void setup() {
 
   // Configure the headlight pin
   pinMode(HEADLIGHT_PIN, OUTPUT);
+#ifdef LCD_BL_SIG
+  Serial.print("ST7789 TFT Bitmap Test");
+
+  tft.begin();             // initialize a ST7789 chip
+  tft.setSwapBytes(true);  // swap the byte order for pushImage() - corrects endianness
+  tft.setRotation(0);
+  screen.createSprite(tft.width(), tft.height());
+  screen.setColorDepth(16);
+
+  ofr.setSerial(Serial);      // Need to print render library message
+  ofr.showFreeTypeVersion();  // print FreeType version
+  ofr.showCredit();
+  ofr.loadFont(NotoSans_Bold, sizeof(NotoSans_Bold));
+  RedrawScreen();
+
+  ledcAttachPin(LCD_BL_SIG, 4);
+  ledcSetup(4, 30000, 8);
+  ledcWrite(4, 30);
+
+#endif
+#ifdef ledR
   // Set up the RGB LED
   ledcAttachPin(ledR, 1);  // assign RGB led pins to channels
   ledcAttachPin(ledG, 2);
@@ -367,4 +577,7 @@ void setup() {
   ledcSetup(2, 12000, 8);
   ledcSetup(3, 12000, 8);
   updateColor(255, 0, 0);
+#endif
+
+  Serial.println("Exiting boot()");
 }
