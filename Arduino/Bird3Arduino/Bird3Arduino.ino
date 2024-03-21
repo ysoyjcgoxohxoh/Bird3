@@ -30,6 +30,10 @@ void IRAM_ATTR Timer0_ISR(void);
 
 #ifdef ESP32BirdBrainRev1
 
+#include "TFT_eSPI.h" // TFT_eSPI 2.5.43 by Bodmer
+#include "OpenFontRender.h" // Git Submodule
+#include "NotoSans_Bold.h"
+
 // Communication Pins
 #define CAN_RX_PIN     9   // ESP Pin 17
 #define CAN_TX_PIN     8   // ESP Pin 12
@@ -47,26 +51,22 @@ void IRAM_ATTR Timer0_ISR(void);
 
 // LCD Pins
 // Changes must be made in ..\libraries\TFT_eSPI\User_Setup.h starting at line 254
-#define TFT_RST 12  // ESP Pin 20
-#define TFT_DC 13   // ESP Pin 21; LCD RS/DC
-#define TFT_CS 14   // ESP Pin 22
-#define TFT_WR 15   // ESP Pin 08
-#define TFT_RD 16   // ESP Pin 09
-#define TFT_D0 39   // Moved to ESP Pin 32  //17 // ESP Pin 10
-#define TFT_D1 40   // Moved to ESP Pin 33  //18 // ESP Pin 11
-#define TFT_D2 41   // Moved to ESP Pin 34  //21 // ESP Pin 23
-#define TFT_D3 35   // ESP Pin 28
-#define TFT_D4 36   // ESP Pin 29
-#define TFT_D5 37   // ESP Pin 30
-#define TFT_D6 38   // ESP Pin 31
-#define TFT_D7 47   // ESP Pin 24
+#define TFT_RST        12  // ESP Pin 20
+#define TFT_DC         13   // ESP Pin 21; LCD RS/DC
+#define TFT_CS         14   // ESP Pin 22
+#define TFT_WR         15   // ESP Pin 08
+#define TFT_RD         16   // ESP Pin 09
+#define TFT_D0         39   // Moved to ESP Pin 32  //17 // ESP Pin 10
+#define TFT_D1         40   // Moved to ESP Pin 33  //18 // ESP Pin 11
+#define TFT_D2         41   // Moved to ESP Pin 34  //21 // ESP Pin 23
+#define TFT_D3         35   // ESP Pin 28
+#define TFT_D4         36   // ESP Pin 29
+#define TFT_D5         37   // ESP Pin 30
+#define TFT_D6         38   // ESP Pin 31
+#define TFT_D7         47   // ESP Pin 24
 
 
-
-#include "TFT_eSPI.h" // TFT_eSPI 2.5.43 by Bodmer
-#include "OpenFontRender.h" // Git Submodule
-#include "NotoSans_Bold.h"
-
+// Variables used only if LCD is used.
 TFT_eSPI tft = TFT_eSPI();
 // Drawing directly to the display introduces a lot of flickering. Using a Sprite as an intermediary eliminates the flickering.
 TFT_eSprite screen = TFT_eSprite(&tft); 
@@ -281,6 +281,7 @@ void loop() {
   }
 }
 
+// Used if there's an RGB LED
 void updateColor(uint8_t R, uint8_t G, uint8_t B) {
 #ifdef ledR
   // write the RGB values to the pins
