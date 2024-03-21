@@ -1,0 +1,154 @@
+VERSION ""
+
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
+
+BS_: 
+BU_: ESC BMS IOT 
+BO_ 2147483953 BMS_Msg347: 8 BMS
+
+BO_ 2147483969 BMS_Msg327: 8 BMS
+
+BO_ 2147483970 BMS_Msg39: 8 BMS
+
+BO_ 2147483971 BMS_Msg417: 7 BMS
+
+BO_ 2147483974 BMS_Msg339: 8 BMS
+
+BO_ 2147483975 BMS_Msg423: 2 BMS
+
+BO_ 2147483976 BMS_Msg372: 8 BMS
+
+BO_ 2147483986 Motor_RPM: 7 ESC
+
+BO_ 2147483987 SetMotorSpeed: 4 IOT
+   SG_ SetMotorSpeedSig142 : 0|16@1- (1,0) [0|1] "" ESC
+   SG_ MotorHardBrake : 31|1@0+ (1,0) [0|1] "" ESC
+
+BO_ 2147483990 ESC_Msg74: 6 ESC
+
+BO_ 2147483991 ESC_Msg372: 1 ESC
+
+BO_ 2147484064 ESC_Msg278: 3 ESC
+
+BO_ 2147484169 BMS_Msg202: 4 BMS
+
+BO_ 2147484170 BMS_Msg257: 3 BMS
+
+BO_ 2147484928 EnableRearLight: 3 IOT
+   SG_ EnableRearLight : 0|8@1+ (1,0) [0|1] "" ESC
+
+BO_ 2147483968 EnableBMS: 8 IOT
+   SG_ EnableBMS : 8|1@1+ (1,0) [0|1] "" BMS
+
+BO_ 2147483972 Current_Possibly: 5 BMS
+
+BO_ 2147484065 IOT_Msg164: 8 IOT
+
+BO_ 2147485191 IOT_Msg484: 4 IOT
+
+BO_ 2147485192 IOT_Msg215: 4 IOT
+
+BO_ 2147485193 BMS_Msg264: 4 BMS
+
+BO_ 2147485185 ESC_Msg75: 1 ESC
+
+BO_ 2147485186 ESC_Msg452: 6 ESC
+
+BO_ 2147485187 ESC_Msg402: 8 ESC
+
+BO_ 2147485189 BMS_Msg168: 4 BMS
+
+BO_ 2147485195 BMS_Msg99: 8 BMS
+
+BO_ 2147485196 BMS_Msg278: 4 BMS
+
+BO_ 2147485197 ESC_Msg352: 2 ESC
+
+BO_ 2147485473 ESC_Msg347: 8 ESC
+
+BO_ 2147485474 ESC_Msg327: 8 ESC
+
+BO_ 2147485617 ESC_Msg39: 8 ESC
+
+BO_ 2147485618 ESC_Msg417: 4 ESC
+
+BO_ 2147485620 ESC_Msg34: 4 ESC
+
+BO_ 2147485619 IOT_Msg339: 4 IOT
+
+BO_ 2147485194 ESC_Msg423: 4 ESC
+
+BO_ 2147485441 BMS_Cell1: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BO_ 2147485442 BMS_Cell2: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BO_ 2147485443 BMS_Cell3: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BO_ 2147485444 BMS_Cell4: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BO_ 2147485445 BMS_Cell5: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BO_ 2147485446 BMS_Cell6: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BO_ 2147485447 BMS_Cell7: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BO_ 2147485448 BMS_Cell8: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BO_ 2147485449 BMS_Cell9: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BO_ 2147485450 BMS_Cell10: 3 BMS
+   SG_ CellVoltage : 0|16@1+ (1,0) [0|1] "mv" IOT
+
+BA_DEF_ BO_ "GenMsgBackgroundColor" STRING ;
+BA_DEF_ BO_ "GenMsgForegroundColor" STRING ;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_DEF_ "GenMsgBackgroundColor" "#ffffff";
+BA_DEF_DEF_ "GenMsgForegroundColor" "#000000";
+BA_DEF_DEF_ "matchingcriteria" 0;
+BA_DEF_DEF_ "filterlabeling" 1;
+BA_ "GenMsgForegroundColor" BO_ 2147483976 "#000000";
+BA_ "GenMsgForegroundColor" BO_ 2147483987 "#000000";
+VAL_ 2147483987 MotorHardBrake 0 "Freewheel" 1 "Brake";
+VAL_ 2147484928 EnableRearLight 0 "Disable" 1 "Enable" 0 "No Description";
+VAL_ 2147483968 EnableBMS 0 "DisableBMS" 1 "EnableBMS";

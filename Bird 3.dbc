@@ -1,0 +1,145 @@
+VERSION ""
+
+
+BS_:
+
+BU_:
+
+BO_ 305 _: 3 BMS
+
+BO_ 321 _: 3 BMS
+
+BO_ 322 _: 3 BMS
+
+BO_ 323 _: 3 BMS
+
+BO_ 324 Current: 3 BMS
+
+BO_ 326 _: 3 BMS
+
+BO_ 327 _: 3 BMS
+
+BO_ 328 _: 3 BMS
+
+BO_ 521 _: 3 BMS
+
+BO_ 522 _: 3 BMS
+
+BO_ 1541 _: 3 BMS
+
+BO_ 1542 _: 3 BMS
+
+BO_ 1547 _: 3 BMS
+
+BO_ 1548 _: 3 BMS
+
+BO_ 1793 Cell_01: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1794 Cell_02: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1795 Cell_03: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1796 Cell_04: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1797 Cell_05: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1798 Cell_06: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1799 Cell_07: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1800 Cell_08: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1801 Cell_09: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1802 Cell_10: 3 BMS
+ SG_ Voltage : 0|16@1+ (0.001,0) [0|65.535] "V" BMS
+
+BO_ 1824 _: 3 BMS
+
+BO_ 320 _: 3 ControlUnit
+
+BO_ 339 Motor_Speed: 3 ControlUnit
+
+BO_ 417 _: 3 ControlUnit
+
+BO_ 1280 Rear_Light: 3 ControlUnit
+ SG_ Enabled : 7|1@1- (1,0) [0|1] "" ControlUnit
+
+BO_ 1543 _: 3 ControlUnit
+
+BO_ 1544 _: 3 ControlUnit
+
+BO_ 1815 ThrottlePosition: 3 ControlUnit
+
+BO_ 1816 _: 3 ControlUnit
+
+BO_ 1817 _: 3 ControlUnit
+
+BO_ 1818 _: 3 ControlUnit
+
+BO_ 1840 _: 3 ControlUnit
+
+BO_ 1841 _: 3 ControlUnit
+
+BO_ 1842 _: 3 ControlUnit
+
+BO_ 1858 Uptime: 3 ControlUnit
+
+BO_ 1921 _: 3 ControlUnit
+
+BO_ 1952 _: 3 ControlUnit
+
+BO_ 1955 _: 3 ControlUnit
+
+BO_ 1956 _: 3 ControlUnit
+
+BO_ 1957 _: 3 ControlUnit
+
+BO_ 1959 _: 3 ControlUnit
+
+BO_ 1960 _: 3 ControlUnit
+
+BO_ 1971 _: 3 ControlUnit
+
+
+
+BO_ 338 _: 3 BLDC
+
+BO_ 342 _: 3 BLDC
+
+BO_ 343 _: 3 BLDC
+
+BO_ 416 _: 3 BLDC
+
+BO_ 1537 _: 3 BLDC
+
+BO_ 1538 _: 3 BLDC
+
+BO_ 1539 _: 3 BLDC
+
+BO_ 1545 _: 3 BLDC
+
+BO_ 1546 _: 3 BLDC
+
+BO_ 1549 _: 3 BLDC
+
+BO_ 1825 _: 3 BLDC
+
+BO_ 1826 _: 3 BLDC
+
+BO_ 1969 _: 3 BLDC
+
+BO_ 1970 _: 3 BLDC
+
+BO_ 1972 _: 3 BLDC
+
+
