@@ -25,3 +25,5 @@
 /PCB/LIB_LM5012DDAR.zip
 /PCB/**/*.bak
 fp-info-cache
+/PCB/**/Bird3Controller.xml
+/cangaroo_workspace.cangaroo
