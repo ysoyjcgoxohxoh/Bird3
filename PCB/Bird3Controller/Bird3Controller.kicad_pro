@@ -435,7 +435,12 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(30, 255, 0)",
+      "+3V3": "rgb(129, 123, 0)",
+      "/LED+": "rgb(255, 4, 203)",
+      "/LED-": "rgb(255, 120, 42)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

@@ -111,7 +111,7 @@
     (property "Footprint" "CONN_87832-2420_MOL" (at -5.588 6.35 0) (show_name)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "878322420" (at -12.446 3.81 0) (show_name)
+    (property "Datasheet" "https://www.molex.com/en-us/products/part-detail/878322420" (at -12.446 3.81 0) (show_name)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "878322420" (at 0 0 0)
