@@ -334,7 +334,7 @@ void sendMotorTorque() {
 
 void sendKeepAlive() {
   if (driver_installed) {
-    if (uptime % 5 == 0) {
+    if (uptime % 1 == 0) {
       byte keepAlive[8] = {
         (uint8_t)(uptime & 0xFF),
         (uint8_t)((uptime >> 8) & 0xFF),
