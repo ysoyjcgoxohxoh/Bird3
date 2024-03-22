@@ -8,3 +8,8 @@
 - The headlight driver's current is set too low.
 - The headlight driver's inductor physically interferes with LCD
 - The data lines to the LCD span two registers, necessitating jumper wires for compatibility with the `TFT_eSPI` library.
+
+
+## Board Renderings ##
+![Top of PCB](Bird3Controller-Top.png)
+![Bottom of PCB](Bird3Controller-Bottom.png)
