@@ -1,2 +1,6 @@
 > [!NOTE]
-> This design is incomplete and nowhere nearly ready for use.
+> This design is incomplete
+
+
+## Board Renderings ##
+![PCB](Bird3Controller.png)
