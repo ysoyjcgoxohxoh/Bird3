@@ -17,5 +17,9 @@ More documentation for the scooter is available in the [Wiki](../../wiki).
   - [Rev 1](./PCB/Bird3Controller_Rev1/Readme.md).
   - [Rev 2](./PCB/Bird3Controller_Rev2/Readme.md).
 
+## Credits ##
+- `Mental_Metalhead` - For lots of back and forth testing the software, providing the 22-pin connector pinout, and for various advice on designing PCBs.
+- The folks in the Scooterhacking.org community. (DM me if you wish to be credited directly. You know who you are.)
+
 ## Board Renderings - Rev 2 ##
 ![PCB](PCB/Bird3Controller_Rev2/Bird3Controller.png)
