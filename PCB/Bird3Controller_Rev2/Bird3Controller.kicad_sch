@@ -32,7 +32,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "FUSC7451X170N"
+			(property "Footprint" "Bird3Controller:FUSC7451X170N"
 				(at 5.08 -96.19 0)
 				(effects
 					(font
@@ -15186,7 +15186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FUSC7451X170N"
+		(property "Footprint" "Bird3Controller:FUSC7451X170N"
 			(at 252.73 125.4 0)
 			(effects
 				(font
@@ -15206,7 +15206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable Fuses - PPTC 1A 60V PPTC 2920 SMD"
 			(at 247.65 29.21 0)
 			(effects
 				(font
