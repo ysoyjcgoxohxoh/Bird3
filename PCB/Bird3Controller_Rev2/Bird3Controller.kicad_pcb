@@ -17679,6 +17679,29 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 190.05 135.1 -0)
+		(layer "B.SilkS")
+		(uuid "cd07fcef-e176-43ec-a64e-f706cc403194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Bird 3 Brain Rev 2\nhttps://github.com/ysoyjcgoxohxoh/Bird3\n"
+		(at 182 129.65 0)
+		(layer "F.SilkS")
+		(uuid "4b8074dd-ef5a-4e01-b11c-2c935df8f0fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(segment
 		(start 172.7125 68.75)
 		(end 172.1425 68.18)
