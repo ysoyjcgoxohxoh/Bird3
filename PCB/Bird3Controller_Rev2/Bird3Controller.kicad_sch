@@ -8,6 +8,126 @@
 		(title "Bird 3 Controller")
 	)
 	(lib_symbols
+		(symbol "+3V3_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Bird3Controller:0ZCF0100AF2A"
 			(pin_numbers hide)
 			(exclude_from_sim no)
@@ -4335,6 +4455,270 @@
 				)
 			)
 		)
+		(symbol "Bird3Controller:M24C08-RMN6TP"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 0.254 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M24C08-RMN6TP"
+				(at 0.254 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Bird3Controller:SOIC127P600X175-8N"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/m24c08-r.pdf"
+				(at 10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "EEPROM 16Kbit 8Kbit 4Kbit 2Kb and 1Kb Serial"
+				(at 10.16 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 10.16 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-M24C08-RMN6TP"
+				(at 10.16 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/datasheet/2/389/m24c08_r-1849629.pdf"
+				(at 10.16 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 10.16 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "M24C08-RMN6TP"
+				(at 10.16 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "M24C08-RMN6TP_0_0"
+				(pin passive line
+					(at -13.97 3.81 0)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 1.27 0)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -1.27 0)
+					(length 5.08)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -3.81 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -3.81 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -1.27 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 1.27 180)
+					(length 5.08)
+					(name "~{WC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 3.81 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "M24C08-RMN6TP_0_1"
+				(polyline
+					(pts
+						(xy -8.89 6.35) (xy 8.89 6.35) (xy 8.89 -6.35) (xy -8.89 -6.35) (xy -8.89 6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Bird3Controller:PLMR36520ADDAR"
 			(pin_names
 				(offset 0.254)
@@ -6736,6 +7120,102 @@
 				)
 			)
 		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Interface_CAN_LIN:SN65HVD231"
 			(pin_names
 				(offset 1.016)
@@ -7484,6 +7964,12 @@
 		(uuid "2cc2daea-640a-4716-9c79-c21fc1a03401")
 	)
 	(junction
+		(at 322.58 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39ced6bc-af8b-448e-960a-ce8f1a1b121a")
+	)
+	(junction
 		(at 144.78 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7836,6 +8322,14 @@
 		(uuid "0677ead5-8fb3-46c7-b674-64cd45a8b402")
 	)
 	(no_connect
+		(at 325.12 81.28)
+		(uuid "0ff1a4b5-bfd8-4c89-9194-6001d4bf7a6b")
+	)
+	(no_connect
+		(at 325.12 83.82)
+		(uuid "315c8a18-9182-4bce-9c95-8b9f2b78d4c4")
+	)
+	(no_connect
 		(at 237.49 91.44)
 		(uuid "326aa3ad-144c-46c8-b6b4-5ab22135237b")
 	)
@@ -7932,6 +8426,16 @@
 			(type default)
 		)
 		(uuid "01c8c7df-5fe6-46be-9094-990624356223")
+	)
+	(wire
+		(pts
+			(xy 36.83 185.42) (xy 45.72 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ef665d-4a56-4e99-a660-5fa23ed15c72")
 	)
 	(wire
 		(pts
@@ -8222,6 +8726,16 @@
 			(type default)
 		)
 		(uuid "141d26b5-897a-4a9d-892b-344642efb122")
+	)
+	(wire
+		(pts
+			(xy 353.06 81.28) (xy 355.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c169a4-fb97-4086-b284-3d56c4269b8f")
 	)
 	(wire
 		(pts
@@ -8545,6 +9059,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 78.74) (xy 355.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2865f235-fe5a-4441-a2a5-f6399443d485")
+	)
+	(wire
+		(pts
 			(xy 160.02 168.91) (xy 160.02 170.18)
 		)
 		(stroke
@@ -8753,6 +9277,26 @@
 		)
 		(uuid "3cb5ac66-e64c-46e2-b0f4-b3b953506cab")
 	)
+	(polyline
+		(pts
+			(xy 317.5 113.03) (xy 369.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e459f06-dcae-44ac-bf74-88dffbc90b52")
+	)
+	(wire
+		(pts
+			(xy 353.06 86.36) (xy 360.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e99e6b7-bc8b-4446-9d8d-855bb65b08d4")
+	)
 	(wire
 		(pts
 			(xy 288.29 41.91) (xy 288.29 43.18)
@@ -8915,6 +9459,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 86.36) (xy 322.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0b2b35-e4c5-484e-a83f-5380de61dd4f")
+	)
+	(wire
+		(pts
 			(xy 165.1 162.56) (xy 179.07 162.56)
 		)
 		(stroke
@@ -9042,6 +9596,16 @@
 			(type default)
 		)
 		(uuid "5520d11d-01d4-4b27-ad72-b0a096d5d1c3")
+	)
+	(wire
+		(pts
+			(xy 353.06 83.82) (xy 364.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5578afe0-5925-47a0-9de5-e82648142467")
 	)
 	(wire
 		(pts
@@ -9335,6 +9899,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 86.36) (xy 322.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a97b107-c9dd-49fb-a5fe-f99420df3ae2")
+	)
+	(wire
+		(pts
 			(xy 45.72 74.93) (xy 58.42 74.93)
 		)
 		(stroke
@@ -9522,6 +10096,16 @@
 			(type default)
 		)
 		(uuid "7e10f57b-0b7c-4101-ae64-3b46a2108ebf")
+	)
+	(wire
+		(pts
+			(xy 364.49 83.82) (xy 364.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e85e4ec-406a-414f-a24c-9ea8c0d393c3")
 	)
 	(wire
 		(pts
@@ -10025,6 +10609,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 88.9) (xy 322.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a129ee0c-a280-4c95-a2a3-29b813ce5a4d")
+	)
+	(wire
+		(pts
 			(xy 132.08 106.68) (xy 120.65 106.68)
 		)
 		(stroke
@@ -10172,6 +10766,16 @@
 			(type default)
 		)
 		(uuid "b1a828b0-0a66-430f-b277-1fdb244dfa7b")
+	)
+	(wire
+		(pts
+			(xy 353.06 88.9) (xy 360.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32077e3-4702-499a-89bc-a483c5c2a786")
 	)
 	(wire
 		(pts
@@ -10675,6 +11279,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 88.9) (xy 322.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0629ac-6b17-4f3a-81cb-f36459512a3c")
+	)
+	(wire
+		(pts
 			(xy 92.71 186.69) (xy 107.95 186.69)
 		)
 		(stroke
@@ -11023,6 +11637,16 @@
 		)
 		(uuid "f7ec9b26-9c7e-4cbb-9a9d-8ec2ec7e8eda")
 	)
+	(polyline
+		(pts
+			(xy 369.57 113.03) (xy 369.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82f91a0-480b-4dd4-8c36-62fc76663a81")
+	)
 	(wire
 		(pts
 			(xy 58.42 52.07) (xy 45.72 52.07)
@@ -11143,6 +11767,16 @@
 		)
 		(uuid "feb21b14-6f10-4826-b22d-8d09161b5c10")
 	)
+	(wire
+		(pts
+			(xy 36.83 187.96) (xy 45.72 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb66fbf-7b72-4208-a11c-f869378c711d")
+	)
 	(polyline
 		(pts
 			(xy 278.13 113.03) (xy 317.5 113.03)
@@ -11184,6 +11818,17 @@
 			(justify left bottom)
 		)
 		(uuid "2a50f270-6fd2-433e-b935-03116e5939dd")
+	)
+	(text "EEPROM"
+		(exclude_from_sim no)
+		(at 318.77 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c4b9547-2681-4680-a83c-bf24a13d988f")
 	)
 	(text "36V to 3.3V"
 		(exclude_from_sim no)
@@ -11691,6 +12336,17 @@
 		)
 		(uuid "722eff2d-aa6c-4b69-80c5-b07f19d98c9a")
 	)
+	(label "SCL"
+		(at 38.1 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "745999f8-ef81-4015-8805-df9ac6630bb3")
+	)
 	(label "CAN_H"
 		(at 165.1 49.53 0)
 		(fields_autoplaced yes)
@@ -11845,6 +12501,17 @@
 		)
 		(uuid "a7243e42-536b-4af9-af9a-018bbd0630a0")
 	)
+	(label "SDA"
+		(at 354.33 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a93e2fec-f634-4337-8f32-93a2654696ad")
+	)
 	(label "LCD_DB5"
 		(at 48.26 74.93 0)
 		(fields_autoplaced yes)
@@ -11932,6 +12599,17 @@
 			(justify left bottom)
 		)
 		(uuid "c4929b63-0ec7-42d1-bf8c-94b64b4e087e")
+	)
+	(label "SDA"
+		(at 38.1 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c49a497d-3f07-491f-928d-b8baec07c0f2")
 	)
 	(label "ON{slash}OFF"
 		(at 100.33 201.93 0)
@@ -12086,6 +12764,17 @@
 			(justify left bottom)
 		)
 		(uuid "f8c6d225-d052-41a7-aa3c-450012fb1105")
+	)
+	(label "SCL"
+		(at 354.33 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc19f3d1-f21f-47eb-8fa1-b250e74cba97")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -17934,6 +18623,73 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 355.6 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a481c1b6-e949-4df8-b6b7-f86ff0ad185f")
+		(property "Reference" "#PWR017"
+			(at 355.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 355.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 355.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56a0e451-e31d-443c-9f81-118d5ece4961")
+		)
+		(instances
+			(project "Bird3Controller"
+				(path "/885bd87b-47a1-4a0e-91eb-2c85a01c64d1"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 124.46 0)
 		(unit 1)
@@ -19239,6 +19995,212 @@
 		)
 	)
 	(symbol
+		(lib_id "Bird3Controller:M24C08-RMN6TP")
+		(at 339.09 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd27e511-ede3-49f0-b702-5bddc593ff03")
+		(property "Reference" "IC1"
+			(at 339.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M24C08-RMN6TP"
+			(at 339.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bird3Controller:SOIC127P600X175-8N"
+			(at 349.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/m24c08_r-1849629.pdf"
+			(at 349.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "EEPROM 16Kbit 8Kbit 4Kbit 2Kb and 1Kb Serial"
+			(at 349.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 349.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-M24C08-RMN6TP"
+			(at 349.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/M24C08-RMN6TP?qs=%252B9pWl1iD4MWbThyGTUpSoQ%3D%3D"
+			(at 349.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 349.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "M24C08-RMN6TP"
+			(at 349.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b2043e3-4c79-41d2-a81f-9ee9973aeec9")
+		)
+		(pin "1"
+			(uuid "f774c37e-aa2e-4ab8-9bb5-dcba2ac0cd9d")
+		)
+		(pin "7"
+			(uuid "42e0e111-f8cc-4f29-91d4-bad94c5a61cb")
+		)
+		(pin "8"
+			(uuid "ccfef209-8b91-4f69-bb5e-09cf3d81c05f")
+		)
+		(pin "5"
+			(uuid "a83ef339-174f-48a7-934c-7426ce93a7dd")
+		)
+		(pin "3"
+			(uuid "031241f8-69c3-49a8-9b8d-98c436d8cece")
+		)
+		(pin "4"
+			(uuid "f027b5dc-5770-45dc-8f5e-7a8f2141d7ab")
+		)
+		(pin "6"
+			(uuid "fccf084f-00d5-49d9-8568-05c46ee3c460")
+		)
+		(instances
+			(project "Bird3Controller"
+				(path "/885bd87b-47a1-4a0e-91eb-2c85a01c64d1"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 322.58 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0019f59-00ef-4e2e-ae94-b1eec39758b7")
+		(property "Reference" "#PWR09"
+			(at 322.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ff911e-8f1f-4719-887d-3446b7767f71")
+		)
+		(instances
+			(project "Bird3Controller"
+				(path "/885bd87b-47a1-4a0e-91eb-2c85a01c64d1"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_CAN_LIN:SN65HVD231")
 		(at 180.34 105.41 0)
 		(unit 1)
@@ -20033,6 +20995,73 @@
 			(project "Bird3Controller"
 				(path "/885bd87b-47a1-4a0e-91eb-2c85a01c64d1"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 364.49 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f869c284-4481-4e1b-94a8-dffee84e27c6")
+		(property "Reference" "#PWR023"
+			(at 364.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06d40663-c0a4-44ff-87ab-37016154a197")
+		)
+		(instances
+			(project "Bird3Controller"
+				(path "/885bd87b-47a1-4a0e-91eb-2c85a01c64d1"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
