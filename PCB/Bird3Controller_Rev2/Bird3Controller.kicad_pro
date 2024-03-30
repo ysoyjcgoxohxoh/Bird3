@@ -172,7 +172,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.25,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -541,7 +543,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "pcb_color": "rgb(255, 228, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.8,
@@ -564,6 +566,7 @@
       "Net-(C18-Pad1)": "Power",
       "Net-(D3-A)": "Power",
       "Net-(D5-K)": "Power",
+      "Net-(F2-Pad2)": "Power",
       "Net-(L1-Pad2)": "Power",
       "Net-(U2-SET)": "Power",
       "Net-(U4-EN)": "Power",
