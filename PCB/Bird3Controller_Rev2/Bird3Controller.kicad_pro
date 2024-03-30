@@ -779,13 +779,13 @@
           "group_by": false,
           "label": "Mouser Price QTY1",
           "name": "Mouser Price QTY1",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Mouser Price QTY10",
           "name": "Mouser Price QTY10",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
