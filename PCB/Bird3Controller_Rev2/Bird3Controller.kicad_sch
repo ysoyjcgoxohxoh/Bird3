@@ -13011,7 +13011,7 @@
 		(at 378.46 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "08fae599-49ff-4e27-8bb2-d6777d189a6d")
@@ -13050,6 +13050,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 378.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" ""
+			(at 378.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" ""
 			(at 378.46 29.21 0)
 			(effects
 				(font
@@ -13166,6 +13184,33 @@
 		)
 		(property "JLCPCB Part" "C143773"
 			(at 115.824 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.32"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.252"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D"
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13329,7 +13374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
 			(at 40.64 800.66 0)
 			(effects
 				(font
@@ -13370,6 +13415,24 @@
 		)
 		(property "JLCPCB Part" "C2689521"
 			(at 29.21 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.14"
+			(at 29.21 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.13"
+			(at 29.21 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13452,8 +13515,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Diodes"
-			(at 148.59 140.97 0)
+		(property "Mouser Part Number" "621-AL8862SP-13"
+			(at 147.32 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13461,17 +13524,44 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture Part Number" "AL8862SP-13"
-			(at 148.2441 158.75 0)
+		(property "Manufacturer_Part_Number" "AL8862SP-13"
+			(at 148.59 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "621-AL8862SP-13"
-			(at 147.32 143.51 0)
+		(property "Manufacturer_Name" "Diodes"
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.93"
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.748"
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 148.59 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13619,6 +13709,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.10"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.027"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105MBFNNNE?qs=Znm5pLBrcAIRYa0zX3s5Qw%3D%3D"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0655dcf-b6e4-4a90-95fe-aa974eb90132")
 		)
@@ -13735,6 +13852,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.13"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.043"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/RCS080560R4FKEA?qs=AAB0DUhlpksv20rhg0ZRxw%3D%3D"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13874,15 +14018,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Diotec"
-			(at 304.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser Part Number" "637-2N7002A"
 			(at 304.8 87.63 0)
 			(effects
@@ -13892,7 +14027,43 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "2N7002A"
+		(property "Manufacturer_Part_Number" "2N7002A"
+			(at 304.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec"
+			(at 304.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.11"
+			(at 304.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.081"
+			(at 304.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/2N7002A?qs=OlC7AqGiEDkkJvTsYoVAvg%3D%3D"
 			(at 304.8 87.63 0)
 			(effects
 				(font
@@ -14020,6 +14191,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.68"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.475"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32Y475MCIVPNE?qs=Znm5pLBrcAJ2Wm3glbzndQ%3D%3D"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14175,7 +14373,7 @@
 		(at 180.34 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14215,6 +14413,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" ""
+			(at 180.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" ""
 			(at 180.34 172.72 0)
 			(effects
 				(font
@@ -14339,6 +14555,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "3.62"
+			(at 68.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "3.62"
+			(at 68.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N8R8?qs=7D1LtPJG0i3%2F28hKFavOpQ%3D%3D"
+			(at 68.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14644,6 +14887,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.10"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.02"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K70JNEA?qs=kkyyugUlSrPc3tCn%2F8R5yw%3D%3D"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce2da6a6-7a31-4997-8345-2ca0b2d9f61d")
 		)
@@ -14763,6 +15033,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.11"
+			(at 358.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.052"
+			(at 358.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080543K2FKEAC?qs=E3Y5ESvWgWN6ntyROLRvBg%3D%3D"
+			(at 358.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ccbad79-f189-4b6f-80d9-f746ef8f5d8b")
 		)
@@ -14796,7 +15093,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 76.2063 168.91 90)
 			(effects
 				(font
@@ -14860,6 +15157,33 @@
 		)
 		(property "Digikey Part Number" "13-AC0805JRX7R9BB104CT-ND"
 			(at 76.2063 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.10"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.065"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14977,6 +15301,33 @@
 		)
 		(property "JLCPCB Part Number" ""
 			(at 167.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.26"
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.221"
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/TE-Connectivity-CGS/RLC73K2AR402FTDF?qs=9vOqFld9vZX6KRPnzoA4cw%3D%3D"
+			(at 165.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15169,6 +15520,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.10"
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.019"
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0JNEA?qs=LOX6nxTstiZtNB6HA62jyQ%3D%3D"
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e18dbb3b-01af-4514-a68b-37e1d6f6155d")
 		)
@@ -15288,6 +15666,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.11"
+			(at 275.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.078"
+			(at 275.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/08053C224K4T4A?qs=UouJx2JcIEVHFdeF639OkQ%3D%3D"
+			(at 275.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f846f68b-c4bf-4039-b568-b3817b076bd0")
 		)
@@ -15368,7 +15773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-87832-2220"
+		(property "Mouser Part Number" "538-87832-6062"
 			(at 193.04 526.67 0)
 			(effects
 				(font
@@ -15378,7 +15783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-87832-2220"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Molex/87832-6062?qs=yd8XiKYcH9k38KQb4jjFuQ%3D%3D"
 			(at 193.04 626.67 0)
 			(effects
 				(font
@@ -15398,13 +15803,31 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "87832-2220"
+		(property "Manufacturer_Part_Number" "87832-6062"
 			(at 193.04 826.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "3.27"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "2.98"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15586,6 +16009,33 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.32"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.252"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15833,6 +16283,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.13"
+			(at 344.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.063"
+			(at 344.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/RCS0805100KFKEA?qs=NKmfXavxMay%252BH0mbX9hKBw%3D%3D"
+			(at 344.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ccbad79-f189-4b6f-80d9-f746ef8f5d8c")
 		)
@@ -15954,13 +16431,21 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0ZCF0100AF2A"
-			(at 252.73 825.4 0)
+		(property "Mouser Price QTY1" "0.55"
+			(at 247.65 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.454"
+			(at 247.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16204,6 +16689,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "2.05"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "1.79"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Molex/87832-6123?qs=Vr3ZXvgdfhaw8VVGfNJm1w%3D%3D"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd9a45b4-9b34-499d-8711-604026afa5fc")
 		)
@@ -16389,6 +16901,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.35"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.199"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT21BC71E106KE13L?qs=rrS6PyfT74dm3CAfGBwgnw%3D%3D"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3bfcc5c-e81d-4f9f-8982-1039d1ab65f0")
 		)
@@ -16502,6 +17041,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.39"
+			(at 76.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.196"
+			(at 76.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT21BR61C226ME13L?qs=drgMNd%252BkGPOXePTBixOAtw%3D%3D"
+			(at 76.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ea9f12f-3f85-4b79-a0d4-71f8c6aa88af")
 		)
@@ -16608,6 +17174,33 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.10"
+			(at 341.63 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.065"
+			(at 341.63 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+			(at 341.63 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16770,7 +17363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SK43-SMTR-LFS?qs=vLWxofP3U2wsQpQ593zsYw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CK/PTS636-SK43-SMTR-LFS?qs=vLWxofP3U2wsQpQ593zsYw%3D%3D"
 			(at 43.18 124.46 0)
 			(effects
 				(font
@@ -16807,6 +17400,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.16"
+			(at 24.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.148"
+			(at 24.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17061,6 +17672,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.10"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.058"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/08055C472K4T4A?qs=ykEKLGTiBcx6ErrkugvmMg%3D%3D"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43afe039-1855-4851-875d-ebc68b744062")
 		)
@@ -17243,6 +17881,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.87"
+			(at 368.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.55"
+			(at 368.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A107MQYNNWE?qs=81r%252BiQLm7BSNi6fWCnDBNQ%3D%3D"
+			(at 368.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17530,7 +18195,7 @@
 		(at 254 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -17570,6 +18235,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 254 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" ""
+			(at 254 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" ""
 			(at 254 29.21 0)
 			(effects
 				(font
@@ -17694,6 +18377,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.10"
+			(at 288.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.027"
+			(at 288.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105MBFNNNE?qs=Znm5pLBrcAIRYa0zX3s5Qw%3D%3D"
+			(at 288.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17842,8 +18552,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bel Fuse"
-			(at 294.64 100.965 0)
+		(property "Manufacturer_Part_Number" "0ZCM0001FF2G"
+			(at 294.64 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17851,8 +18561,35 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture Part Number" "0ZCM0001FF2G"
-			(at 295.275 99.06 0)
+		(property "Manufacturer_Name" "Bel Fuse"
+			(at 294.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.19"
+			(at 294.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.16"
+			(at 294.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bel-Fuse/0ZCM0001FF2G?qs=uwxL4vQweFOSr3rpPGffpA%3D%3D"
+			(at 294.64 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17995,22 +18732,58 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Adafruit"
-			(at 249.8441 80.01 0)
+		(property "Manufacturer_Part_Number" "4090"
+			(at 247.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "4090"
-			(at 249.8441 82.55 0)
+		(property "Manufacturer_Name" "Adafruit"
+			(at 247.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "2.95"
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "2.95"
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "485-4090"
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Adafruit/4090?qs=2WXlatMagcFDROXrdbBXdg%3D%3D"
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -18150,6 +18923,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.68"
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.475"
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32Y475MCIVPNE?qs=Znm5pLBrcAJ2Wm3glbzndQ%3D%3D"
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "626e273b-fb76-43c1-b4d7-8463747929b1")
 		)
@@ -18242,7 +19042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/GS1J_R1_00001?qs=sPbYRqrBIVmiablUMOUd0Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Panjit/GS1J_R1_00001?qs=sPbYRqrBIVmiablUMOUd0Q%3D%3D"
 			(at 229.87 622.86 0)
 			(effects
 				(font
@@ -18283,6 +19083,24 @@
 		)
 		(property "JLCPCB Part" "C241929"
 			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.21"
+			(at 241.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.148"
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18401,6 +19219,33 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "2.72"
+			(at 313.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "2.39"
+			(at 313.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/LMR36520ADDAR?qs=vHuUswq2%252Bsxe%2FiIOFannaw%3D%3D"
+			(at 313.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -18539,6 +19384,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.64"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.634"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bourns/SRR1240-101M?qs=y9m3SKnhpLNdXTkYqTD5yw%3D%3D"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad8403f9-80a7-47c6-a7f8-42231967d75a")
 		)
@@ -18559,7 +19431,7 @@
 		(at 180.34 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18599,6 +19471,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" ""
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" ""
 			(at 180.34 162.56 0)
 			(effects
 				(font
@@ -18925,6 +19815,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.13"
+			(at 358.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.063"
+			(at 358.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/RCS0805100KFKEA?qs=NKmfXavxMay%252BH0mbX9hKBw%3D%3D"
+			(at 358.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ccbad79-f189-4b6f-80d9-f746ef8f5d8d")
 		)
@@ -19143,7 +20060,7 @@
 		(at 140.97 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19183,6 +20100,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" ""
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" ""
 			(at 140.97 96.52 0)
 			(effects
 				(font
@@ -19304,6 +20239,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.11"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.107"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bourns/CVH252009-2R2M?qs=FjNnSiuIA4jvXEq5Mb2YIA%3D%3D"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8937bf87-a451-4b09-8b94-531884bb0486")
 		)
@@ -19396,7 +20358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/GS1J_R1_00001?qs=sPbYRqrBIVmiablUMOUd0Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Panjit/GS1J_R1_00001?qs=sPbYRqrBIVmiablUMOUd0Q%3D%3D"
 			(at 229.87 626.67 0)
 			(effects
 				(font
@@ -19437,6 +20399,24 @@
 		)
 		(property "JLCPCB Part" "C241929"
 			(at 238.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.21"
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.148"
+			(at 241.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19534,7 +20514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
 			(at 40.64 767.64 0)
 			(effects
 				(font
@@ -19582,6 +20562,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.14"
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.13"
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45370108-8916-45f9-8ba4-38dfa3124d81")
 		)
@@ -19608,7 +20606,7 @@
 		(at 29.21 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19648,6 +20646,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 29.21 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" ""
+			(at 29.21 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" ""
 			(at 29.21 214.63 0)
 			(effects
 				(font
@@ -19812,7 +20828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRR1260-100M?qs=%2FPiZ59IM4y0arRCchlmf7Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bourns/SRR1260-100M?qs=%2FPiZ59IM4y0arRCchlmf7Q%3D%3D"
 			(at 367.03 629.21 0)
 			(effects
 				(font
@@ -19853,6 +20869,24 @@
 		)
 		(property "JLCPCB Part" "C3221699"
 			(at 350.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "1.27"
+			(at 350.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.909"
+			(at 350.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19979,6 +21013,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.13"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.043"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/RCS080560R4FKEA?qs=AAB0DUhlpksv20rhg0ZRxw%3D%3D"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e5888f3-b618-437a-8e31-1996a00fdb2e")
 		)
@@ -20080,23 +21141,39 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 349.25 93.98 0)
+		(property "Manufacturer_Part_Number" "M24C08-RMN6TP"
+			(at 339.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "M24C08-RMN6TP"
-			(at 349.25 96.52 0)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 339.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.19"
+			(at 339.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.175"
+			(at 339.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20300,6 +21377,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "2.51"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "2.25"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/SN65HVD231DRG4?qs=QViXGNcIEAtYBoUJPHGedA%3D%3D"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20572,6 +21676,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.10"
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.019"
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0JNEA?qs=LOX6nxTstiZtNB6HA62jyQ%3D%3D"
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ef202c6-5304-4b82-821f-01b594114e54")
 		)
@@ -20757,6 +21888,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.68"
+			(at 265.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.475"
+			(at 265.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32Y475MCIVPNE?qs=Znm5pLBrcAJ2Wm3glbzndQ%3D%3D"
+			(at 265.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e777f4d-1a4b-4863-9186-5995a8a78942")
 		)
@@ -20847,7 +22005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH34SRJ-30S-0.5SH50?qs=vnk2wBG9e16HHwHqXDE2%252Bg%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-30S-0.5SH50?qs=vnk2wBG9e16HHwHqXDE2%252Bg%3D%3D"
 			(at 41.91 624.13 0)
 			(effects
 				(font
@@ -20888,6 +22046,24 @@
 		)
 		(property "JLCPCB Part" "C324727"
 			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "1.24"
+			(at 20.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "1.05"
+			(at 20.32 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21151,7 +22327,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 30.4863 186.69 90)
 			(effects
 				(font
@@ -21215,6 +22391,33 @@
 		)
 		(property "Digikey Part Number" "13-AC0805JRX7R9BB104CT-ND"
 			(at 30.4863 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.10"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.065"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+			(at 30.48 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21341,6 +22544,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price QTY1" "0.87"
+			(at 378.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.55"
+			(at 378.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A107MQYNNWE?qs=81r%252BiQLm7BSNi6fWCnDBNQ%3D%3D"
+			(at 378.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc3ad906-d7ec-4751-a02f-7aa3cae1aa7a")
 		)
@@ -21434,7 +22664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM3519MK-20-NOPB?qs=QbsRYf82W3GbfCEf8%2FkE2A%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM3519MK-20-NOPB?qs=QbsRYf82W3GbfCEf8%2FkE2A%3D%3D"
 			(at 120.65 118.11 0)
 			(effects
 				(font
@@ -21481,6 +22711,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "2.02"
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "1.72"
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
