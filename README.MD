@@ -14,9 +14,8 @@ More documentation for the scooter is available in the [Wiki](../../wiki).
 - The `Arduino` directory contains the code to run the scooter.
 - The `Datasheets` directory contains datasheets for various components.
 - The `PCB` directory contains the PCB design.
-  - As of this writing, the latest revision is [Rev 1](./PCB/Bird3Controller_Rev1/Readme.md).
-  - [Rev 2](./PCB/Bird3Controller_Rev2/Readme.md) is in development.
+  - [Rev 1](./PCB/Bird3Controller_Rev1/Readme.md).
+  - [Rev 2](./PCB/Bird3Controller_Rev2/Readme.md).
 
-## Board Renderings ##
-![Top of PCB](PCB/Bird3Controller_Rev1/Bird3Controller-Top.png)
-![Bottom of PCB](PCB/Bird3Controller_Rev1/Bird3Controller-Bottom.png)
+## Board Renderings - Rev 2 ##
+![PCB](PCB/Bird3Controller_Rev2/Bird3Controller.png)

@@ -6,7 +6,7 @@
   - The mounting holes are in slightly incorrect locations.
 - LCD
   - LCD connector is wired in reverse.
-  - The LCD mounting cutouts are slightly too wide.
+  - The LCD mounting cutouts are not quite big enough, causing a very tight fit when clipping on the LCD.
   - The LCD mounting is missing alignment holes.
   - The data lines to the LCD span two registers, necessitating jumper wires for compatibility with the `TFT_eSPI` library.
 - Power
