@@ -119,9 +119,9 @@ OpenFontRender ofr;
 
 
 // Whether the CANbus driver and the associated 2ms timer has been initialized.
-// When paired with certain CAN chips, the ESP32 crashes repeatedly if not connected
-// to a live CANbus, preventing us from debugging or programming it. This solution
-// delays initialization of the CANbus and the timer until the user presses the button. 
+// When paired with certain CAN chips (knockoffs of the TJA1050), the ESP32 crashes repeatedly if
+// not connected to a live CANbus, preventing us from debugging or programming it. This solution
+// delays initialization of the CANbus and the timer until the user presses the button once.
 static bool driver_installed = false;
 
 volatile uint16_t throttlePos = 0;
