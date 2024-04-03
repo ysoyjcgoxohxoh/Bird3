@@ -1,5 +1,6 @@
 //#define Arduino_Nano_ESP32
-#define ESP32BirdBrainRev1
+//#define ESP32BirdBrainRev1
+#define ESP32BirdBrainRev2
 
 #include "driver/twai.h"  // ESP32 Driver
 #include "ADebouncer.h"   // ADebouncer 1.1.0 by MicroBeaut
@@ -29,10 +30,6 @@ void IRAM_ATTR Timer0_ISR(void);
 #endif
 
 #ifdef ESP32BirdBrainRev1
-
-#include "TFT_eSPI.h" // TFT_eSPI 2.5.43 by Bodmer
-#include "OpenFontRender.h" // Git Submodule
-#include "NotoSans_Bold.h"
 
 // Communication Pins
 #define CAN_RX_PIN     9   // ESP Pin 17
@@ -65,6 +62,52 @@ void IRAM_ATTR Timer0_ISR(void);
 #define TFT_D6         38   // ESP Pin 31
 #define TFT_D7         47   // ESP Pin 24
 
+#endif
+
+
+#ifdef ESP32BirdBrainRev2
+
+// Communication Pins
+#define CAN_RX_PIN     9   // ESP Pin 17
+#define CAN_TX_PIN     8   // ESP Pin 12
+#define I2C_SDA        43  // ESP Pin 37 - I2C Serial Data Line
+#define I2C_SCL        44  // ESP Pin 36 - I2C Serial Clock Line
+
+// Inputs
+#define THROTTLEA_PIN  4   // ESP Pin 4  - TR_WP1 - Increases as throttle is pressed, Connector Pin 13
+#define THROTTLEB_PIN  5   // ESP Pin 5  - TR_WP2 - Decreases as throttle is pressed, Connector Pin 15
+#define BRAKEL_PIN     6   // ESP Pin 6  - Brake #2, Rear Brake, Connector Pin #11
+#define BRAKER_PIN     7   // ESP Pin 7  - Brake #1, Front Brake, Connector Pin #9
+#define START_STOP_PIN 11  // ESP Pin 19 - Input
+
+// Outputs
+#define HEADLIGHT_PIN  10  // ESP Pin 18 - Output to LED Driver. PWM in future, but for now, just on/off
+#define LCD_BL_SIG     17  // ESP Pin 10 - Output to LCD Backlight driver
+#define PWR_ENA_SIG    18  // ESP Pin 11 - Output to PWR_ENA mosfet. Pulling this high connects the PWR_ENA pin on the Bird connector to ground, waking up the ESC and possibly the BMS.
+
+// LCD Pins
+// Changes must be made in ..\libraries\TFT_eSPI\User_Setup.h starting at line 254
+#define TFT_RST        12  // ESP Pin 20
+#define TFT_DC         13  // ESP Pin 21; LCD RS/DC
+#define TFT_CS         14  // ESP Pin 22
+#define TFT_WR         47  // ESP Pin 24
+#define TFT_RD         48  // ESP Pin 25
+#define TFT_D0         35  // ESP Pin 28
+#define TFT_D1         36  // ESP Pin 29
+#define TFT_D2         37  // ESP Pin 30
+#define TFT_D3         38  // ESP Pin 31
+#define TFT_D4         39  // ESP Pin 32
+#define TFT_D5         40  // ESP Pin 33
+#define TFT_D6         41  // ESP Pin 34
+#define TFT_D7         42  // ESP Pin 35
+#endif
+
+#ifdef TFT_RST
+// If the LCD pins have been defined, then assume we're using the LCD and import/define the relevant stuff
+
+#include "TFT_eSPI.h" // TFT_eSPI 2.5.43 by Bodmer
+#include "OpenFontRender.h" // Git Submodule
+#include "NotoSans_Bold.h"
 
 // Variables used only if LCD is used.
 TFT_eSPI tft = TFT_eSPI();
@@ -72,6 +115,8 @@ TFT_eSPI tft = TFT_eSPI();
 TFT_eSprite screen = TFT_eSprite(&tft); 
 OpenFontRender ofr;
 #endif
+
+
 
 // Whether the CANbus driver and the associated 2ms timer has been initialized.
 // When paired with certain CAN chips, the ESP32 crashes repeatedly if not connected

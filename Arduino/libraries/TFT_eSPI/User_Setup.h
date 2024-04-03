@@ -258,17 +258,17 @@
 #define TFT_DC     13 // ESP Pin 21; LCD RS/DC
 #define TFT_CS     14 // ESP Pin 22
 
-#define TFT_WR     15 // ESP Pin 08
-#define TFT_RD     16 // ESP Pin 09
+#define TFT_WR     47 // ESP Pin 24
+#define TFT_RD     48 // ESP Pin 25
 
-#define TFT_D0     39 // Moved to ESP Pin 32  //17 // ESP Pin 10
-#define TFT_D1     40 // Moved to ESP Pin 33  //18 // ESP Pin 11
-#define TFT_D2     41 // Moved to ESP Pin 34  //21 // ESP Pin 23
-#define TFT_D3     35 // ESP Pin 28
-#define TFT_D4     36 // ESP Pin 29
-#define TFT_D5     37 // ESP Pin 30
-#define TFT_D6     38 // ESP Pin 31
-#define TFT_D7     47 // ESP Pin 24
+#define TFT_D0     35 // ESP Pin 28
+#define TFT_D1     36 // ESP Pin 29
+#define TFT_D2     37 // ESP Pin 30
+#define TFT_D3     38 // ESP Pin 31
+#define TFT_D4     39 // ESP Pin 32
+#define TFT_D5     40 // ESP Pin 33
+#define TFT_D6     41 // ESP Pin 34
+#define TFT_D7     42 // ESP Pin 35
 
 // ######       EDIT THE PINs BELOW TO SUIT YOUR STM32 SPI TFT SETUP        ######
 
