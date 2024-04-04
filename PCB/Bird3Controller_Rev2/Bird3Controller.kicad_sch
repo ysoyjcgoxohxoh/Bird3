@@ -703,17 +703,6 @@
 					)
 				)
 				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center 2.54 -1.778)
 					(radius 0.254)
 					(stroke
@@ -737,6 +726,17 @@
 				)
 			)
 			(symbol "2N7002A - Q_NMOS_GSD_1_1"
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -876,7 +876,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AL8862_0_1"
+			(symbol "AL8862_1_1"
 				(rectangle
 					(start -6.35 6.35)
 					(end 6.35 -6.35)
@@ -885,11 +885,9 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "AL8862_1_1"
 				(pin power_out line
 					(at 8.89 5.08 180)
 					(length 2.54)
@@ -4441,7 +4439,7 @@
 					)
 				)
 			)
-			(symbol "LM3519MK-20_NOPB_0_1"
+			(symbol "LM3519MK-20_NOPB_1_1"
 				(rectangle
 					(start -8.89 6.35)
 					(end 8.89 -6.35)
@@ -4450,7 +4448,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -4704,7 +4702,7 @@
 					)
 				)
 			)
-			(symbol "M24C08-RMN6TP_0_1"
+			(symbol "M24C08-RMN6TP_1_1"
 				(polyline
 					(pts
 						(xy -8.89 6.35) (xy 8.89 6.35) (xy 8.89 -6.35) (xy -8.89 -6.35) (xy -8.89 6.35)
@@ -4714,7 +4712,7 @@
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -5379,7 +5377,7 @@
 					)
 				)
 			)
-			(symbol "PTS636_SK43_SMTR_LFS_0_1"
+			(symbol "PTS636_SK43_SMTR_LFS_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
@@ -5389,7 +5387,7 @@
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
