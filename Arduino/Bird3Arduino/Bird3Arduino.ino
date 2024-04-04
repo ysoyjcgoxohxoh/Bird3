@@ -590,6 +590,11 @@ void setup() {
 
   // Configure the headlight pin
   pinMode(HEADLIGHT_PIN, OUTPUT);
+#ifdef PWR_ENA_SIG
+  pinMode(PWR_ENA_SIG, OUTPUT);
+  digitalWrite(PWR_ENA_SIG, HIGH);
+#endif
+
 #ifdef LCD_BL_SIG
   Serial.print("Initializing display");
 
