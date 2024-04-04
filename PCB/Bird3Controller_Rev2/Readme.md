@@ -44,3 +44,10 @@ These JLCPCB settings were used for the test order:
 
 ## Board Renderings ##
 ![PCB](Bird3Controller.png)
+
+## PDF Schematic ##
+A PDF schematic is available at [Bird3Controller.pdf](Bird3Controller.pdf). When opened in a more advanced viewer such as Acrobat Reader, the components are bookmarked, and both components and nets are clickable as shown in this screenshot, making it easy to open the part's datasheet or Mouser.com listing.
+![PDF Schematic Example](PDF_Schematic_Features.png)
+
+## PNG Schematic ##
+![Schematic](Schematic.png)
