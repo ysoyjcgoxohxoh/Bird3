@@ -591,7 +591,7 @@ void setup() {
   // Configure the headlight pin
   pinMode(HEADLIGHT_PIN, OUTPUT);
 #ifdef LCD_BL_SIG
-  Serial.print("ST7789 TFT Bitmap Test");
+  Serial.print("Initializing display");
 
   tft.begin();             // initialize a ST7789 chip
   tft.setSwapBytes(true);  // swap the byte order for pushImage() - corrects endianness
