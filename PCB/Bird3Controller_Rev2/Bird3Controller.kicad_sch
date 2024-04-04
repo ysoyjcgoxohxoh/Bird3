@@ -6,6 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "Bird 3 Controller")
+		(rev "Rev 2")
 	)
 	(lib_symbols
 		(symbol "+3V3_1"
