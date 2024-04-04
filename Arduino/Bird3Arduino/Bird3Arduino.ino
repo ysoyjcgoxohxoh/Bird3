@@ -248,6 +248,7 @@ void loop() {
   // TODO: Based on the two values, Figure out if the throttle has borked, and do something sensible
   throttlePos = ThrottleAFiltered;
   StartStopDebouncer.debounce(digitalRead(START_STOP_PIN));
+  
   if (StartStopDebouncer.falling()) {
     //screenServer();
 
@@ -285,7 +286,7 @@ void loop() {
       scooterEnabled = !scooterEnabled;
       if (scooterEnabled) {
         updateColor(0, 255, 0);
-        digitalWrite(HEADLIGHT_PIN, HIGH);
+        ledcWrite(5, 255); // Headlight 100%
 #ifdef LCD_BL_SIG
         ledcWrite(4, 255);
 #endif
@@ -293,7 +294,7 @@ void loop() {
         rearLight = true;
       } else {
         updateColor(255, 0, 0);
-        digitalWrite(HEADLIGHT_PIN, LOW);
+        ledcWrite(5, 0); // Headlight Off
 #ifdef LCD_BL_SIG
         ledcWrite(4, 30);
 #endif
@@ -588,8 +589,11 @@ void setup() {
   pinMode(START_STOP_PIN, INPUT_PULLUP);
   StartStopDebouncer.mode(DELAYED, 10, false);
 
-  // Configure the headlight pin
-  pinMode(HEADLIGHT_PIN, OUTPUT);
+  // Configure the headlight pin for PWM
+  ledcAttachPin(HEADLIGHT_PIN, 5);
+  ledcSetup(5, 500, 8);
+  ledcWrite(5, 0);
+
 #ifdef PWR_ENA_SIG
   pinMode(PWR_ENA_SIG, OUTPUT);
   digitalWrite(PWR_ENA_SIG, HIGH);
