@@ -15259,7 +15259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "279-RLC73K2AR402FTDF"
+		(property "Mouser Part Number" "279-RLC73K2AR20FTDF"
 			(at 165.1 158.75 0)
 			(effects
 				(font
@@ -15278,7 +15278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RLC73K2AR402FTDF"
+		(property "Manufacturer_Part_Number" "RLC73K2AR20FTDF"
 			(at 167.64 172.72 0)
 			(effects
 				(font
@@ -15288,7 +15288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "1712-RLC73K2AR402FTDCT-ND"
+		(property "Digikey Part Number" ""
 			(at 167.64 175.26 0)
 			(effects
 				(font
@@ -15325,7 +15325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/TE-Connectivity-CGS/RLC73K2AR402FTDF?qs=9vOqFld9vZX6KRPnzoA4cw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/TE-Connectivity-CGS/RLC73K2AR20FTDF?qs=9vOqFld9vZWQ3oqbYNtegw%3D%3D"
 			(at 165.1 158.75 0)
 			(effects
 				(font
