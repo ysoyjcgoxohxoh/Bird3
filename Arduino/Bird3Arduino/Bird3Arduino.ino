@@ -62,6 +62,8 @@ void IRAM_ATTR Timer0_ISR(void);
 #define TFT_D6         38   // ESP Pin 31
 #define TFT_D7         47   // ESP Pin 24
 
+#define TFT_Rotation   0
+
 #endif
 
 
@@ -100,6 +102,9 @@ void IRAM_ATTR Timer0_ISR(void);
 #define TFT_D5         40  // ESP Pin 33
 #define TFT_D6         41  // ESP Pin 34
 #define TFT_D7         42  // ESP Pin 35
+
+#define TFT_Rotation   2
+
 #endif
 
 #ifdef TFT_RST
@@ -604,7 +609,7 @@ void setup() {
 
   tft.begin();             // initialize a ST7789 chip
   tft.setSwapBytes(true);  // swap the byte order for pushImage() - corrects endianness
-  tft.setRotation(0);
+  tft.setRotation(TFT_Rotation);
   screen.createSprite(tft.width(), tft.height());
   screen.setColorDepth(16);
 
