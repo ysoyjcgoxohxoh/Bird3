@@ -40,7 +40,7 @@ These JLCPCB settings were used for the test order:
 - Added copper pour to reduce EMI
 
 ## Errata ##
-- None yet
+- LED Headlight circuit doesn't work. Still investigating this issue.
 
 ## Board Renderings ##
 ![PCB](Bird3Controller.png)
