@@ -1,0 +1,206 @@
+(footprint "INDPM7973X540N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SRP7050WA-2R2Mss")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "17dcb7ca-6728-4a79-8235-b4453bc67e70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "INDPM7973X540N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d9de1226-c911-418f-af98-209292331af4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a49fa4a3-2c77-4528-a90b-07c60d4b5d1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9aeb488a-c6e9-47f0-bd1e-4b32c01757a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "865a4b59-5577-4694-a253-cb0e03bdac6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.95 3.65)
+		(end 3.95 3.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31043dab-e5b2-4213-845d-270c69f19e65")
+	)
+	(fp_line
+		(start 3.95 -3.65)
+		(end -3.95 -3.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6221b572-deec-4db7-a643-342368f8c5eb")
+	)
+	(fp_line
+		(start -4.825 -4)
+		(end 4.825 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3d7a4f0f-ff8e-4628-96bb-dc9bb769b735")
+	)
+	(fp_line
+		(start -4.825 4)
+		(end -4.825 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "09fa407e-f4f1-44b3-bbb3-66a77b69d838")
+	)
+	(fp_line
+		(start -3.95 -3.65)
+		(end 3.95 -3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c2608b3e-16d8-43e3-b8e2-d4c7f6d4a2cc")
+	)
+	(fp_line
+		(start -3.95 3.65)
+		(end -3.95 -3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7643258d-cdde-497e-86da-111a54886928")
+	)
+	(fp_line
+		(start 3.95 -3.65)
+		(end 3.95 3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6870c075-1b01-48f5-9def-8022f7560659")
+	)
+	(fp_line
+		(start 3.95 3.65)
+		(end -3.95 3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fae9800b-792f-4bba-b715-af09330697ce")
+	)
+	(fp_line
+		(start 4.825 -4)
+		(end 4.825 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d671373a-1382-4185-922d-0829bada1206")
+	)
+	(fp_line
+		(start 4.825 4)
+		(end -4.825 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "49ba907b-14e9-4c5c-bb6b-2333bbb9af14")
+	)
+	(fp_rect
+		(start -4.825 -4)
+		(end 4.825 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6a47034b-cb7a-4c3f-918c-de54a5594553")
+	)
+	(pad "1" smd rect
+		(at -3.05 0)
+		(size 3.05 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f389edb2-f0cd-401e-8a80-a65d42ff12e5")
+	)
+	(pad "2" smd rect
+		(at 3.05 0)
+		(size 3.05 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "725d0c34-61fb-4552-825b-03a5338b5065")
+	)
+	(model "${KIPRJMOD}/Bird3Controller.3dshapes/SRP7050WA-330M.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
