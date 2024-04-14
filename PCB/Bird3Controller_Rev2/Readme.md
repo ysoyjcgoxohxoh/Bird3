@@ -40,7 +40,7 @@ These JLCPCB settings were used for the test order:
 - Added copper pour to reduce EMI
 
 ## Errata ##
-- LED Headlight circuit doesn't work. Still investigating this issue.
+- LED Headlight circuit doesn't work due to excessive ratio between VIN (~36V) and VOut (3.0V).
 
 ## Board Renderings ##
 ![PCB](Bird3Controller.png)
