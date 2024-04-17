@@ -14389,7 +14389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V/15V Decoupling"
 			(at 246.38 110.49 0)
 			(effects
 				(font
@@ -14466,6 +14466,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT21BC71E106KE13L?qs=rrS6PyfT74dm3CAfGBwgnw%3D%3D"
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "25V"
 			(at 246.38 110.49 0)
 			(effects
 				(font
@@ -14559,6 +14568,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 378.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af6d27de-4902-4e3d-966f-97c4a77793d2")
 		)
@@ -14620,7 +14638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Freewheeling Diode"
 			(at 275.59 152.4 0)
 			(effects
 				(font
@@ -14701,6 +14719,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "20V"
+			(at 275.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f9b65a7-b84c-482d-a699-44f401b24c3f")
 		)
@@ -14762,7 +14789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "I2C Pullup"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -14839,6 +14866,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K70JNEA?qs=kkyyugUlSrPc3tCn%2F8R5yw%3D%3D"
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "150v, 125mW"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -14974,7 +15010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Boot Button"
 			(at 29.21 207.01 0)
 			(effects
 				(font
@@ -15069,6 +15105,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "12V, 50mA"
+			(at 29.21 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6450c15e-4e6e-4b34-9082-0c7f659e8665")
 		)
@@ -15134,7 +15179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headlight Driver"
 			(at 349.25 106.68 0)
 			(effects
 				(font
@@ -15188,6 +15233,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/AL8862SP-13?qs=W0yvOO0ixfFVclRYoOMX8w%3D%3D"
+			(at 349.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "60V"
 			(at 349.25 106.68 0)
 			(effects
 				(font
@@ -15278,7 +15332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LCD Backlight Output Cap"
 			(at 298.45 158.75 0)
 			(effects
 				(font
@@ -15363,6 +15417,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 298.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0655dcf-b6e4-4a90-95fe-aa974eb90132")
 		)
@@ -15432,6 +15495,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 377.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "439460b6-e860-42b2-a2a0-9cc581dc4a66")
 		)
@@ -15490,7 +15562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CANBUS Termination"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -15567,6 +15639,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/RCS080560R4FKEA?qs=AAB0DUhlpksv20rhg0ZRxw%3D%3D"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "150v, 500mW"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -15702,7 +15783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PWR_ENA Transistor"
 			(at 138.43 160.02 0)
 			(effects
 				(font
@@ -15757,6 +15838,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/2N7002A?qs=OlC7AqGiEDkkJvTsYoVAvg%3D%3D"
+			(at 138.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "60V, 280mA, 2 Ohms"
 			(at 138.43 160.02 0)
 			(effects
 				(font
@@ -15829,7 +15919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Backlight Driver Decoupling"
 			(at 240.03 172.72 0)
 			(effects
 				(font
@@ -15838,7 +15928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL32Y475MCIVPNE"
+		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
 			(at 240.03 172.72 0)
 			(effects
 				(font
@@ -15887,7 +15977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY1" "0.68"
+		(property "Mouser Price QTY1" "0.36"
 			(at 240.03 172.72 0)
 			(effects
 				(font
@@ -15896,7 +15986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.475"
+		(property "Mouser Price QTY10" "0.179"
 			(at 240.03 172.72 0)
 			(effects
 				(font
@@ -15905,7 +15995,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32Y475MCIVPNE?qs=Znm5pLBrcAJ2Wm3glbzndQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32B475KBUYNNE?qs=hqM3L16%252Bxlekel2U%252B66N8g%3D%3D"
+			(at 240.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
 			(at 240.03 172.72 0)
 			(effects
 				(font
@@ -16132,6 +16231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 381 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c5ed26e-135d-4638-9a20-413fd60932fe")
 		)
@@ -16193,7 +16301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Microcontroller"
 			(at 68.58 210.82 0)
 			(effects
 				(font
@@ -16270,6 +16378,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N8R8?qs=7D1LtPJG0i3%2F28hKFavOpQ%3D%3D"
+			(at 68.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "3.6V"
 			(at 68.58 210.82 0)
 			(effects
 				(font
@@ -16522,7 +16639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32 Reset Pullup"
 			(at 43.18 170.18 0)
 			(effects
 				(font
@@ -16607,6 +16724,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "150v, 125mW"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce2da6a6-7a31-4997-8345-2ca0b2d9f61d")
 		)
@@ -16668,7 +16794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Voltage Set Divider"
 			(at 358.14 52.07 0)
 			(effects
 				(font
@@ -16753,6 +16879,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "150v, 500mW"
+			(at 358.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ccbad79-f189-4b6f-80d9-f746ef8f5d8b")
 		)
@@ -16821,6 +16956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 378.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25ee961a-b8f1-4e4f-b72f-92f856f4c1b5")
 		)
@@ -16877,7 +17021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32 Decoupling"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -16949,6 +17093,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ea9f12f-3f85-4b79-a0d4-71f8c6aa88ae")
 		)
@@ -17009,7 +17162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current Sense"
 			(at 365.76 97.79 0)
 			(effects
 				(font
@@ -17093,6 +17246,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "125mW"
+			(at 365.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fa0fdbf5-44af-4dca-9a7a-2e99d804796a")
 		)
@@ -17155,6 +17317,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 330.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 330.2 106.68 0)
 			(effects
 				(font
@@ -17287,7 +17458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headlight Signal Pulldown"
 			(at 337.82 111.76 0)
 			(effects
 				(font
@@ -17372,6 +17543,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "150v, 125mW"
+			(at 337.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e18dbb3b-01af-4514-a68b-37e1d6f6155d")
 		)
@@ -17433,7 +17613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "36V Decoupling"
 			(at 275.59 46.99 0)
 			(effects
 				(font
@@ -17442,7 +17622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-08053C224K4T4A"
+		(property "Mouser Part Number" "187-CL21B224KBFNNNG"
 			(at 275.59 46.99 0)
 			(effects
 				(font
@@ -17451,7 +17631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 278.13 58.4263 0)
 			(effects
 				(font
@@ -17461,7 +17641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08053C224K4T4A"
+		(property "Manufacturer_Part_Number" "CL21B224KBFNNNG"
 			(at 278.13 60.9663 0)
 			(effects
 				(font
@@ -17491,7 +17671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY1" "0.11"
+		(property "Mouser Price QTY1" "0.10"
 			(at 275.59 46.99 0)
 			(effects
 				(font
@@ -17500,7 +17680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.078"
+		(property "Mouser Price QTY10" "0.02"
 			(at 275.59 46.99 0)
 			(effects
 				(font
@@ -17509,7 +17689,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/08053C224K4T4A?qs=UouJx2JcIEVHFdeF639OkQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B224KBFNNNG?qs=hqM3L16%252Bxld2kKInBt3c6Q%3D%3D"
+			(at 275.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
 			(at 275.59 46.99 0)
 			(effects
 				(font
@@ -17579,7 +17768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22-Pin Connector"
 			(at 189.23 43.18 0)
 			(effects
 				(font
@@ -17648,6 +17837,15 @@
 			)
 		)
 		(property "Mouser Price QTY10" "2.98"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "125V, 2A"
 			(at 189.23 43.18 0)
 			(effects
 				(font
@@ -17779,7 +17977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Freewheeling Diode"
 			(at 360.68 105.41 0)
 			(effects
 				(font
@@ -17856,6 +18054,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D"
+			(at 360.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "20V"
 			(at 360.68 105.41 0)
 			(effects
 				(font
@@ -18059,7 +18266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable Fuses - PPTC 1A 60V PPTC 2920 SMD"
+		(property "Description" "VIN Fuse"
 			(at 240.03 33.02 0)
 			(effects
 				(font
@@ -18136,6 +18343,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "60V"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91f73b34-3ba3-4ada-8340-b82b20551d2c")
 		)
@@ -18195,7 +18411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Boost Input"
 			(at 281.94 100.33 0)
 			(effects
 				(font
@@ -18259,6 +18475,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+			(at 281.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
 			(at 281.94 100.33 0)
 			(effects
 				(font
@@ -18462,7 +18687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24-Pin Connector"
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -18526,6 +18751,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Molex/87832-6123?qs=Vr3ZXvgdfhaw8VVGfNJm1w%3D%3D"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "125V, 2A"
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -18661,7 +18895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V/15V Decoupling"
 			(at 327.66 99.06 0)
 			(effects
 				(font
@@ -18746,6 +18980,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "25V"
+			(at 327.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3bfcc5c-e81d-4f9f-8982-1039d1ab65f0")
 		)
@@ -18805,7 +19048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32 Decoupling"
 			(at 76.2 154.94 0)
 			(effects
 				(font
@@ -18886,6 +19129,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "16V"
+			(at 76.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ea9f12f-3f85-4b79-a0d4-71f8c6aa88af")
 		)
@@ -18947,7 +19199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bootstrap"
 			(at 341.63 31.75 0)
 			(effects
 				(font
@@ -19014,6 +19266,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+			(at 341.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
 			(at 341.63 31.75 0)
 			(effects
 				(font
@@ -19151,7 +19412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 4.3mm H, 250gf, G leads, No ground pin, Black Actuator"
+		(property "Description" "Start/Stop Button"
 			(at 43.18 116.84 0)
 			(effects
 				(font
@@ -19231,6 +19492,15 @@
 			)
 		)
 		(property "Mouser Price QTY10" "0.148"
+			(at 24.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "12V, 50mA"
 			(at 24.13 114.3 0)
 			(effects
 				(font
@@ -19325,6 +19595,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 303.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14cd9e26-2daa-4fdf-bea7-59cb410413e6")
 		)
@@ -19395,6 +19674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 257.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20f5644f-37b4-4af3-b635-56c4d454b42b")
 		)
@@ -19453,6 +19741,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 236.22 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 236.22 168.91 0)
 			(effects
 				(font
@@ -19651,7 +19948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CANBUS Split Termination"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -19728,6 +20025,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/08055C472K4T4A?qs=ykEKLGTiBcx6ErrkugvmMg%3D%3D"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -19863,7 +20169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Output Cap"
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -19940,6 +20246,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A226MAYNNNE?qs=xZ%2FP%252Ba9zWqY%2FVvCfXjMhqg%3D%3D"
+			(at 368.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "25V"
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -20298,6 +20613,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "161fd05b-fe0f-4195-8126-de5cb45d2659")
 		)
@@ -20359,7 +20683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LCD Backlight Output Cap"
 			(at 288.29 49.53 0)
 			(effects
 				(font
@@ -20436,6 +20760,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105MBFNNNE?qs=Znm5pLBrcAIRYa0zX3s5Qw%3D%3D"
+			(at 288.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
 			(at 288.29 49.53 0)
 			(effects
 				(font
@@ -20572,7 +20905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3V3 Output Filtering"
 			(at 297.18 110.49 0)
 			(effects
 				(font
@@ -20649,6 +20982,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A226MQQNNNE?qs=349EhDEZ59oZnQF%252BO1HZ%252BQ%3D%3D"
+			(at 297.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "6.3V"
 			(at 297.18 110.49 0)
 			(effects
 				(font
@@ -20784,7 +21126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PWR_ENA Fuse"
 			(at 129.54 162.56 0)
 			(effects
 				(font
@@ -20839,6 +21181,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bel-Fuse/0ZCM0001FF2G?qs=uwxL4vQweFOSr3rpPGffpA%3D%3D"
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "60V"
 			(at 129.54 162.56 0)
 			(effects
 				(font
@@ -20910,7 +21261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V input diode"
 			(at 243.84 96.52 0)
 			(effects
 				(font
@@ -21005,6 +21356,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "600V"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "275a2c96-eb3c-4607-b03a-3dff4b03f413")
 		)
@@ -21037,7 +21397,7 @@
 				)
 			)
 		)
-		(property "Value" "MAMK2520H2R2M"
+		(property "Value" "2u2"
 			(at 293.37 100.33 0)
 			(effects
 				(font
@@ -21065,7 +21425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fixed Inductors 1008 2.2uH 90mOhms +/-20%Tol 2.2A HiCur"
+		(property "Description" "3.3V Inductor"
 			(at 290.83 90.932 0)
 			(effects
 				(font
@@ -21121,6 +21481,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Rating" "2.2A, 90mOhms"
+			(at 290.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.23"
+			(at 290.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.158"
+			(at 290.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -21249,7 +21636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB-C Breakout"
 			(at 172.72 166.37 0)
 			(effects
 				(font
@@ -21304,6 +21691,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Adafruit/4090?qs=2WXlatMagcFDROXrdbBXdg%3D%3D"
+			(at 172.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 172.72 166.37 0)
 			(effects
 				(font
@@ -21391,7 +21787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "36V Input"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -21400,7 +21796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL32Y475MCIVPNE"
+		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -21449,7 +21845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY1" "0.68"
+		(property "Mouser Price QTY1" "0.36"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -21458,7 +21854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.475"
+		(property "Mouser Price QTY10" "0.179"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -21467,7 +21863,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32Y475MCIVPNE?qs=Znm5pLBrcAJ2Wm3glbzndQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32B475KBUYNNE?qs=hqM3L16%252Bxlekel2U%252B66N8g%3D%3D"
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -21536,6 +21941,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 308.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 308.61 99.06 0)
 			(effects
 				(font
@@ -21668,7 +22082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Switching Regulator"
 			(at 313.69 40.64 0)
 			(effects
 				(font
@@ -21741,6 +22155,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/LMR36520ADDAR?qs=vHuUswq2%252Bsxe%2FiIOFannaw%3D%3D"
+			(at 313.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "65V"
 			(at 313.69 40.64 0)
 			(effects
 				(font
@@ -21829,7 +22252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headlight Inductor"
 			(at 367.03 111.76 0)
 			(effects
 				(font
@@ -21902,6 +22325,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bourns/SRR1240-101M?qs=y9m3SKnhpLNdXTkYqTD5yw%3D%3D"
+			(at 367.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "1.2A, 300mOhms"
 			(at 367.03 111.76 0)
 			(effects
 				(font
@@ -21988,6 +22420,15 @@
 			)
 		)
 		(property "Mouser Price QTY10" ""
+			(at 381 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 381 101.6 0)
 			(effects
 				(font
@@ -22126,7 +22567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V input diode"
 			(at 243.84 100.33 0)
 			(effects
 				(font
@@ -22213,6 +22654,15 @@
 			)
 		)
 		(property "Mouser Price QTY10" "0.148"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "600V"
 			(at 243.84 100.33 0)
 			(effects
 				(font
@@ -22506,6 +22956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 284.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df641d73-3816-4cd5-96b4-6ae065dc8c85")
 		)
@@ -22567,7 +23026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K"
+		(property "Description" "3V3 Switching Regulator"
 			(at 263.906 88.138 0)
 			(effects
 				(font
@@ -22623,6 +23082,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Rating" "32V"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY1" "0.87"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price QTY10" "0.71"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -22699,7 +23185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Voltage Set Divider"
 			(at 358.14 44.45 0)
 			(effects
 				(font
@@ -22776,6 +23262,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/RCS0805100KFKEA?qs=NKmfXavxMay%252BH0mbX9hKBw%3D%3D"
+			(at 358.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "150v, 500mW"
 			(at 358.14 44.45 0)
 			(effects
 				(font
@@ -22920,6 +23415,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 72.39 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "522760f0-d244-42d9-a9fc-64503e1cbca2")
 		)
@@ -22978,7 +23482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3V3 Output Filtering"
 			(at 288.29 110.49 0)
 			(effects
 				(font
@@ -23055,6 +23559,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A226MQQNNNE?qs=349EhDEZ59oZnQF%252BO1HZ%252BQ%3D%3D"
+			(at 288.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "6.3V"
 			(at 288.29 110.49 0)
 			(effects
 				(font
@@ -23347,6 +23860,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 300.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54e90330-fab2-4628-8328-ebb206199563")
 		)
@@ -23406,7 +23928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Backlight Inductor"
 			(at 257.81 152.4 0)
 			(effects
 				(font
@@ -23487,6 +24009,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "1.3A, 80mOhms"
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8937bf87-a451-4b09-8b94-531884bb0486")
 		)
@@ -23548,7 +24079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reset Button"
 			(at 29.21 173.99 0)
 			(effects
 				(font
@@ -23643,6 +24174,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "12V, 50mA"
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45370108-8916-45f9-8ba4-38dfa3124d81")
 		)
@@ -23727,6 +24267,15 @@
 			)
 		)
 		(property "Mouser Price QTY10" ""
+			(at 29.21 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 29.21 214.63 0)
 			(effects
 				(font
@@ -23862,7 +24411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ind,7.9x7.3x5.2mm,33uH+/-20%,4A,shd"
+		(property "Description" "15V Inductor"
 			(at 367.03 40.64 0)
 			(effects
 				(font
@@ -23940,6 +24489,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "4A, 127.6mOhms"
+			(at 350.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2f481ef-715f-420c-a761-47e5f3738660")
 		)
@@ -24001,7 +24559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CANBUS Termination"
 			(at 198.12 101.6 0)
 			(effects
 				(font
@@ -24086,6 +24644,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "150v, 500mW"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e5888f3-b618-437a-8e31-1996a00fdb2e")
 		)
@@ -24147,7 +24714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "EEPROM 16Kbit 8Kbit 4Kbit 2Kb and 1Kb Serial"
+		(property "Description" "EEPROM"
 			(at 113.03 107.95 0)
 			(effects
 				(font
@@ -24215,6 +24782,15 @@
 			)
 		)
 		(property "Mouser Price QTY10" "0.175"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "5.5V"
 			(at 102.87 109.22 0)
 			(effects
 				(font
@@ -24368,7 +24944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CANBUS Driver"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -24445,6 +25021,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/SN65HVD231DRG4?qs=QViXGNcIEAtYBoUJPHGedA%3D%3D"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "3.6V"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -24532,7 +25117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "I2C Pullup"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -24609,6 +25194,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K70JNEA?qs=kkyyugUlSrPc3tCn%2F8R5yw%3D%3D"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "150v, 125mW"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -24810,7 +25404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Backlight Signal Pulldown"
 			(at 252.73 173.99 0)
 			(effects
 				(font
@@ -24895,6 +25489,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "150v, 125mW"
+			(at 252.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ef202c6-5304-4b82-821f-01b594114e54")
 		)
@@ -24956,7 +25559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "36V Input"
 			(at 265.43 46.99 0)
 			(effects
 				(font
@@ -24965,7 +25568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL32Y475MCIVPNE"
+		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
 			(at 265.43 46.99 0)
 			(effects
 				(font
@@ -25014,7 +25617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY1" "0.68"
+		(property "Mouser Price QTY1" "0.36"
 			(at 265.43 46.99 0)
 			(effects
 				(font
@@ -25023,7 +25626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.475"
+		(property "Mouser Price QTY10" "0.179"
 			(at 265.43 46.99 0)
 			(effects
 				(font
@@ -25032,7 +25635,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32Y475MCIVPNE?qs=Znm5pLBrcAJ2Wm3glbzndQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32B475KBUYNNE?qs=hqM3L16%252Bxlekel2U%252B66N8g%3D%3D"
+			(at 265.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
 			(at 265.43 46.99 0)
 			(effects
 				(font
@@ -25102,7 +25714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LCD Connector"
 			(at 20.32 29.21 0)
 			(effects
 				(font
@@ -25189,6 +25801,15 @@
 			)
 		)
 		(property "Mouser Price QTY10" "1.05"
+			(at 20.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V, 125mA"
 			(at 20.32 29.21 0)
 			(effects
 				(font
@@ -25347,6 +25968,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 377.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 377.19 101.6 0)
 			(effects
 				(font
@@ -25544,7 +26174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32 Enable Decoupling"
 			(at 30.48 180.34 0)
 			(effects
 				(font
@@ -25616,6 +26246,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ea9f12f-3f85-4b79-a0d4-71f8c6aa88b0")
 		)
@@ -25677,7 +26316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Output Cap"
 			(at 378.46 48.26 0)
 			(effects
 				(font
@@ -25762,6 +26401,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "25V"
+			(at 378.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc3ad906-d7ec-4751-a02f-7aa3cae1aa7a")
 		)
@@ -25825,7 +26473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Frequency Boost White LED Driver with High-Speed PWM Brightness Control"
+		(property "Description" "Backlight Driver"
 			(at 280.67 166.37 0)
 			(effects
 				(font
@@ -25915,6 +26563,15 @@
 			)
 		)
 		(property "Mouser Price QTY10" "1.72"
+			(at 266.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "5.5V"
 			(at 266.7 166.37 0)
 			(effects
 				(font

@@ -739,6 +739,12 @@
         },
         {
           "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
           "show": true

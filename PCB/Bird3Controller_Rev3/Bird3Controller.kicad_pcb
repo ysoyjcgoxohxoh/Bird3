@@ -283,7 +283,23 @@
 				)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a21f2ea-2c89-4228-bbd8-4647d52b3d53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/16461498-1ac0-45ec-bbd8-50cd3747fe2c")
+		(sheetname "Root")
+		(sheetfile "Bird3Controller.kicad_sch")
 		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
@@ -381,7 +397,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Backlight Driver Decoupling"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -441,7 +457,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL32Y475MCIVPNE"
+		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -453,7 +469,7 @@
 				)
 			)
 		)
-		(property "Mouser Price QTY1" "0.68"
+		(property "Mouser Price QTY1" "0.36"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -466,7 +482,7 @@
 				)
 			)
 		)
-		(property "Mouser Price QTY10" "0.475"
+		(property "Mouser Price QTY10" "0.179"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -479,12 +495,25 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32Y475MCIVPNE?qs=Znm5pLBrcAJ2Wm3glbzndQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32B475KBUYNNE?qs=hqM3L16%252Bxlekel2U%252B66N8g%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17f30d5e-7c9e-4e15-8b4a-b8867e50bbd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdc623d3-8331-44df-8815-ae2d0eb77a79")
 			(effects
 				(font
 					(size 1 1)
@@ -691,7 +720,7 @@
 				)
 			)
 		)
-		(property "Description" "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 4.3mm H, 250gf, G leads, No ground pin, Black Actuator"
+		(property "Description" "Start/Stop Button"
 			(at 182.5 140 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -793,6 +822,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "85eca8c2-9579-4582-b2e8-e7342904f961")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "12V, 50mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eafab859-5239-4043-99f5-f54dc9915a86")
 			(effects
 				(font
 					(size 1 1)
@@ -1076,6 +1118,19 @@
 				)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "659b2cfe-a86d-400f-8050-8480173cd614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ac92dd59-797b-4d74-b3be-fc898ba8f6a1")
 		(sheetname "Root")
@@ -1282,7 +1337,23 @@
 				)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74811dec-78bd-47c1-94c0-c3ceee0b3c5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/96451a1b-31fe-43e3-8450-49cb7b671c5d")
+		(sheetname "Root")
+		(sheetfile "Bird3Controller.kicad_sch")
 		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
@@ -1393,7 +1464,23 @@
 				)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb941060-5b09-40ce-be65-7541b22e1b59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/67e20d83-47d5-4c27-9951-ca4eddecb9ad")
+		(sheetname "Root")
+		(sheetfile "Bird3Controller.kicad_sch")
 		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
@@ -1491,7 +1578,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Freewheeling Diode"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1595,6 +1682,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5bdfce1-93fd-4dd9-b9f7-4e1ff046491a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "20V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67883af6-f781-4fd6-8118-e7c7b13924c7")
 			(effects
 				(font
 					(size 1 1)
@@ -1822,7 +1922,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32 Decoupling"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1926,6 +2026,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77b5345b-6bfa-4db0-96d0-9b755a47948c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "16V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ad97706-363f-419a-9980-b20626fb1e6a")
 			(effects
 				(font
 					(size 1 1)
@@ -2144,7 +2257,23 @@
 				)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec4cf4c6-3848-46b1-9b79-20d7e7f0047c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/b3e88d72-c421-471c-8322-699b878cfac7")
+		(sheetname "Root")
+		(sheetfile "Bird3Controller.kicad_sch")
 		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
@@ -2243,7 +2372,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Backlight Inductor"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2347,6 +2476,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b005c068-9bb5-4bfc-b8a0-c44b3c8f4e87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "1.3A, 80mOhms"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d779546-1950-4dd8-96ca-487f326148a3")
 			(effects
 				(font
 					(size 1 1)
@@ -2541,7 +2683,7 @@
 				)
 			)
 		)
-		(property "Description" "High Frequency Boost White LED Driver with High-Speed PWM Brightness Control"
+		(property "Description" "Backlight Driver"
 			(at 175.85 81.35 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2655,6 +2797,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9abc2931-f1f9-4cce-81c1-68d6fc89629b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "5.5V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d58f1ab-052d-4669-a16b-b2d734b92b94")
 			(effects
 				(font
 					(size 1 1)
@@ -2937,7 +3092,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Microcontroller"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3041,6 +3196,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "52c4f7cd-365e-4fe8-b14a-619952770ab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "3.6V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7494687-ca56-411c-b166-0171bf994f4d")
 			(effects
 				(font
 					(size 1 1)
@@ -3808,7 +3976,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "I2C Pullup"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3917,6 +4085,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57c144cc-ad78-4ae6-af28-d2161a60445a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "150v, 125mW"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd5d18e0-5f51-4b5e-86ac-36b76c8335e1")
 			(effects
 				(font
 					(size 1 1)
@@ -4122,7 +4303,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32 Decoupling"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4214,6 +4395,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7bac891f-5f7a-4d04-89d2-c1569bfcdad0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "906bfacb-112a-4984-8777-e5f12c39a072")
 			(effects
 				(font
 					(size 1 1)
@@ -4419,7 +4613,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "I2C Pullup"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4528,6 +4722,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "712a3981-4721-4298-9d6f-a58d31d29476")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "150v, 125mW"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acc7c2f8-c53b-4f4d-8481-0637fa050dfc")
 			(effects
 				(font
 					(size 1 1)
@@ -4734,7 +4941,7 @@
 				)
 			)
 		)
-		(property "Description" "EEPROM 16Kbit 8Kbit 4Kbit 2Kb and 1Kb Serial"
+		(property "Description" "EEPROM"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4830,6 +5037,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a1955d6-a41c-4369-8d31-0d94513c41bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "5.5V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1c75763-4b98-4578-8f06-cc15e77313fb")
 			(effects
 				(font
 					(size 1 1)
@@ -5130,7 +5350,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LCD Backlight Output Cap"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5234,6 +5454,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2df53978-d561-438e-8999-7bea9d772d36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af24d6cb-2c98-43aa-bd53-78c00f453713")
 			(effects
 				(font
 					(size 1 1)
@@ -5452,7 +5685,23 @@
 				)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2099dd29-cde7-4f6f-9f92-dc32f3f4fbfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/2f05b1ff-65ee-43bd-8b08-efb7942da2aa")
+		(sheetname "Root")
+		(sheetfile "Bird3Controller.kicad_sch")
 		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
@@ -5563,7 +5812,23 @@
 				)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37aefe19-73b1-4693-82ec-71352accc5ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/69ebd0d7-8097-4972-992a-e2f3cace50ca")
+		(sheetname "Root")
+		(sheetfile "Bird3Controller.kicad_sch")
 		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
@@ -5675,7 +5940,23 @@
 				)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc1285cf-97f4-496e-9470-654e77e82ae5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/f80c12c5-ab0b-41f5-87c1-f94543239776")
+		(sheetname "Root")
+		(sheetfile "Bird3Controller.kicad_sch")
 		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
@@ -5774,7 +6055,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LCD Connector"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5889,6 +6170,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e9d79fb6-54f5-44da-8bce-c73f5357c21d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "50V, 125mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23179331-feb8-4498-a21d-f059d431fa6f")
 			(effects
 				(font
 					(size 1 1)
@@ -6813,7 +7107,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Backlight Signal Pulldown"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6917,6 +7211,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28a3cf2e-bab7-46ce-92d2-ce3f9c354bd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "150v, 125mW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b7ea88a-4e94-48c5-8fb3-ac4c2d69176e")
 			(effects
 				(font
 					(size 1 1)
@@ -7135,7 +7442,23 @@
 				)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4cee7f4-2198-461c-b7e3-92edb47217ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/2c1ab61f-ec87-435b-a82f-76c6d941fc02")
+		(sheetname "Root")
+		(sheetfile "Bird3Controller.kicad_sch")
 		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
@@ -7265,6 +7588,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69978bcf-fcdb-46ea-86bc-bed299c10acd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b35029a0-96ee-4d9e-b25a-bb048a745cd7")
 			(effects
 				(font
 					(size 1 1)
@@ -7470,7 +7806,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resettable Fuses - PPTC 1A 60V PPTC 2920 SMD"
+		(property "Description" "VIN Fuse"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7568,6 +7904,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "74ef5cc9-0d0a-402a-bc8d-04d034a949b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "60V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fc5db8f6-b83b-4554-bcea-333baa5e16a3")
 			(effects
 				(font
 					(size 1 1)
@@ -7766,7 +8116,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Freewheeling Diode"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7878,6 +8228,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5bd04699-a472-4881-b21f-6d765807f17b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "20V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f2821eb4-d4f8-45f4-8bc4-d9482b986332")
 			(effects
 				(font
 					(size 1 1)
@@ -8111,7 +8475,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Voltage Set Divider"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8228,6 +8592,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "36adfc08-dfb9-4e70-a4ea-21f24430d202")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "150v, 500mW"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8af0a4d4-794c-4ff7-b27f-74783163c850")
 			(effects
 				(font
 					(size 1 1)
@@ -8438,7 +8816,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reset Button"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8561,6 +8939,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "190d8430-ece0-4b9e-8611-c7a2a0a3bdbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "12V, 50mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9fe7039a-8f2a-4279-8e0c-e525cde55655")
 			(effects
 				(font
 					(size 1 1)
@@ -8902,7 +9294,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "36V Input"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8967,7 +9359,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "187-CL32Y475MCIVPNE"
+		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
 			(at 0 0 -90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8980,7 +9372,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY1" "0.68"
+		(property "Mouser Price QTY1" "0.36"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8994,7 +9386,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY10" "0.475"
+		(property "Mouser Price QTY10" "0.179"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9008,12 +9400,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32Y475MCIVPNE?qs=Znm5pLBrcAJ2Wm3glbzndQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32B475KBUYNNE?qs=hqM3L16%252Bxlekel2U%252B66N8g%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b5c097a9-9902-4335-85ae-c54406667169")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6d8ed633-d36e-4866-998a-c01491387ff3")
 			(effects
 				(font
 					(size 1 1)
@@ -9225,7 +9631,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB-C Breakout"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9314,6 +9720,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1be2508-b681-41bf-9826-6d247508d640")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "78bac7e3-9e96-43bb-bf88-b1769b6a5166")
 			(effects
 				(font
 					(size 1 1)
@@ -9659,7 +10079,7 @@
 					(thickness 0.25)
 					(bold yes)
 				)
-				(justify right)
+				(justify right mirror)
 			)
 		)
 		(fp_text user "D-"
@@ -9673,7 +10093,7 @@
 					(thickness 0.25)
 					(bold yes)
 				)
-				(justify right)
+				(justify right mirror)
 			)
 		)
 		(fp_text user "SBU2"
@@ -9687,7 +10107,7 @@
 					(thickness 0.25)
 					(bold yes)
 				)
-				(justify right)
+				(justify right mirror)
 			)
 		)
 		(fp_text user "+5V"
@@ -9701,7 +10121,7 @@
 					(thickness 0.25)
 					(bold yes)
 				)
-				(justify right)
+				(justify right mirror)
 			)
 		)
 		(fp_text user "CC2"
@@ -9715,7 +10135,7 @@
 					(thickness 0.25)
 					(bold yes)
 				)
-				(justify right)
+				(justify right mirror)
 			)
 		)
 		(fp_text user "GND"
@@ -9729,7 +10149,7 @@
 					(thickness 0.25)
 					(bold yes)
 				)
-				(justify right)
+				(justify right mirror)
 			)
 		)
 		(fp_text user "D+"
@@ -9743,7 +10163,7 @@
 					(thickness 0.25)
 					(bold yes)
 				)
-				(justify right)
+				(justify right mirror)
 			)
 		)
 		(fp_text user "CC1"
@@ -9757,7 +10177,7 @@
 					(thickness 0.25)
 					(bold yes)
 				)
-				(justify right)
+				(justify right mirror)
 			)
 		)
 		(fp_text user "${REFERENCE}"
@@ -9970,6 +10390,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "21d5d343-c193-4ac9-be7d-6bae47c032b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/08fae599-49ff-4e27-8bb2-d6777d189a6d")
 		(sheetname "Root")
@@ -10169,7 +10603,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CANBUS Termination"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10281,6 +10715,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c802b287-3629-42f4-9438-e6401a4ef90d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "150v, 500mW"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7832d241-f6b9-41db-b5d5-ec7c9c16c6e8")
 			(effects
 				(font
 					(size 1 1)
@@ -10491,7 +10939,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Switching Regulator"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10602,6 +11050,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "09736ec2-cabb-40c8-8ea9-d32e601b3432")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "65V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77097a25-0b56-47ec-ba82-2b0098f8ec9e")
 			(effects
 				(font
 					(size 1 1)
@@ -10879,7 +11341,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current Sense"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10991,6 +11453,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1054a77b-26b9-4e21-bfd0-e375d0b12f27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "125mW"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4fe0b3de-1485-4a50-926d-76ef1701c988")
 			(effects
 				(font
 					(size 1 1)
@@ -11201,7 +11677,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22-Pin Connector"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11298,6 +11774,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "260fa93b-b693-4594-a5d5-3ec0771495d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "125V, 2A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c31f8a59-4573-4ce6-9c40-1da6a04fd4e3")
 			(effects
 				(font
 					(size 1 1)
@@ -11764,7 +12254,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3V3 Output Filtering"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11881,6 +12371,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "46efc696-137d-4d9e-9e61-4954ec0c394b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "6.3V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9868b61d-c396-43b9-822e-dba1605865ec")
 			(effects
 				(font
 					(size 1 1)
@@ -12134,6 +12638,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9631a503-e99e-4547-ba9b-0fd9ae866e67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/811c4908-32ee-4625-85ce-6f818096f560")
 		(sheetname "Root")
@@ -12367,6 +12885,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0541fcc1-4b27-4a58-8fd2-b4ef331577a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f7dc9c39-9e0f-4e00-ba92-24d587bfe1a1")
 			(effects
 				(font
 					(size 1 1)
@@ -12616,6 +13148,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0494f4a7-02ec-4668-bbb2-08c5155b5cec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a1dea1ac-facc-46c1-bc4d-1376e0fee18b")
 		(sheetname "Root")
@@ -12857,6 +13403,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed6492e0-5700-42df-8212-061f7d138681")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/22d37a54-da04-4647-acfb-08a8fb93e432")
 		(sheetname "Root")
@@ -13057,7 +13617,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K"
+		(property "Description" "3V3 Switching Regulator"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13132,6 +13692,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5d334bab-82dd-4790-a379-29671f1d7c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "32V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3802e288-d6f2-48f9-b69a-cfd144849b64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Price QTY1" "0.87"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1ca31d91-229c-49fc-903e-cadca2d3703a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Price QTY10" "0.71"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3bb37dda-453c-4e10-b11b-1e7dd9c8941b")
 			(effects
 				(font
 					(size 1 1)
@@ -13389,7 +13991,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headlight Inductor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13500,6 +14102,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b932eb64-6a2a-4226-8eb5-7f26a1ae4835")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "1.2A, 300mOhms"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8daff039-665a-4815-8401-38924581c5a6")
 			(effects
 				(font
 					(size 1 1)
@@ -13929,7 +14545,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bootstrap"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14028,6 +14644,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2b811063-6239-42c1-9045-e05fbe06c471")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5b8e8387-a10e-4271-9362-e0b61a3c16ca")
 			(effects
 				(font
 					(size 1 1)
@@ -14239,7 +14869,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "36V Decoupling"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14278,7 +14908,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -14291,7 +14921,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08053C224K4T4A"
+		(property "Manufacturer_Part_Number" "CL21B224KBFNNNG"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -14304,7 +14934,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "581-08053C224K4T4A"
+		(property "Mouser Part Number" "187-CL21B224KBFNNNG"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -14317,7 +14947,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY1" "0.11"
+		(property "Mouser Price QTY1" "0.10"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14331,7 +14961,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY10" "0.078"
+		(property "Mouser Price QTY10" "0.02"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14345,12 +14975,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/08053C224K4T4A?qs=UouJx2JcIEVHFdeF639OkQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B224KBFNNNG?qs=hqM3L16%252Bxld2kKInBt3c6Q%3D%3D"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e3f37447-f39e-424b-91d5-ba953196f653")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3f046889-797a-40a4-b56e-7392296f0de6")
 			(effects
 				(font
 					(size 1 1)
@@ -14562,7 +15206,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Output Cap"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14674,6 +15318,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4b715cc9-772d-40b3-bb45-4ba5cac0875f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "25V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "502445b2-d0cd-48f4-99e8-110b4cfe0634")
 			(effects
 				(font
 					(size 1 1)
@@ -14886,7 +15544,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V input diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15017,6 +15675,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f3d7d9a7-0bfe-41e2-99a4-f4419ca23343")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "600V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ecb026db-1d83-46c5-abea-ff37ccbc9120")
 			(effects
 				(font
 					(size 1 1)
@@ -15237,7 +15909,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32 Reset Pullup"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15349,6 +16021,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2e090103-560e-42f2-9633-a4682a564c0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "150v, 125mW"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6d2dc44c-8f3d-4b19-9efc-10cec02d11d8")
 			(effects
 				(font
 					(size 1 1)
@@ -15560,7 +16246,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CANBUS Termination"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15672,6 +16358,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4bd575de-2d11-4b68-8236-b87c0af79327")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "150v, 500mW"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "300f1971-d971-479d-933d-de85a5ae5a58")
 			(effects
 				(font
 					(size 1 1)
@@ -15883,7 +16583,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V/15V Decoupling"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16000,6 +16700,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "dfca6d0d-3179-4288-9b78-dcf4640ef57f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "25V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f158a5d9-2c72-40e7-82cc-3d64b5b8b272")
 			(effects
 				(font
 					(size 1 1)
@@ -16212,7 +16926,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V input diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16343,6 +17057,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6aab6b4f-80c6-4f05-b444-fd5d06c1e243")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "600V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84b38993-cd13-487b-9c20-b73ff1e71525")
 			(effects
 				(font
 					(size 1 1)
@@ -16563,7 +17291,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CANBUS Split Termination"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16675,6 +17403,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d79577e0-406e-4f19-ad4d-2c4c69a2fe21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "477aac4f-4f5a-43bc-8b14-3efee747bd01")
 			(effects
 				(font
 					(size 1 1)
@@ -16886,7 +17628,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V/15V Decoupling"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16998,6 +17740,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "aa1c089c-9235-4366-9506-9bc301b56cd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "25V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3ad92eb7-4165-48e7-8353-6219ae1b469d")
 			(effects
 				(font
 					(size 1 1)
@@ -17208,7 +17964,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Boot Button"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17331,6 +18087,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8f8f752e-bc8c-4aa9-84d7-fc1a5dda7532")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "12V, 50mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6f44759a-0d1d-4baf-a46e-dd0057f74fed")
 			(effects
 				(font
 					(size 1 1)
@@ -17659,7 +18429,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Voltage Set Divider"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17771,6 +18541,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a68c0313-80ce-47a8-a7be-bb34da8a2cd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "150v, 500mW"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3474cf5a-9b09-40c8-ad12-eb9310cacd6e")
 			(effects
 				(font
 					(size 1 1)
@@ -17944,7 +18728,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MAMK2520H2R2M"
+		(property "Value" "2u2"
 			(at 0 0 -90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -17983,7 +18767,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Fixed Inductors 1008 2.2uH 90mOhms +/-20%Tol 2.2A HiCur"
+		(property "Description" "3.3V Inductor"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18058,6 +18842,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "79adea8d-0e20-42d3-b367-158beb0e4da2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "2.2A, 90mOhms"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9b2cd90a-976e-44f1-aad5-ba314a3933ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Price QTY1" "0.23"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b320ebd9-51d6-4a4a-8cba-35050a69a98b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Price QTY10" "0.158"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3833b28c-3b97-4222-9372-1d653a7a5ab9")
 			(effects
 				(font
 					(size 1 1)
@@ -18256,7 +19082,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32 Enable Decoupling"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18355,6 +19181,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "41042ca6-213a-42e6-8812-6aac24e6027f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "402f4239-a65b-4c61-894d-2d8073a693ea")
 			(effects
 				(font
 					(size 1 1)
@@ -18570,7 +19410,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Ind,7.9x7.3x5.2mm,33uH+/-20%,4A,shd"
+		(property "Description" "15V Inductor"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18668,6 +19508,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5c22e857-998c-4eef-bdbf-a0206c318837")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "4A, 127.6mOhms"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f8f28f05-9989-439a-a9bc-9f642f822f38")
 			(effects
 				(font
 					(size 1 1)
@@ -18877,7 +19731,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headlight Signal Pulldown"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18989,6 +19843,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6bd19fb3-a715-4a8e-96c6-f0d7077c5fd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "150v, 125mW"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f747d6c0-7cfa-44db-9861-d436dff2d20e")
 			(effects
 				(font
 					(size 1 1)
@@ -19198,7 +20066,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CANBUS Driver"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19309,6 +20177,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "98d61d4f-1ee4-45c3-887d-babcb2685123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "3.6V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f1cf9d17-f77c-47a4-9939-0de87fa0a993")
 			(effects
 				(font
 					(size 1 1)
@@ -19622,7 +20504,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headlight Driver"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19709,6 +20591,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "68ebd696-c908-4b79-8bb4-a250a7babb3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "60V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90aa55a2-7fa0-4485-829b-ad7c5c7e8069")
 			(effects
 				(font
 					(size 1 1)
@@ -20005,7 +20901,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24-Pin Connector"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20103,6 +20999,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e0510456-7b3a-46a2-a9eb-25521f1a49e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "125V, 2A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5cb1ec24-b085-4836-a14a-7579d0136ed1")
 			(effects
 				(font
 					(size 1 1)
@@ -20577,7 +21487,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PWR_ENA Transistor"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20664,6 +21574,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "09ec205c-2efa-469f-9245-e05cca9b295d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "60V, 280mA, 2 Ohms"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e26ea994-e5ab-4554-8a88-0e3d54fb1e65")
 			(effects
 				(font
 					(size 1 1)
@@ -20967,6 +21891,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Rating" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed15e242-26cc-4e34-af19-41efc368927b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ce3167f5-1b39-4230-bd77-cf83816c5968")
 		(sheetname "Root")
@@ -21144,7 +22082,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3V3 Output Filtering"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21261,6 +22199,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b0e7fad9-525d-4741-94a2-82346242f58f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "6.3V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f020f2c2-13f8-437c-9b63-755fd873c239")
 			(effects
 				(font
 					(size 1 1)
@@ -21472,7 +22424,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LCD Backlight Output Cap"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21584,6 +22536,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f0e66cfd-d94c-4555-9519-d5fb2cdc29ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "72eda493-bb9c-4fad-99b3-cab3cf2b72ff")
 			(effects
 				(font
 					(size 1 1)
@@ -21795,7 +22761,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "36V Input"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21860,7 +22826,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "187-CL32Y475MCIVPNE"
+		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
 			(at 0 0 -90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21873,7 +22839,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY1" "0.68"
+		(property "Mouser Price QTY1" "0.36"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21887,7 +22853,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY10" "0.475"
+		(property "Mouser Price QTY10" "0.179"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21901,12 +22867,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32Y475MCIVPNE?qs=Znm5pLBrcAJ2Wm3glbzndQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL32B475KBUYNNE?qs=hqM3L16%252Bxlekel2U%252B66N8g%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e8ab02d5-4718-44e4-b10e-fd3825894103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "32f391b4-a92b-4e8e-95b0-4cd7688364d6")
 			(effects
 				(font
 					(size 1 1)
@@ -22117,7 +23097,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PWR_ENA Fuse"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22204,6 +23184,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5cf5bd20-abd9-4d5a-8363-56c0288712e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "60V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e9e504a7-a7a2-4e4c-b6b4-fb80ab893c9c")
 			(effects
 				(font
 					(size 1 1)
@@ -22403,7 +23397,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15V Output Cap"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22515,6 +23509,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7fa01510-1676-4b58-bd51-1c4947299161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "25V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92c944af-16b7-49ff-b334-8f0ce3e43a27")
 			(effects
 				(font
 					(size 1 1)
@@ -22726,7 +23734,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Boost Input"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22829,6 +23837,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8eb7045e-5d6d-4437-9c77-a8b0d5b04539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "328720f5-c2a5-41e6-b754-ea54a52fcd96")
 			(effects
 				(font
 					(size 1 1)
