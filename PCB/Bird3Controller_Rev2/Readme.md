@@ -1,5 +1,5 @@
 > [!NOTE]
-> This design is untested
+> This design doesn't operate the headlight properly.
 
 ## Development ##
 This was developed in [KiCad 8](https://www.kicad.org/), a FOSS EDA suite. Most or all of the symbols, footprints, and 3D models have been included in the repo to reduce the chance of broken references.

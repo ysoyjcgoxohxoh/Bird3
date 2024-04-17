@@ -16,6 +16,7 @@ More documentation for the scooter is available in the [Wiki](../../wiki).
 - The `PCB` directory contains the PCB design.
   - [Rev 1](./PCB/Bird3Controller_Rev1/Readme.md).
   - [Rev 2](./PCB/Bird3Controller_Rev2/Readme.md).
+  - [Rev 3](./PCB/Bird3Controller_Rev3/Readme.md).
 
 ## Credits ##
 - `Mental_Metalhead` - For lots of back and forth testing the software, providing the 22-pin connector pinout, and for various advice on designing PCBs.
