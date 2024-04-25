@@ -4,6 +4,7 @@
 
 #include "driver/twai.h"  // ESP32 Driver
 #include "ADebouncer.h"   // ADebouncer 1.1.0 by MicroBeaut
+#include "BirdBrainRemoteXY.h"
 
 void IRAM_ATTR Timer0_ISR(void);
 
@@ -113,12 +114,14 @@ void IRAM_ATTR Timer0_ISR(void);
 #include "TFT_eSPI.h" // TFT_eSPI 2.5.43 by Bodmer
 #include "OpenFontRender.h" // Git Submodule
 #include "NotoSans_Bold.h"
+#include "LockIconFont.h"
 
 // Variables used only if LCD is used.
 TFT_eSPI tft = TFT_eSPI();
 // Drawing directly to the display introduces a lot of flickering. Using a Sprite as an intermediary eliminates the flickering.
-TFT_eSprite screen = TFT_eSprite(&tft); 
-OpenFontRender ofr;
+TFT_eSprite screen = TFT_eSprite(&tft);
+OpenFontRender noto;
+OpenFontRender icons;
 #endif
 
 
@@ -130,10 +133,16 @@ OpenFontRender ofr;
 static bool driver_installed = false;
 
 volatile uint16_t throttlePos = 0;
-volatile bool rearLight = false;
-volatile bool unlockBattery = false;
-volatile bool brakeEnabled = false;
-volatile bool scooterEnabled = false;
+typedef enum {
+  LockWheel = 1,
+  Disabled = 2,
+  Idle = 3,
+  Running = 4
+} ScooterStates;
+
+extern volatile ScooterStates scooterState = Disabled;
+
+// uint32 should suffice for this. Incremented once per second, this will take 136 years to overflow.
 volatile uint32_t uptime = 1;
 volatile int16_t currentSpeed = 0;
 #define TireDiameterMM 254.0  // OE tires are 10x2.5
@@ -142,6 +151,8 @@ volatile int16_t currentSpeed = 0;
 
 ADebouncer StartStopDebouncer;
 
+// Stores the uptime at which there was no longer a request for BMS output. This is used to delay shutting down the BMS, as it doesn't like short shutdowns.
+volatile uint32_t bmsOutputDisableRequestedUptime = 0;
 uint8_t BMSOutputEnable[8] = { 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 uint8_t BMSOutputDisable[8] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 uint8_t RearLightEnable[8] = { 0x01, 0x00, 0x00 };
@@ -253,7 +264,7 @@ void loop() {
   // TODO: Based on the two values, Figure out if the throttle has borked, and do something sensible
   throttlePos = ThrottleAFiltered;
   StartStopDebouncer.debounce(digitalRead(START_STOP_PIN));
-  
+
   if (StartStopDebouncer.falling()) {
     //screenServer();
 
@@ -264,6 +275,8 @@ void loop() {
       twai_timing_config_t t_config = TWAI_TIMING_CONFIG_500KBITS();  //Look in the api-reference for other speed sets.
       twai_filter_config_t f_config = TWAI_FILTER_CONFIG_ACCEPT_ALL();
 
+      // Default scooter state to disabled.
+      RemoteXY.ScooterState = 1;
       // Install TWAI driver
       if (twai_driver_install(&g_config, &t_config, &f_config) == ESP_OK) {
         Serial.println("Driver installed");
@@ -287,24 +300,22 @@ void loop() {
       timerAlarmWrite(twoMSTimer, timerIntervalMS * 1000, true);
       timerAlarmEnable(twoMSTimer);
     } else {
-      // TODO: Authentication of some sort
-      scooterEnabled = !scooterEnabled;
-      if (scooterEnabled) {
+      // If user has selected to enable the brake, the button doesn't enable the scooter.
+      if (scooterState == Idle) {
+        scooterState = Running;
         updateColor(0, 255, 0);
-        ledcWrite(5, 255); // Headlight 100%
+        digitalWrite(HEADLIGHT_PIN, HIGH);
 #ifdef LCD_BL_SIG
         ledcWrite(4, 255);
 #endif
-        unlockBattery = true;
-        rearLight = true;
-      } else {
+
+      } else if (scooterState == Running) {
+        scooterState = Idle;
         updateColor(255, 0, 0);
-        ledcWrite(5, 0); // Headlight Off
+        digitalWrite(HEADLIGHT_PIN, LOW);
 #ifdef LCD_BL_SIG
         ledcWrite(4, 30);
 #endif
-        unlockBattery = false;
-        rearLight = false;
       }
     }
   }
@@ -328,6 +339,36 @@ void loop() {
       }
     } else {
       //Serial.println("Failed to receive message");
+    }
+
+    RemoteXY_Handler();
+    switch (RemoteXY.ScooterState) {
+      case 0:  // Enable
+        if (!(scooterState == Idle || scooterState == Running)) {
+          Serial.println("Set Idle");
+          scooterState = Idle;
+        }
+        break;
+      case 1:  // Disable
+        if (scooterState != Disabled) {
+          Serial.println("Set Disabled");
+          scooterState = Disabled;
+          digitalWrite(HEADLIGHT_PIN, LOW);
+#ifdef LCD_BL_SIG
+          ledcWrite(4, 30);
+#endif
+        }
+        break;
+      case 2:  // Lock
+        if (scooterState != LockWheel) {
+          Serial.println("Set Lock");
+          scooterState = LockWheel;
+          digitalWrite(HEADLIGHT_PIN, LOW);
+#ifdef LCD_BL_SIG
+          ledcWrite(4, 30);
+#endif
+        }
+        break;
     }
   }
 }
@@ -371,7 +412,7 @@ void sendMotorTorque() {
   } data;
 
   data.x = 0;
-  if (scooterEnabled) {
+  if (scooterState == Running) {
     if (BrakeRFiltered > 0) {
       data.x = BrakeRFiltered << 16;
     } else if (throttlePos > 0) {
@@ -379,6 +420,8 @@ void sendMotorTorque() {
       throttleF = throttleF * TorqueOutputMax / TorqueOutputReference;
       data.x = lround(throttleF);
     }
+  } else if (scooterState == LockWheel) {
+    data.x = 0x01 << 24;
   }
   sendCANMessage(0x153, 4, data.myData);
 }
@@ -404,15 +447,27 @@ void sendKeepAlive() {
 }
 
 void sendBMSEnable() {
-  if (unlockBattery) {
+  // When the state changes to no longer enable BMS, keep BMS enabled for 120 seconds.
+  // If the BMS is disabled, it refuses to re-enable itself for 10 - 20 seconds, and this delay
+  // gives the user a chance to change their mind.
+  if (scooterState == Running || scooterState == LockWheel) {
+    sendCANMessage(0x140, 8, BMSOutputEnable);
+    bmsOutputDisableRequestedUptime = 0;
+  } else if ((bmsOutputDisableRequestedUptime > 0 && uptime - bmsOutputDisableRequestedUptime < 120)) {
     sendCANMessage(0x140, 8, BMSOutputEnable);
   } else {
-    sendCANMessage(0x140, 8, BMSOutputDisable);
+    if (bmsOutputDisableRequestedUptime == 0) {
+      // First loop where enable no longer requested.
+      bmsOutputDisableRequestedUptime = uptime;
+      sendCANMessage(0x140, 8, BMSOutputEnable);
+    } else {
+      sendCANMessage(0x140, 8, BMSOutputDisable);
+    }
   }
 }
 
 void sendRearLight() {
-  if (rearLight) {
+  if (scooterState == Running) {
     sendCANMessage(0x500, 3, RearLightEnable);
   } else {
     sendCANMessage(0x500, 3, RearLightDisable);
@@ -439,16 +494,16 @@ void sendDebugVariables() {
   Serial.println("kph ");*/
 }
 
-void DrawCenteredString(const char* text, uint16_t size, uint16_t color, uint16_t x, uint16_t y, uint16_t w, uint16_t h) {
+void DrawCenteredString(const char* text, OpenFontRender& font, uint16_t size, uint16_t color, uint16_t x, uint16_t y, uint16_t w, uint16_t h) {
   TFT_eSprite spr = TFT_eSprite(&tft);
   spr.createSprite(w, h);
   spr.setColorDepth(16);
-  ofr.setDrawer(spr);
+  font.setDrawer(spr);
 
-  ofr.setFontSize(size);
-  ofr.setAlignment(Align::TopLeft);
-  FT_BBox textSize = ofr.calculateBoundingBox(0, 0, size, Align::TopLeft, Layout::Horizontal, text);
-  ofr.drawString(text, w / 2 - (textSize.xMax - textSize.xMin) / 2 - textSize.xMin, h / 2 - (textSize.yMax - textSize.yMin) / 2 - textSize.yMin, color, TFT_BLACK, Layout::Horizontal);
+  font.setFontSize(size);
+  font.setAlignment(Align::TopLeft);
+  FT_BBox textSize = font.calculateBoundingBox(0, 0, size, Align::TopLeft, Layout::Horizontal, text);
+  font.drawString(text, w / 2 - (textSize.xMax - textSize.xMin) / 2 - textSize.xMin, h / 2 - (textSize.yMax - textSize.yMin) / 2 - textSize.yMin, color, TFT_BLACK, Layout::Horizontal);
 
   spr.pushToSprite(&screen, x, y, TFT_BLACK);
   spr.deleteSprite();
@@ -464,7 +519,7 @@ void RedrawScreen() {
     //Serial.println(cellVoltages[i]);
     if (cellVoltages[i] == 0) {
       // Zero indicates we haven't received one of the cell voltages yet, so rather than showing a partial voltage, just display `TBD...`
-      voltageTBD = true; 
+      voltageTBD = true;
       break;
     }
     totalVoltage += cellVoltages[i];
@@ -501,14 +556,14 @@ void RedrawScreen() {
     }
   }
 
-  
+
 #define FillX 8
 #define FillY 8
 #define FillWidth 225
 #define FillHeight 45
 #define FillRadius 9
 
-  if (batteryPercent > 0) { // Don't bother drawing 
+  if (batteryPercent > 0) {  // Don't bother drawing
     // Draw internal rounded border of the fill
     screen.fillSmoothRoundRect(FillX, FillY, FillWidth, FillHeight, FillRadius, batteryFill, batteryBorder);
     // Erase the part of the bar that we don't want. This allows us to precisely remove the part we don't want
@@ -517,13 +572,16 @@ void RedrawScreen() {
   }
   // Draw border
   screen.drawSmoothRoundRect(5, 5, 11, 9, 230, 50, batteryBorder, batteryFill, 0xF);
-  DrawCenteredString(batteryString.c_str(), 80, TFT_WHITE, 0, 4, 240, 50);
+  DrawCenteredString(batteryString.c_str(), noto, 80, TFT_WHITE, 0, 4, 240, 50);
 
-  // Speed
-  int8_t speed = (((double)currentSpeed) * SpeedToMPH);
-  DrawCenteredString(String(speed).c_str(), 330, TFT_WHITE, 0, 60, 240, 140);
-  DrawCenteredString("mph", 50, TFT_WHITE, 0, 200, 240, 40);
-
+  if (scooterState == Idle || scooterState == Running) {
+    // Speed
+    int8_t speed = (((double)currentSpeed) * SpeedToMPH);
+    DrawCenteredString(String(speed).c_str(), noto, 330, scooterState == Idle ? TFT_RED : TFT_WHITE, 0, 60, 240, 140);
+    DrawCenteredString("mph", noto, 50, scooterState == Idle ? TFT_RED : TFT_WHITE, 0, 200, 240, 40);
+  } else {
+    DrawCenteredString("l", icons, 130, scooterState == LockWheel ? TFT_RED : TFT_WHITE, 0, 60, 240, 140);
+  }
   tft.setSwapBytes(false);
   screen.pushSprite(0, 0);
   tft.setSwapBytes(true);
@@ -548,7 +606,7 @@ void IRAM_ATTR Timer0_ISR() {
   if (timerCounter % 200 == 0) {
     sendBMSEnable();
     sendDebugVariables();
-/*
+    /*
     if (testPercentCountUp) {
       testPercent++;
       if (testPercent >= 100) {
@@ -589,16 +647,14 @@ void setup() {
   Serial.begin(921600);
   Serial.println("Started Serial");
   analogReadResolution(12);
-
+  RemoteXY_Init();
+  RemoteXY.ScooterState = 1;
   // Configure the Start/Stop button
   pinMode(START_STOP_PIN, INPUT_PULLUP);
   StartStopDebouncer.mode(DELAYED, 10, false);
 
-  // Configure the headlight pin for PWM
-  ledcAttachPin(HEADLIGHT_PIN, 5);
-  ledcSetup(5, 500, 8);
-  ledcWrite(5, 0);
-
+  // Configure the headlight pin
+  pinMode(HEADLIGHT_PIN, OUTPUT);
 #ifdef PWR_ENA_SIG
   pinMode(PWR_ENA_SIG, OUTPUT);
   digitalWrite(PWR_ENA_SIG, HIGH);
@@ -613,10 +669,15 @@ void setup() {
   screen.createSprite(tft.width(), tft.height());
   screen.setColorDepth(16);
 
-  ofr.setSerial(Serial);      // Need to print render library message
-  ofr.showFreeTypeVersion();  // print FreeType version
-  ofr.showCredit();
-  ofr.loadFont(NotoSans_Bold, sizeof(NotoSans_Bold));
+  noto.setSerial(Serial);      // Need to print render library message
+  noto.showFreeTypeVersion();  // print FreeType version
+  noto.showCredit();
+  noto.loadFont(NotoSans_Bold, sizeof(NotoSans_Bold));
+
+  icons.setSerial(Serial);  // Need to print render library message
+  //icons.showFreeTypeVersion();  // print FreeType version
+  //icons.showCredit();
+  icons.loadFont(icons28, sizeof(icons28));
   RedrawScreen();
 
   ledcAttachPin(LCD_BL_SIG, 4);
