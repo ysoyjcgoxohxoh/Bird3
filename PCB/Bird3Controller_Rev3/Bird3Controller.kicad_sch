@@ -14398,35 +14398,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT21BC71E106KE13"
-			(at 246.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 248.92 121.9263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRT21BC71E106KE13L"
-			(at 248.92 124.4663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "490-GRT21BC71E106KE13LCT-ND"
 			(at 248.92 127.0063 0)
 			(effects
@@ -14475,6 +14446,33 @@
 			)
 		)
 		(property "Rating" "25V"
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GRT21BC71E106KE13L"
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "81-GRT21BC71E106KE13"
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Murata Electronics"
 			(at 246.38 110.49 0)
 			(effects
 				(font
@@ -14647,33 +14645,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-SD0805S020S1R0"
-			(at 275.59 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 275.844 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SD0805S020S1R0"
-			(at 275.844 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "478-7800-1-ND"
 			(at 275.844 166.37 0)
 			(effects
@@ -14720,6 +14691,33 @@
 			)
 		)
 		(property "Rating" "20V"
+			(at 275.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SD0805S020S1R0"
+			(at 275.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-SD0805S020S1R0"
+			(at 275.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
 			(at 275.59 152.4 0)
 			(effects
 				(font
@@ -14798,35 +14796,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805J-4.7K-E3"
-			(at 127 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW08054K70JNEA"
-			(at 124.46 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "541-4.7KACT-ND"
 			(at 124.46 90.17 0)
 			(effects
@@ -14875,6 +14844,33 @@
 			)
 		)
 		(property "Rating" "150v, 125mW"
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW08054K70JNEA"
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-4.7K-E3"
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Vishay / Dale"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -15029,38 +15025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
-			(at 40.64 700.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
 			(at 40.64 800.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 40.64 900.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
-			(at 40.64 1000.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15106,6 +15072,33 @@
 			)
 		)
 		(property "Rating" "12V, 50mA"
+			(at 29.21 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PTS526 SK15 SMTR2 LFS"
+			(at 29.21 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "611-PTS526SK15SMR2L"
+			(at 29.21 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "C & K COMPONENTS"
 			(at 29.21 207.01 0)
 			(effects
 				(font
@@ -15188,32 +15181,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "621-AL8862SP-13"
-			(at 347.98 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AL8862SP-13"
-			(at 338.836 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes"
-			(at 349.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price QTY1" "0.93"
 			(at 349.25 106.68 0)
 			(effects
@@ -15242,6 +15209,33 @@
 			)
 		)
 		(property "Rating" "60V"
+			(at 349.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "AL8862SP-13"
+			(at 349.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "621-AL8862SP-13"
+			(at 349.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Diodes"
 			(at 349.25 106.68 0)
 			(effects
 				(font
@@ -15341,35 +15335,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B105MBFNNNE"
-			(at 298.45 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 300.99 170.1863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B105MBFNNNE"
-			(at 300.99 172.7263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "1276-1029-1-ND"
 			(at 300.99 175.2663 0)
 			(effects
@@ -15390,7 +15355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY1" "0.10"
+		(property "Mouser Price QTY1" "0.11"
 			(at 298.45 158.75 0)
 			(effects
 				(font
@@ -15399,7 +15364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.027"
+		(property "Mouser Price QTY10" "0.045"
 			(at 298.45 158.75 0)
 			(effects
 				(font
@@ -15408,7 +15373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105MBFNNNE?qs=Znm5pLBrcAIRYa0zX3s5Qw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D"
 			(at 298.45 158.75 0)
 			(effects
 				(font
@@ -15418,6 +15383,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 298.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21B105KBFNNNE"
+			(at 298.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL21B105KBFNNNE"
+			(at 298.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 298.45 158.75 0)
 			(effects
 				(font
@@ -15571,35 +15563,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-RCS080560R4FKEA"
-			(at 198.12 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 200.66 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCS080560R4FKEA"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "541-RCS080560R4FKEACT-ND"
 			(at 200.66 128.27 0)
 			(effects
@@ -15648,6 +15611,33 @@
 			)
 		)
 		(property "Rating" "150v, 500mW"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RCS080560R4FKEA"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-RCS080560R4FKEA"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Vishay / Dale"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -15792,33 +15782,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "637-2N7002A"
-			(at 138.43 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2N7002A"
-			(at 138.43 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec"
-			(at 138.43 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price QTY1" "0.11"
 			(at 138.43 160.02 0)
 			(effects
@@ -15847,6 +15810,33 @@
 			)
 		)
 		(property "Rating" "60V, 280mA, 2 Ohms"
+			(at 138.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "2N7002A"
+			(at 138.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "637-2N7002A"
+			(at 138.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Diotec"
 			(at 138.43 160.02 0)
 			(effects
 				(font
@@ -15928,35 +15918,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
-			(at 240.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 242.57 184.1563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL32Y475MCIVPNE"
-			(at 242.57 186.6963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "1276-CL32Y475KCIVPNECT-ND"
 			(at 242.57 189.2363 0)
 			(effects
@@ -16005,6 +15966,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 240.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL32B475KBUYNNE"
+			(at 240.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL32B475KBUYNNE"
+			(at 240.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 240.03 172.72 0)
 			(effects
 				(font
@@ -16310,35 +16298,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "356-EP32S3WROOM1N8R8"
-			(at 68.58 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Espressif Systems"
-			(at 67.31 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESP32-S3-WROOM-1-N8R8"
-			(at 67.31 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "1965-ESP32-S3-WROOM-1-N8R8CT-ND"
 			(at 67.31 200.66 0)
 			(effects
@@ -16387,6 +16346,33 @@
 			)
 		)
 		(property "Rating" "3.6V"
+			(at 68.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "ESP32-S3-WROOM-1-N8R8"
+			(at 68.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "356-EP32S3WROOM1N8R8"
+			(at 68.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Espressif Systems"
 			(at 68.58 210.82 0)
 			(effects
 				(font
@@ -16648,35 +16634,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805J-4.7K-E3"
-			(at 43.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 45.72 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW08054K70JNEA"
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "541-4.7KACT-ND"
 			(at 45.72 186.69 0)
 			(effects
@@ -16725,6 +16682,33 @@
 			)
 		)
 		(property "Rating" "150v, 125mW"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW08054K70JNEA"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-4.7K-E3"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Vishay / Dale"
 			(at 43.18 170.18 0)
 			(effects
 				(font
@@ -16803,35 +16787,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08057K15FKEAC"
-			(at 358.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 360.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW08057K15FKEAC"
-			(at 360.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" ""
 			(at 360.68 68.58 0)
 			(effects
@@ -16880,6 +16835,33 @@
 			)
 		)
 		(property "Rating" "150v, 500mW"
+			(at 358.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW08057K15FKEAC"
+			(at 358.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW08057K15FKEAC"
+			(at 358.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Vishay / Dale"
 			(at 358.14 52.07 0)
 			(effects
 				(font
@@ -17012,7 +16994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/UPY_AC_NP0X7RX7S_6_3V_to_2KV_18-3003021.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -17023,33 +17005,6 @@
 		)
 		(property "Description" "ESP32 Decoupling"
 			(at 76.2 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-AC0805JX7R9BB104"
-			(at 76.2 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 76.2063 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805JRX7R9BB104"
-			(at 76.2063 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17075,7 +17030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.065"
+		(property "Mouser Price QTY10" "0.037"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -17084,7 +17039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21NR71H104KT?qs=Jm2GQyTW%2Fbj%252BykwLLGtT1A%3D%3D"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -17094,6 +17049,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "KGM21NR71H104KT"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-KGM21NR71H104KT"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -17171,35 +17153,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "279-RLC73K2AR20FTDF"
-			(at 365.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity / CGS"
-			(at 368.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RLC73K2AR20FTDF"
-			(at 368.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" ""
 			(at 368.3 114.3 0)
 			(effects
@@ -17247,6 +17200,33 @@
 			)
 		)
 		(property "Rating" "125mW"
+			(at 365.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RLC73K2AR20FTDF"
+			(at 365.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "279-RLC73K2AR20FTDF"
+			(at 365.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "TE Connectivity / CGS"
 			(at 365.76 97.79 0)
 			(effects
 				(font
@@ -17467,35 +17447,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805J-10K-E3"
-			(at 337.82 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 340.36 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW080510K0JNEA"
-			(at 340.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" ""
 			(at 340.36 128.27 0)
 			(effects
@@ -17544,6 +17495,33 @@
 			)
 		)
 		(property "Rating" "150v, 125mW"
+			(at 337.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEA"
+			(at 337.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-10K-E3"
+			(at 337.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Vishay / Dale"
 			(at 337.82 111.76 0)
 			(effects
 				(font
@@ -17622,35 +17600,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B224KBFNNNG"
-			(at 275.59 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 278.13 58.4263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B224KBFNNNG"
-			(at 278.13 60.9663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "478-KAM21KR71E224KUCT-ND"
 			(at 278.13 63.5063 0)
 			(effects
@@ -17699,6 +17648,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 275.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21B224KBFNNNG"
+			(at 275.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL21B224KBFNNNG"
+			(at 275.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 275.59 46.99 0)
 			(effects
 				(font
@@ -17787,38 +17763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-87832-6062"
-			(at 193.04 526.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Molex/87832-6062?qs=yd8XiKYcH9k38KQb4jjFuQ%3D%3D"
 			(at 193.04 626.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 193.04 726.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "87832-6062"
-			(at 193.04 826.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17846,6 +17792,33 @@
 			)
 		)
 		(property "Rating" "125V, 2A"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "87832-6062"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "538-87832-6062"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Molex"
 			(at 189.23 43.18 0)
 			(effects
 				(font
@@ -17986,35 +17959,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-SD0805S020S1R0"
-			(at 360.68 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 363.22 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SD0805S020S1R0"
-			(at 363.22 120.396 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "478-7800-1-ND"
 			(at 363.22 122.936 90)
 			(effects
@@ -18063,6 +18007,33 @@
 			)
 		)
 		(property "Rating" "20V"
+			(at 360.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SD0805S020S1R0"
+			(at 360.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-SD0805S020S1R0"
+			(at 360.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
 			(at 360.68 105.41 0)
 			(effects
 				(font
@@ -18285,38 +18256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "530-0ZCF0100AF2A"
-			(at 245.11 529.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bel-Fuse/0ZCF0100AF2A?qs=jyPKP7YLNfDyY7GbSCl%252BVQ%3D%3D"
 			(at 245.11 629.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BelFuse"
-			(at 245.11 729.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0ZCF0100AF2A"
-			(at 245.11 829.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18344,6 +18285,33 @@
 			)
 		)
 		(property "Rating" "60V"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "0ZCF0100AF2A"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "530-0ZCF0100AF2A"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "BelFuse"
 			(at 240.03 33.02 0)
 			(effects
 				(font
@@ -18402,7 +18370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/UPY_AC_NP0X7RX7S_6_3V_to_2KV_18-3003021.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 281.94 100.33 0)
 			(effects
 				(font
@@ -18413,33 +18381,6 @@
 		)
 		(property "Description" "Boost Input"
 			(at 281.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-AC0805JX7R9BB104"
-			(at 281.94 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 281.9463 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805JRX7R9BB104"
-			(at 281.9463 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18465,7 +18406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.065"
+		(property "Mouser Price QTY10" "0.037"
 			(at 281.94 100.33 0)
 			(effects
 				(font
@@ -18474,7 +18415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21NR71H104KT?qs=Jm2GQyTW%2Fbj%252BykwLLGtT1A%3D%3D"
 			(at 281.94 100.33 0)
 			(effects
 				(font
@@ -18484,6 +18425,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 281.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "KGM21NR71H104KT"
+			(at 281.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-KGM21NR71H104KT"
+			(at 281.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
 			(at 281.94 100.33 0)
 			(effects
 				(font
@@ -18696,33 +18664,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-87832-6123"
-			(at 102.87 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 114.3 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "87832-6123"
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "WM18646-ND"
 			(at 114.3 40.64 0)
 			(effects
@@ -18760,6 +18701,33 @@
 			)
 		)
 		(property "Rating" "125V, 2A"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "87832-6123"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "538-87832-6123"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Molex"
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -18904,35 +18872,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT21BC71E106KE13"
-			(at 327.66 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 330.2 110.4963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRT21BC71E106KE13L"
-			(at 330.2 113.0363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "490-GRT21BC71E106KE13LCT-ND"
 			(at 330.2 115.5763 0)
 			(effects
@@ -18981,6 +18920,33 @@
 			)
 		)
 		(property "Rating" "25V"
+			(at 327.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GRT21BC71E106KE13L"
+			(at 327.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "81-GRT21BC71E106KE13"
+			(at 327.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Murata Electronics"
 			(at 327.66 99.06 0)
 			(effects
 				(font
@@ -19057,33 +19023,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT21BR61C226ME3L"
-			(at 76.2 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 76.2063 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRT21BR61C226ME13L"
-			(at 76.2063 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "490-12383-1-ND"
 			(at 76.2063 166.37 90)
 			(effects
@@ -19130,6 +19069,33 @@
 			)
 		)
 		(property "Rating" "16V"
+			(at 76.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GRT21BR61C226ME13L"
+			(at 76.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "81-GRT21BR61C226ME3L"
+			(at 76.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Murata Electronics"
 			(at 76.2 154.94 0)
 			(effects
 				(font
@@ -19190,7 +19156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/UPY_AC_NP0X7RX7S_6_3V_to_2KV_18-3003021.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 341.63 31.75 0)
 			(effects
 				(font
@@ -19205,35 +19171,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-AC0805JX7R9BB104"
-			(at 341.63 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 339.09 43.1863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805JRX7R9BB104"
-			(at 339.09 45.7263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -19256,7 +19193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.065"
+		(property "Mouser Price QTY10" "0.037"
 			(at 341.63 31.75 0)
 			(effects
 				(font
@@ -19265,7 +19202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21NR71H104KT?qs=Jm2GQyTW%2Fbj%252BykwLLGtT1A%3D%3D"
 			(at 341.63 31.75 0)
 			(effects
 				(font
@@ -19275,6 +19212,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 341.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "KGM21NR71H104KT"
+			(at 341.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-KGM21NR71H104KT"
+			(at 341.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
 			(at 341.63 31.75 0)
 			(effects
 				(font
@@ -19432,38 +19396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "611-PTS636SK43SMTRLF"
-			(at 43.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CK/PTS636-SK43-SMTR-LFS?qs=vLWxofP3U2wsQpQ593zsYw%3D%3D"
 			(at 43.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 43.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTS636 SK43 SMTR LFS"
-			(at 43.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19501,6 +19435,33 @@
 			)
 		)
 		(property "Rating" "12V, 50mA"
+			(at 24.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PTS636 SK43 SMTR LFS"
+			(at 24.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "611-PTS636SK43SMTRLF"
+			(at 24.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "C & K COMPONENTS"
 			(at 24.13 114.3 0)
 			(effects
 				(font
@@ -19957,35 +19918,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-08055C472K4T4A"
-			(at 215.9 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 218.44 121.9263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C472K4T4A"
-			(at 218.44 124.4663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "478-KAM21KR71E224KUCT-ND"
 			(at 218.44 127.0063 0)
 			(effects
@@ -20034,6 +19966,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "08055C472K4T4A"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-08055C472K4T4A"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -20160,7 +20119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/Samsung_MLCC_1837944-1929650.pdf"
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -20175,35 +20134,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21A226MAYNNNE"
-			(at 368.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 370.84 59.6963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21A226MAYNNNE"
-			(at 370.84 62.2363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -20227,7 +20157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY1" "0.25"
+		(property "Mouser Price QTY1" "0.32"
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -20236,7 +20166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.115"
+		(property "Mouser Price QTY10" "0.145"
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -20255,6 +20185,33 @@
 			)
 		)
 		(property "Rating" "25V"
+			(at 368.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21A226MAYNNWE"
+			(at 368.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL21A226MAYNNWE"
+			(at 368.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -20683,41 +20640,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LCD Backlight Output Cap"
+		(property "Description" "36V -> 15V VCC Decoupling"
 			(at 288.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21B105MBFNNNE"
-			(at 288.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 290.83 60.9663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B105MBFNNNE"
-			(at 290.83 63.5063 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -20741,7 +20669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY1" "0.10"
+		(property "Mouser Price QTY1" "0.11"
 			(at 288.29 49.53 0)
 			(effects
 				(font
@@ -20750,7 +20678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.027"
+		(property "Mouser Price QTY10" "0.045"
 			(at 288.29 49.53 0)
 			(effects
 				(font
@@ -20759,7 +20687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105MBFNNNE?qs=Znm5pLBrcAIRYa0zX3s5Qw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D"
 			(at 288.29 49.53 0)
 			(effects
 				(font
@@ -20769,6 +20697,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 288.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21B105KBFNNNE"
+			(at 288.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL21B105KBFNNNE"
+			(at 288.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 288.29 49.53 0)
 			(effects
 				(font
@@ -20914,35 +20869,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A226MQQNNNE"
-			(at 297.18 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 299.72 121.9263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21A226MQQNNNE"
-			(at 299.72 124.4663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" ""
 			(at 299.72 127.0063 0)
 			(effects
@@ -20991,6 +20917,33 @@
 			)
 		)
 		(property "Rating" "6.3V"
+			(at 297.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21A226MQQNNNE"
+			(at 297.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL21A226MQQNNNE"
+			(at 297.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 297.18 110.49 0)
 			(effects
 				(font
@@ -21135,33 +21088,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "530-0ZCM0001FF2G"
-			(at 129.54 165.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0ZCM0001FF2G"
-			(at 129.54 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bel Fuse"
-			(at 129.54 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price QTY1" "0.19"
 			(at 129.54 162.56 0)
 			(effects
@@ -21190,6 +21116,33 @@
 			)
 		)
 		(property "Rating" "60V"
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "0ZCM0001FF2G"
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "530-0ZCM0001FF2G"
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bel Fuse"
 			(at 129.54 162.56 0)
 			(effects
 				(font
@@ -21280,38 +21233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "241-GS1J_R1_00001"
-			(at 232.41 593.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Panjit/GS1J_R1_00001?qs=sPbYRqrBIVmiablUMOUd0Q%3D%3D"
 			(at 232.41 693.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "PANJIT"
-			(at 232.41 793.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GS1J_R1_00001"
-			(at 232.41 893.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21357,6 +21280,33 @@
 			)
 		)
 		(property "Rating" "600V"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GS1J_R1_00001"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "241-GS1J_R1_00001"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "PANJIT"
 			(at 243.84 96.52 0)
 			(effects
 				(font
@@ -21444,38 +21394,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "963-MAMK2520H2R2M"
-			(at 307.34 599.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/MAMK2520H2R2M?qs=4JX4e57RtWy63Hw12ZxQ0w%3D%3D"
 			(at 307.34 699.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 307.34 799.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MAMK2520H2R2M"
-			(at 307.34 899.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21503,6 +21423,33 @@
 			)
 		)
 		(property "Mouser Price QTY10" "0.158"
+			(at 290.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MAMK2520H2R2M"
+			(at 290.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "963-MAMK2520H2R2M"
+			(at 290.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "TAIYO YUDEN"
 			(at 290.83 102.87 0)
 			(effects
 				(font
@@ -21645,24 +21592,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "4090"
-			(at 172.72 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Adafruit"
-			(at 172.72 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price QTY1" "2.95"
 			(at 172.72 166.37 0)
 			(effects
@@ -21681,15 +21610,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "485-4090"
-			(at 172.72 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Adafruit/4090?qs=2WXlatMagcFDROXrdbBXdg%3D%3D"
 			(at 172.72 166.37 0)
 			(effects
@@ -21700,6 +21620,33 @@
 			)
 		)
 		(property "Rating" ""
+			(at 172.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "4090"
+			(at 172.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "485-4090"
+			(at 172.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Adafruit"
 			(at 172.72 166.37 0)
 			(effects
 				(font
@@ -21796,35 +21743,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
-			(at 259.08 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 256.54 58.4263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL32Y475MCIVPNE"
-			(at 256.54 60.9663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "1276-CL32Y475KCIVPNECT-ND"
 			(at 256.54 63.5063 0)
 			(effects
@@ -21873,6 +21791,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21B105KBFNNNE"
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL32B475KBUYNNE"
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -22091,33 +22036,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMR36520ADDAR"
-			(at 313.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 313.69 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LMR36520ADDAR"
-			(at 313.69 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "296-LMR36520ADDARCT-ND"
 			(at 313.69 43.18 0)
 			(effects
@@ -22164,6 +22082,33 @@
 			)
 		)
 		(property "Rating" "65V"
+			(at 313.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "LMR36520ADDAR"
+			(at 313.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "595-LMR36520ADDAR"
+			(at 313.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instruments"
 			(at 313.69 40.64 0)
 			(effects
 				(font
@@ -22261,33 +22206,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-SRR1240-101M"
-			(at 367.03 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 367.03 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SRR1240-101M"
-			(at 367.03 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "SRR1240-101MCT-ND"
 			(at 367.03 132.08 90)
 			(effects
@@ -22334,6 +22252,33 @@
 			)
 		)
 		(property "Rating" "1.2A, 300mOhms"
+			(at 367.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SRR1240-101M"
+			(at 367.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-SRR1240-101M"
+			(at 367.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
 			(at 367.03 111.76 0)
 			(effects
 				(font
@@ -22586,38 +22531,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "241-GS1J_R1_00001"
-			(at 232.41 597.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Panjit/GS1J_R1_00001?qs=sPbYRqrBIVmiablUMOUd0Q%3D%3D"
 			(at 232.41 697.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "PANJIT"
-			(at 232.41 797.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GS1J_R1_00001"
-			(at 232.41 897.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22663,6 +22578,33 @@
 			)
 		)
 		(property "Rating" "600V"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GS1J_R1_00001"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "241-GS1J_R1_00001"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "PANJIT"
 			(at 243.84 100.33 0)
 			(effects
 				(font
@@ -23045,38 +22987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "621-AP63203WU-7"
-			(at 273.05 595.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP63203WU-7?qs=u16ybLDytRZ1JqxbuLkMJw%3D%3D"
 			(at 273.05 695.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 273.05 795.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AP63203WU-7"
-			(at 273.05 895.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23104,6 +23016,33 @@
 			)
 		)
 		(property "Mouser Price QTY10" "0.71"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "AP63203WU-7"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "621-AP63203WU-7"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Diodes Incorporated"
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -23194,35 +23133,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-RCS0805100KFKEA"
-			(at 358.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 360.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCS0805100KFKEA"
-			(at 360.68 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "541-2850-1-ND"
 			(at 360.68 60.96 0)
 			(effects
@@ -23271,6 +23181,33 @@
 			)
 		)
 		(property "Rating" "150v, 500mW"
+			(at 358.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RCS0805100KFKEA"
+			(at 358.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-RCS0805100KFKEA"
+			(at 358.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Vishay / Dale"
 			(at 358.14 44.45 0)
 			(effects
 				(font
@@ -23491,35 +23428,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A226MQQNNNE"
-			(at 288.29 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 290.83 121.9263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21A226MQQNNNE"
-			(at 290.83 124.4663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" ""
 			(at 290.83 127.0063 0)
 			(effects
@@ -23568,6 +23476,33 @@
 			)
 		)
 		(property "Rating" "6.3V"
+			(at 288.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21A226MQQNNNE"
+			(at 288.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL21A226MQQNNNE"
+			(at 288.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 288.29 110.49 0)
 			(effects
 				(font
@@ -23937,33 +23872,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-CVH252009-2R2M"
-			(at 257.81 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 257.81 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CVH252009-2R2M"
-			(at 257.81 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "CVH252009-2R2MCT-ND"
 			(at 257.81 165.1 90)
 			(effects
@@ -24010,6 +23918,33 @@
 			)
 		)
 		(property "Rating" "1.3A, 80mOhms"
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CVH252009-2R2M"
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CVH252009-2R2M"
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
 			(at 257.81 152.4 0)
 			(effects
 				(font
@@ -24098,38 +24033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
-			(at 40.64 667.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
 			(at 40.64 767.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 40.64 867.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
-			(at 40.64 967.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24175,6 +24080,33 @@
 			)
 		)
 		(property "Rating" "12V, 50mA"
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PTS526 SK15 SMTR2 LFS"
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "611-PTS526SK15SMR2L"
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "C & K COMPONENTS"
 			(at 29.21 173.99 0)
 			(effects
 				(font
@@ -24431,16 +24363,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-SRP7050WA-330M"
-			(at 367.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bourns/SRP7050WA-330M?qs=9vOqFld9vZUZDPDePm2oBQ%3D%3D"
 			(at 367.03 48.26 0)
 			(effects
@@ -24448,26 +24370,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 367.03 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SRP7050WA-330M"
-			(at 367.03 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -24490,6 +24392,33 @@
 			)
 		)
 		(property "Rating" "4A, 127.6mOhms"
+			(at 350.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SRP7050WA-330M"
+			(at 350.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-SRP7050WA-330M"
+			(at 350.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
 			(at 350.52 36.83 0)
 			(effects
 				(font
@@ -24568,35 +24497,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-RCS080560R4FKEA"
-			(at 198.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 200.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCS080560R4FKEA"
-			(at 200.66 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "541-RCS080560R4FKEACT-ND"
 			(at 200.66 118.11 0)
 			(effects
@@ -24645,6 +24545,33 @@
 			)
 		)
 		(property "Rating" "150v, 500mW"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RCS080560R4FKEA"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-RCS080560R4FKEA"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Vishay / Dale"
 			(at 198.12 101.6 0)
 			(effects
 				(font
@@ -24734,16 +24661,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "511-M24C08-RMN6TP"
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/M24C08-RMN6TP?qs=%252B9pWl1iD4MWbThyGTUpSoQ%3D%3D"
 			(at 113.03 115.57 0)
 			(effects
@@ -24751,24 +24668,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "M24C08-RMN6TP"
-			(at 102.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 102.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -24791,6 +24690,33 @@
 			)
 		)
 		(property "Rating" "5.5V"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "M24C08-RMN6TP"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "511-M24C08-RMN6TP"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "STMicroelectronics"
 			(at 102.87 109.22 0)
 			(effects
 				(font
@@ -24953,35 +24879,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-SN65HVD231DRG4"
-			(at 180.34 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 168.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN65HVD231DRG4"
-			(at 168.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "296-15380-1-ND"
 			(at 168.91 113.03 0)
 			(effects
@@ -25030,6 +24927,33 @@
 			)
 		)
 		(property "Rating" "3.6V"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SN65HVD231DRG4"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "595-SN65HVD231DRG4"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instruments"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -25126,35 +25050,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805J-4.7K-E3"
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 137.16 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW08054K70JNEA"
-			(at 137.16 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "541-4.7KACT-ND"
 			(at 137.16 123.19 0)
 			(effects
@@ -25203,6 +25098,33 @@
 			)
 		)
 		(property "Rating" "150v, 125mW"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW08054K70JNEA"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-4.7K-E3"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Vishay / Dale"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -25413,35 +25335,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805J-10K-E3"
-			(at 252.73 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 255.27 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW080510K0JNEA"
-			(at 255.27 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" ""
 			(at 255.27 190.5 0)
 			(effects
@@ -25490,6 +25383,33 @@
 			)
 		)
 		(property "Rating" "150v, 125mW"
+			(at 252.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEA"
+			(at 252.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-10K-E3"
+			(at 252.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Vishay / Dale"
 			(at 252.73 173.99 0)
 			(effects
 				(font
@@ -25568,35 +25488,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
-			(at 265.43 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 267.97 58.4263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL32Y475MCIVPNE"
-			(at 267.97 60.9663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Digikey Part Number" "1276-CL32Y475KCIVPNECT-ND"
 			(at 267.97 63.5063 0)
 			(effects
@@ -25645,6 +25536,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 265.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21B105KBFNNNE"
+			(at 265.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL32B475KBUYNNE"
+			(at 265.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 265.43 46.99 0)
 			(effects
 				(font
@@ -25733,38 +25651,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "798-FH34SRJ30S05SH50"
-			(at 41.91 524.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-30S-0.5SH50?qs=vnk2wBG9e16HHwHqXDE2%252Bg%3D%3D"
 			(at 41.91 624.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Hirose"
-			(at 41.91 724.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FH34SRJ-30S-0.5SH(50)"
-			(at 41.91 824.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25810,6 +25698,33 @@
 			)
 		)
 		(property "Rating" "50V, 125mA"
+			(at 20.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "FH34SRJ-30S-0.5SH(50)"
+			(at 20.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "798-FH34SRJ30S05SH50"
+			(at 20.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Hirose"
 			(at 20.32 29.21 0)
 			(effects
 				(font
@@ -26165,7 +26080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/AutoMLCC-2952695.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 30.48 180.34 0)
 			(effects
 				(font
@@ -26176,33 +26091,6 @@
 		)
 		(property "Description" "ESP32 Enable Decoupling"
 			(at 30.48 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-AC0805JX7R9BB104"
-			(at 30.48 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 30.4863 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805JRX7R9BB104"
-			(at 30.4863 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26228,7 +26116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.065"
+		(property "Mouser Price QTY10" "0.037"
 			(at 30.48 180.34 0)
 			(effects
 				(font
@@ -26237,7 +26125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21NR71H104KT?qs=Jm2GQyTW%2Fbj%252BykwLLGtT1A%3D%3D"
 			(at 30.48 180.34 0)
 			(effects
 				(font
@@ -26247,6 +26135,33 @@
 			)
 		)
 		(property "Rating" "50V"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "KGM21NR71H104KT"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-KGM21NR71H104KT"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
 			(at 30.48 180.34 0)
 			(effects
 				(font
@@ -26307,7 +26222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/Samsung_MLCC_1837944-1929650.pdf"
 			(at 378.46 48.26 0)
 			(effects
 				(font
@@ -26322,35 +26237,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21A226MAYNNNE"
-			(at 378.46 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 381 59.6963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21A226MAYNNNE"
-			(at 381 62.2363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -26374,7 +26260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY1" "0.25"
+		(property "Mouser Price QTY1" "0.32"
 			(at 378.46 48.26 0)
 			(effects
 				(font
@@ -26383,7 +26269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price QTY10" "0.115"
+		(property "Mouser Price QTY10" "0.145"
 			(at 378.46 48.26 0)
 			(effects
 				(font
@@ -26402,6 +26288,33 @@
 			)
 		)
 		(property "Rating" "25V"
+			(at 378.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21A226MAYNNWE"
+			(at 378.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "187-CL21A226MAYNNWE"
+			(at 378.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
 			(at 378.46 48.26 0)
 			(effects
 				(font
@@ -26493,38 +26406,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "926-LM3519MK-20/NOPB"
-			(at 280.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM3519MK-20-NOPB?qs=QbsRYf82W3GbfCEf8%2FkE2A%3D%3D"
 			(at 280.67 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 280.67 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LM3519MK-20/NOPB"
-			(at 280.67 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26572,6 +26455,33 @@
 			)
 		)
 		(property "Rating" "5.5V"
+			(at 266.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "LM3519MK-20/NOPB"
+			(at 266.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "926-LM3519MK-20/NOPB"
+			(at 266.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instruments"
 			(at 266.7 166.37 0)
 			(effects
 				(font

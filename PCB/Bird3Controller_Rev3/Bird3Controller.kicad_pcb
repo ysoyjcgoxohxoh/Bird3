@@ -433,42 +433,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2017e4a5-c933-4f44-9aad-d21193e5c6d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL32Y475MCIVPNE"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30835727-f5ef-4605-8b26-cdaae6e2eb89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a96f1fae-970b-4d19-96c6-30ff43f04467")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price QTY1" "0.36"
 			(at 0 0 180)
 			(unlocked yes)
@@ -514,6 +478,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdc623d3-8331-44df-8815-ae2d0eb77a79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL32B475KBUYNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e890409-09e3-41c6-8cf5-eb347e5f1482")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "187-CL32B475KBUYNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d99ff68-4d30-4a88-ad8a-a4ffd553e06c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0b18ec8-a6a0-409b-9b69-a8902db4f02c")
 			(effects
 				(font
 					(size 1 1)
@@ -755,42 +758,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at -1.85 -7.55 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ee4deb4-4d49-470c-b4ec-4f370f2681e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTS636 SK43 SMTR LFS"
-			(at -1.85 -7.55 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "449fca85-dbc6-43e5-8b39-8a592af8ce9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "611-PTS636SK43SMTRLF"
-			(at -1.85 -7.55 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9a63352-53a9-4371-960f-74778df1bef9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CK/PTS636-SK43-SMTR-LFS?qs=vLWxofP3U2wsQpQ593zsYw%3D%3D"
 			(at -1.85 -7.55 0)
 			(layer "F.Fab")
@@ -835,6 +802,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eafab859-5239-4043-99f5-f54dc9915a86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "PTS636 SK43 SMTR LFS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c0bad1c-db30-45f1-9e43-05e0240de104")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "611-PTS636SK43SMTRLF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dac4431-398e-4725-946a-f30571ff5c0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "C & K COMPONENTS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e67a0040-ac14-4832-9ded-86219124363d")
 			(effects
 				(font
 					(size 1 1)
@@ -1614,42 +1620,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbb17ee8-d0e1-4462-8807-3d85d329dfc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SD0805S020S1R0"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d16f1d9e-7b9a-479d-825c-081858f825ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "581-SD0805S020S1R0"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91bb514e-55f2-431a-880d-293178205551")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price QTY1" "0.32"
 			(at 0 0 90)
 			(unlocked yes)
@@ -1695,6 +1665,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67883af6-f781-4fd6-8118-e7c7b13924c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "SD0805S020S1R0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3899d21-8ea0-49ae-a5ec-ec532ca50ab6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "581-SD0805S020S1R0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4ca5579-c844-42e5-ae2e-258021b29e51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5837dd6e-954d-4b66-b90e-627a885a20c1")
 			(effects
 				(font
 					(size 1 1)
@@ -1958,42 +1967,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3bdefd24-a824-45b0-ac07-66b62afa5c6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRT21BR61C226ME13L"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b337af1b-9738-452b-8dd3-7dc05fdf3ed7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "81-GRT21BR61C226ME3L"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "acae9c67-dd25-4325-9bac-b5258f89206a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price QTY1" "0.39"
 			(at 0 0 180)
 			(unlocked yes)
@@ -2039,6 +2012,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ad97706-363f-419a-9980-b20626fb1e6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "GRT21BR61C226ME13L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f3ccea5-f1fb-467e-89e5-dcbbbd32d455")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "81-GRT21BR61C226ME3L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "295a9004-5d24-486c-840c-f66c5123b1c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Murata Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe975a07-dbca-40c2-bbce-1ad32234627a")
 			(effects
 				(font
 					(size 1 1)
@@ -2408,42 +2420,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "80099adb-d3b0-477e-8434-ec819858ea9f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CVH252009-2R2M"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44c7f73d-5a84-4186-8686-c1ed9240a708")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "652-CVH252009-2R2M"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "56cc7357-635b-4bd6-bc3c-51797709a565")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price QTY1" "0.11"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -2489,6 +2465,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d779546-1950-4dd8-96ca-487f326148a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CVH252009-2R2M"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93ce433b-8159-4308-aca0-6a2068bb00a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "652-CVH252009-2R2M"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3361e89c-b21b-43a7-9ce1-e61b04fc844f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "622633fc-e8dd-4f8c-a326-bdbe606478fa")
 			(effects
 				(font
 					(size 1 1)
@@ -2730,42 +2745,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a794aef2-25bf-4294-a311-385bcfc149cd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LM3519MK-20/NOPB"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8631367b-6140-4513-be00-fc77f8ddaed7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "926-LM3519MK-20/NOPB"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d4cf475-7fae-4d21-99dc-4fc5a18a93d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM3519MK-20-NOPB?qs=QbsRYf82W3GbfCEf8%2FkE2A%3D%3D"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -2810,6 +2789,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d58f1ab-052d-4669-a16b-b2d734b92b94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "LM3519MK-20/NOPB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a3069b3-cc31-4782-96c7-782a043b6ff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "926-LM3519MK-20/NOPB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b30bf30-c1a8-45cd-b924-b866c50c4aae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b3c388b-8368-4418-b090-ff2f00076a5a")
 			(effects
 				(font
 					(size 1 1)
@@ -3128,42 +3146,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Espressif Systems"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00d83e2b-cf00-433c-adcb-8318322b14a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESP32-S3-WROOM-1-N8R8"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f58acaee-44ce-4a66-a709-c1c27c6d01a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "356-EP32S3WROOM1N8R8"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75d5605f-89c2-41f2-abf0-2ae2869b462e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price QTY1" "3.62"
 			(at 0 0 0)
 			(unlocked yes)
@@ -3209,6 +3191,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7494687-ca56-411c-b166-0171bf994f4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "ESP32-S3-WROOM-1-N8R8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa1aac21-f944-44ab-b142-48cdc8dcad0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "356-EP32S3WROOM1N8R8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c66c017e-db13-44f4-87b6-f927931d8765")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Espressif Systems"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "debcdc21-e1b6-4832-adbf-53ba30ec45ee")
 			(effects
 				(font
 					(size 1 1)
@@ -3988,45 +4009,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805J-4.7K-E3"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f03973a6-6091-46fc-967c-bf69509fa07a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05d1f436-aa14-42aa-8b01-7907afa61992")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW08054K70JNEA"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "731b7203-4571-4a48-8e17-a89faf6f49ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Digikey Part Number" "541-4.7KACT-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -4098,6 +4080,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd5d18e0-5f51-4b5e-86ac-36b76c8335e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CRCW08054K70JNEA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ca92ff7-62c4-4546-9f9b-e2fac0f2b556")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-4.7K-E3"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39b947cb-0cc7-44c1-ba29-a1ec29a4b84c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Vishay / Dale"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8081aca9-fe43-4b37-9cad-2728fd11d5ee")
 			(effects
 				(font
 					(size 1 1)
@@ -4291,7 +4312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/UPY_AC_NP0X7RX7S_6_3V_to_2KV_18-3003021.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4327,42 +4348,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ddddaff7-650a-43ab-82d7-9d8440da27c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805JRX7R9BB104"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a6d406c-d72f-4fa4-81cd-054a28f1548c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "603-AC0805JX7R9BB104"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "899a28c9-0544-4d98-a5a8-e08853408b3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price QTY1" "0.10"
 			(at 0 0 180)
 			(unlocked yes)
@@ -4376,7 +4361,7 @@
 				)
 			)
 		)
-		(property "Mouser Price QTY10" "0.065"
+		(property "Mouser Price QTY10" "0.037"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4389,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21NR71H104KT?qs=Jm2GQyTW%2Fbj%252BykwLLGtT1A%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4408,6 +4393,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "906bfacb-112a-4984-8777-e5f12c39a072")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "KGM21NR71H104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51b35532-9a05-4663-a456-2b555f107604")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "581-KGM21NR71H104KT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bbdeadf-7a85-437b-af0c-740fa98408fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99770ab3-b88e-4cec-9101-82b0b0d29371")
 			(effects
 				(font
 					(size 1 1)
@@ -4625,45 +4649,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805J-4.7K-E3"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09bd46b6-5d37-499a-b1ec-30dd863ab53f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca071f41-42eb-4953-9630-a345e51e753e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW08054K70JNEA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef02b942-49f1-433e-9645-1ad76611704f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Digikey Part Number" "541-4.7KACT-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -4735,6 +4720,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "acc7c2f8-c53b-4f4d-8481-0637fa050dfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CRCW08054K70JNEA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1ff954c-37ae-4599-871d-8a166a9d4e68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-4.7K-E3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "128567ef-ac92-4e6d-b1f5-1a79c28b1549")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Vishay / Dale"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "201d5a4f-27ce-401e-955f-9ed47cef1720")
 			(effects
 				(font
 					(size 1 1)
@@ -4966,51 +4990,12 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "511-M24C08-RMN6TP"
-			(at -1.85 -7.55 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5c4fae5b-23d8-4da9-96f1-5745d7a2b2c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/M24C08-RMN6TP?qs=%252B9pWl1iD4MWbThyGTUpSoQ%3D%3D"
 			(at -1.85 -7.55 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb1b0f2d-3364-4e6d-8310-21bcc843e869")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "M24C08-RMN6TP"
-			(at -1.85 -7.55 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "98a44222-77c7-4d47-9fc1-3c7620d3879a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at -1.85 -7.55 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "efd185f6-057a-46af-93aa-64c8f4956437")
 			(effects
 				(font
 					(size 1 1)
@@ -5050,6 +5035,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1c75763-4b98-4578-8f06-cc15e77313fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "M24C08-RMN6TP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73e89bab-9c1e-4bf4-a2d3-dbd50f052fd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "511-M24C08-RMN6TP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d2f893f-b167-4eda-a778-cbe8d718ce31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "STMicroelectronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9c2a471-14a2-4107-980e-b937ad9d3f93")
 			(effects
 				(font
 					(size 1 1)
@@ -5386,43 +5410,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fc38447a-ed72-4e65-a6d1-23f731d86198")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B105MBFNNNE"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ee9f07f-ca0e-481d-b8cb-e918811169c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21B105MBFNNNE"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ffdbe37d-307e-4ed9-b24f-9ae63d25a8ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price QTY1" "0.10"
+		(property "Mouser Price QTY1" "0.11"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5435,7 +5423,7 @@
 				)
 			)
 		)
-		(property "Mouser Price QTY10" "0.027"
+		(property "Mouser Price QTY10" "0.045"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5448,7 +5436,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105MBFNNNE?qs=Znm5pLBrcAIRYa0zX3s5Qw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5467,6 +5455,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af24d6cb-2c98-43aa-bd53-78c00f453713")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL21B105KBFNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "863bc36a-5f40-4489-8edc-f860c736d789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "187-CL21B105KBFNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94f19b37-f8e6-43ef-8dff-b70a400b8453")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "353fecc1-1bbc-46e5-826e-bc2d4ef5ac5c")
 			(effects
 				(font
 					(size 1 1)
@@ -6103,42 +6130,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Hirose"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3cc0e6f1-5be2-48c7-bd54-59e65eb944c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FH34SRJ-30S-0.5SH(50)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed2231fa-8014-43ed-a917-6834c7b1e7d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "798-FH34SRJ30S05SH50"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e15fe8d9-8798-4461-a906-04b81f5ec278")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-30S-0.5SH50?qs=vnk2wBG9e16HHwHqXDE2%252Bg%3D%3D"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -6183,6 +6174,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "23179331-feb8-4498-a21d-f059d431fa6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "FH34SRJ-30S-0.5SH(50)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbf0400c-5fb2-401c-a5fc-66019b045d14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "798-FH34SRJ30S05SH50"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc1aa8b0-d9ab-4500-81d3-a87c0e3e8b64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a19d82b-428d-4d03-a85e-0382f834b28e")
 			(effects
 				(font
 					(size 1 1)
@@ -7143,42 +7173,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d34ca7b-8687-4e4b-866e-7a990455963e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW080510K0JNEA"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5fe3d91-3cf5-46fb-90b2-e565e3e255e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805J-10K-E3"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "69adefa7-4c76-473a-b564-7bc8e6c7f0c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser Price QTY1" "0.10"
 			(at 0 0 0)
 			(unlocked yes)
@@ -7224,6 +7218,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b7ea88a-4e94-48c5-8fb3-ac4c2d69176e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdcbc441-5165-413c-a003-2e9132ff99a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-10K-E3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e6fb288-3634-49ec-8e47-910bd78b8c79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Vishay / Dale"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a15c7b6-1ae7-480f-ac70-8b066c144e05")
 			(effects
 				(font
 					(size 1 1)
@@ -7832,45 +7865,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "BelFuse"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e233ba11-dc38-4560-a28f-780d5949983e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0ZCF0100AF2A"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2c369079-5639-4f6d-b818-cb5653e89625")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "530-0ZCF0100AF2A"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1f773f03-f42b-4f4d-9711-1218b9fbbfca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bel-Fuse/0ZCF0100AF2A?qs=jyPKP7YLNfDyY7GbSCl%252BVQ%3D%3D"
 			(at 0 0 0)
 			(layer "B.Fab")
@@ -7918,6 +7912,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fc5db8f6-b83b-4554-bcea-333baa5e16a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "0ZCF0100AF2A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "62ad05c6-440a-4dff-b2ed-7aa45d7cbcd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "530-0ZCF0100AF2A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ffd47a16-7558-4529-bac5-0c1296420417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "BelFuse"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2af09956-8365-4736-b412-ad9227c51c3c")
 			(effects
 				(font
 					(size 1 1)
@@ -8155,45 +8191,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3206b08e-93c9-49c0-8fbd-2c307382714f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SD0805S020S1R0"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ba2ab407-58e3-4f02-8375-72cb55b5960d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "581-SD0805S020S1R0"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5ebf0c54-460c-489c-9cf8-5da910331980")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.32"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -8242,6 +8239,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f2821eb4-d4f8-45f4-8bc4-d9482b986332")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "SD0805S020S1R0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "904452b8-5452-4252-87b7-d7b193cc17e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "581-SD0805S020S1R0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f0426cdb-fcd0-491a-8fa0-1a16451fc612")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "528a9ad0-7422-486d-8f3d-aa426e222379")
 			(effects
 				(font
 					(size 1 1)
@@ -8488,48 +8527,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "71-RCS0805100KFKEA"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f2ab1786-71cd-4792-aa83-a14d461ca89e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "30040775-2534-4be3-885b-862fbd74b293")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCS0805100KFKEA"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a666cb90-a438-4c41-8543-5e1e11562bbe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Digikey Part Number" "541-2850-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -8606,6 +8603,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8af0a4d4-794c-4ff7-b27f-74783163c850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "RCS0805100KFKEA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cb77b4bc-b2c9-4969-878f-ac240a0c5a40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "71-RCS0805100KFKEA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d1c71a6-5535-4a65-be93-16c7c8eea85c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Vishay / Dale"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e058033-f477-4f86-9893-422af901fb36")
 			(effects
 				(font
 					(size 1 1)
@@ -8867,45 +8906,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "30460aa8-3c29-403c-b4e4-38283eca91f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b1a42b3a-3c80-4c57-a077-127d63d2a9bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d337072f-86b4-46f0-9053-331f883180aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
 			(at 0 0 0)
 			(layer "B.Fab")
@@ -8953,6 +8953,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9fe7039a-8f2a-4279-8e0c-e525cde55655")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "PTS526 SK15 SMTR2 LFS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "24f9e467-dd05-40f7-842e-838aab4e22e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "611-PTS526SK15SMR2L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3f6c6602-566f-43e3-bc2c-029e97e7cb00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "C & K COMPONENTS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4a064c63-b64a-4dea-a65a-a64bf7910b3e")
 			(effects
 				(font
 					(size 1 1)
@@ -9333,45 +9375,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2a7ad0ed-6352-4416-adfd-9d63bcbe11d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL32Y475MCIVPNE"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "efa55f34-e41f-40a5-850a-dbf7f4a71e32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e3f6d590-951b-4712-958a-7801512d7e9a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.36"
 			(at 0 0 180)
 			(unlocked yes)
@@ -9420,6 +9423,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6d8ed633-d36e-4866-998a-c01491387ff3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CL21B105KBFNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a79e2eaf-d035-40fa-b923-14e7e7a38ecd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "187-CL32B475KBUYNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bf8989b1-a645-4da6-8c84-951c0f6708f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bdb5477a-d2f1-453b-838d-3346f0902586")
 			(effects
 				(font
 					(size 1 1)
@@ -9644,34 +9689,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "4090"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9412d0fc-88a7-4e4a-869d-67920be046e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Adafruit"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "438901ae-a190-4e89-9c22-afaf9c7ad53a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "2.95"
 			(at 0 0 180)
 			(unlocked yes)
@@ -9700,20 +9717,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "485-4090"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9c8fa9cb-51d2-44f4-9615-228430068893")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Adafruit/4090?qs=2WXlatMagcFDROXrdbBXdg%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -9734,6 +9737,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "78bac7e3-9e96-43bb-bf88-b1769b6a5166")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "4090"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ca619418-62ff-45bb-9573-40e5b78b7ea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "485-4090"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6598921f-1b21-4098-924d-d94255ce62f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Adafruit"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed227024-5900-4940-9591-2b286eb770f1")
 			(effects
 				(font
 					(size 1 1)
@@ -10642,45 +10687,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e5dd8177-4acb-4317-b3a1-83715112805e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCS080560R4FKEA"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0e240333-e26f-490d-b35c-a6e281072052")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "71-RCS080560R4FKEA"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "345d464c-5943-43ae-b545-33e48bfb6910")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.13"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -10729,6 +10735,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7832d241-f6b9-41db-b5d5-ec7c9c16c6e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "RCS080560R4FKEA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b19d5707-07f6-41a4-8092-fad7abbe5d28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "71-RCS080560R4FKEA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ea18c1a5-0b26-464b-a2f2-cff43b7bab4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Vishay / Dale"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "85bb6eb0-e973-40d8-8fea-390582a8ef85")
 			(effects
 				(font
 					(size 1 1)
@@ -10977,45 +11025,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a2898207-2c67-48ad-a276-f56aaf73216e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LMR36520ADDAR"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2ac0a7c6-d6ba-4317-86b4-bb32a0340bae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "595-LMR36520ADDAR"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6fb6b474-ea04-47e4-8cfc-a5d94fd024c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "2.72"
 			(at 0 0 0)
 			(unlocked yes)
@@ -11064,6 +11073,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "77097a25-0b56-47ec-ba82-2b0098f8ec9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "LMR36520ADDAR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7e22698e-6de8-4429-b825-c940ef36f031")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "595-LMR36520ADDAR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b74ab5a2-d64d-4edf-a562-2864806f1c79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b485b47a-ed46-4090-b6e7-2561b75c5350")
 			(effects
 				(font
 					(size 1 1)
@@ -11380,45 +11431,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "TE Connectivity / CGS"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "293c7dec-d2af-477c-af68-9a4f0679ead6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RLC73K2AR20FTDF"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "54a7edaa-54c3-4994-b390-297b89449fd5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "279-RLC73K2AR20FTDF"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "716da98d-3213-4104-bf3f-9b2a304e2839")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.26"
 			(at 0 0 90)
 			(unlocked yes)
@@ -11467,6 +11479,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4fe0b3de-1485-4a50-926d-76ef1701c988")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "RLC73K2AR20FTDF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9975bd82-7691-4944-ab0b-990538af5789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "279-RLC73K2AR20FTDF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3a139b0c-8513-47c4-b227-4e05f81ee20b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "TE Connectivity / CGS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "810750ec-87b0-4d1d-8fec-2b618a9c4c50")
 			(effects
 				(font
 					(size 1 1)
@@ -11702,45 +11756,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "84e45314-233f-47dd-9661-70359e91d0c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "87832-6062"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "29c940ef-b84f-420e-ae7a-7e08c3bfb10b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "538-87832-6062"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "958df9a0-8310-451b-b82f-60e3d376ad7f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Molex/87832-6062?qs=yd8XiKYcH9k38KQb4jjFuQ%3D%3D"
 			(at 0 0 0)
 			(layer "B.Fab")
@@ -11788,6 +11803,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c31f8a59-4573-4ce6-9c40-1da6a04fd4e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "87832-6062"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4363ae81-ccaa-48fa-be3c-64f591678e0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "538-87832-6062"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57cb9753-b79c-459a-a739-8ba54aaa02d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Molex"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fbfb2237-af08-47d6-8046-e0a52c555e72")
 			(effects
 				(font
 					(size 1 1)
@@ -12267,48 +12324,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A226MQQNNNE"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cfe2045c-6728-4348-8304-f9f0f8783732")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8248c66d-2c68-45db-8f78-06c8d47bcb72")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21A226MQQNNNE"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "77292ada-6224-474b-9fa5-f137d66c5933")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Digikey Part Number" ""
 			(at 0 0 -90)
 			(unlocked yes)
@@ -12385,6 +12400,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9868b61d-c396-43b9-822e-dba1605865ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CL21A226MQQNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04aa520b-3f11-4c17-8ffe-67df5316f078")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "187-CL21A226MQQNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be14e4e1-e524-49da-b0fd-f164a828e657")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec0142a9-f503-4948-ab66-0d2c197a4ab3")
 			(effects
 				(font
 					(size 1 1)
@@ -13644,54 +13701,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "621-AP63203WU-7"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4ed9e123-1a67-4dfe-a017-e91cbcfec464")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP63203WU-7?qs=u16ybLDytRZ1JqxbuLkMJw%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2bcba09f-9c0f-429d-9742-fa10f5c139a4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b5ca0311-2b2e-412f-b307-ff91b6909bc9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AP63203WU-7"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5d334bab-82dd-4790-a379-29671f1d7c52")
 			(effects
 				(font
 					(size 1 1)
@@ -13734,6 +13749,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3bb37dda-453c-4e10-b11b-1e7dd9c8941b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "AP63203WU-7"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57c76323-5f05-4b84-8d07-3ec09a72659a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "621-AP63203WU-7"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "41a81c0d-4356-49d1-90f5-921d33547a9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Diodes Incorporated"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2b0980ba-afde-40a7-a79c-3e8c7761f13b")
 			(effects
 				(font
 					(size 1 1)
@@ -14029,45 +14086,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "79606ac1-941c-4efd-9334-b2d57f2a2a14")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SRR1240-101M"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "00593a3e-b8b9-4bea-b233-2d3217df136e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "652-SRR1240-101M"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bd4bc97b-3d85-420a-a2e4-c398b354033f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.64"
 			(at 0 0 0)
 			(unlocked yes)
@@ -14116,6 +14134,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8daff039-665a-4815-8401-38924581c5a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "SRR1240-101M"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b3a77486-f44b-49bc-a1a7-ffd38293f989")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "652-SRR1240-101M"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3c052a32-1079-46f7-a5d2-87c1e43ef789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71096e69-cf6e-4c78-b495-d19433669a56")
 			(effects
 				(font
 					(size 1 1)
@@ -14532,7 +14592,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/UPY_AC_NP0X7RX7S_6_3V_to_2KV_18-3003021.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14571,45 +14631,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "edb73337-079d-4d26-a0c6-8e3b01c260d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805JRX7R9BB104"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "91671669-b3c9-4afe-a7ff-05020341e324")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "603-AC0805JX7R9BB104"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cedb1ed1-a6d1-43b1-ab31-95dce43c68bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.10"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -14624,7 +14645,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY10" "0.065"
+		(property "Mouser Price QTY10" "0.037"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14638,7 +14659,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21NR71H104KT?qs=Jm2GQyTW%2Fbj%252BykwLLGtT1A%3D%3D"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14658,6 +14679,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5b8e8387-a10e-4271-9362-e0b61a3c16ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "KGM21NR71H104KT"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3abfd26d-9a46-417c-aa5f-1af7a12845f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "581-KGM21NR71H104KT"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "22f99c72-7582-4efc-9eb0-03ca4bc074b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "67444e00-0f1e-429e-a976-861e5c5ca703")
 			(effects
 				(font
 					(size 1 1)
@@ -14908,45 +14971,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 180)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e3c472e1-8e51-438d-85f4-6a77e75006c4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B224KBFNNNG"
-			(at 0 0 180)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9cf62842-0741-4436-a072-14e44889e9c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21B224KBFNNNG"
-			(at 0 0 180)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5d6e504d-27eb-40a1-a6b5-a8c5157878f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.10"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -14995,6 +15019,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3f046889-797a-40a4-b56e-7392296f0de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CL21B224KBFNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a40e8d23-62ff-4c3b-9851-c42271bb25db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "187-CL21B224KBFNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "621e7424-727d-4983-8394-de70d032af5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f12f666-faf3-4630-96c3-44884d7d016e")
 			(effects
 				(font
 					(size 1 1)
@@ -15193,7 +15259,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/Samsung_MLCC_1837944-1929650.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15245,46 +15311,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8580f873-7e4a-4c5f-9d0a-d1be87ae2c01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21A226MAYNNNE"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "08ac3b80-e27c-4055-9336-ad451eea70fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21A226MAYNNNE"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4f327d01-5e41-461a-b8cb-5e98cd05f528")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Price QTY1" "0.25"
+		(property "Mouser Price QTY1" "0.32"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15298,7 +15325,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY10" "0.115"
+		(property "Mouser Price QTY10" "0.145"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15332,6 +15359,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "502445b2-d0cd-48f4-99e8-110b4cfe0634")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CL21A226MAYNNWE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "14dce3d1-e5bd-4ed2-bf67-ff412c556782")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "187-CL21A226MAYNNWE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80245e5c-ca24-49ed-871e-059ce6241076")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b3af0d15-a852-49a6-ad04-24f1d2a70972")
 			(effects
 				(font
 					(size 1 1)
@@ -15571,54 +15640,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "241-GS1J_R1_00001"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8d21a025-9dc6-4d46-81c8-d1a0bdd7848d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Panjit/GS1J_R1_00001?qs=sPbYRqrBIVmiablUMOUd0Q%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2daf49ad-6aaf-414c-b2e2-fc2757e2990a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "PANJIT"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "49809d1b-a98c-4d03-9c83-14c7a9410792")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GS1J_R1_00001"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e1f5f4ca-d2f7-4067-9268-c46d0d4e3db4")
 			(effects
 				(font
 					(size 1 1)
@@ -15689,6 +15716,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ecb026db-1d83-46c5-abea-ff37ccbc9120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "GS1J_R1_00001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8062f3a1-a827-43b4-8370-2e64de53c33f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "241-GS1J_R1_00001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8b6416b6-48d9-42d2-8c4f-bb1fd50d1cb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "PANJIT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bef14afb-67cc-41ed-a3b0-35b843e033cd")
 			(effects
 				(font
 					(size 1 1)
@@ -15948,45 +16017,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "553b130d-8a23-4f99-9752-0b21ff250571")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW08054K70JNEA"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a0313ab9-d45c-4509-9021-71ed50dfb14c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805J-4.7K-E3"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a0acea5a-03fd-41f1-8858-8e3e67c39511")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.10"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -16035,6 +16065,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6d2dc44c-8f3d-4b19-9efc-10cec02d11d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CRCW08054K70JNEA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7250be0b-67af-4f3d-9433-713cab35dd53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-4.7K-E3"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f9b0daff-70b8-4da7-a26c-ddfa694aa13f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Vishay / Dale"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b415efd2-731b-4015-8d57-bb93e92ef6c8")
 			(effects
 				(font
 					(size 1 1)
@@ -16285,45 +16357,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1d9167f6-3e80-4e4e-8d8a-4aae6c4b247a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCS080560R4FKEA"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7e082935-6c82-4e29-91a1-54a59e1945b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "71-RCS080560R4FKEA"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7c2a48f4-e0f3-4a59-8856-9714c56cacc9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.13"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -16372,6 +16405,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "300f1971-d971-479d-933d-de85a5ae5a58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "RCS080560R4FKEA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30ab4760-1f7b-4555-87f7-fc3445967c5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "71-RCS080560R4FKEA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "87ba44b7-9028-4263-b0ea-103270cad0b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Vishay / Dale"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "37b421a9-2a9f-43d2-8ae1-a7696bf34c4e")
 			(effects
 				(font
 					(size 1 1)
@@ -16596,48 +16671,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT21BC71E106KE13"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a909c0c2-0443-4eb3-8e74-4699711e9241")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "87710d5d-238b-43b6-bfae-224ed586d1de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRT21BC71E106KE13L"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cdb0274e-24df-4acd-8a98-66ca4e74eb92")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Digikey Part Number" "490-GRT21BC71E106KE13LCT-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -16714,6 +16747,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f158a5d9-2c72-40e7-82cc-3d64b5b8b272")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "GRT21BC71E106KE13L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f656216-dfe1-4736-aa46-c606913544ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "81-GRT21BC71E106KE13"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a4668e0f-2fd8-48de-9c95-0888f760e5e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a0b28d4f-3001-4d7c-b74a-3fc312467966")
 			(effects
 				(font
 					(size 1 1)
@@ -16953,54 +17028,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "241-GS1J_R1_00001"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a7aa042b-2ff2-4efb-bd4c-b93dce0b5454")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Panjit/GS1J_R1_00001?qs=sPbYRqrBIVmiablUMOUd0Q%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bf140da9-51b5-4e3e-a148-439a179a1a56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "PANJIT"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ee36d1fd-674d-4f72-8f62-24b89e7794e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GS1J_R1_00001"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "51704911-3cac-47d4-97b7-9cb9f35f972c")
 			(effects
 				(font
 					(size 1 1)
@@ -17071,6 +17104,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "84b38993-cd13-487b-9c20-b73ff1e71525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "GS1J_R1_00001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1dfc22c7-0a5c-4b59-97b8-a547e8c9407f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "241-GS1J_R1_00001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c38d74e-0a0a-44d4-abe8-06924856ddba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "PANJIT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c068a528-6474-426d-ae84-6f03473cf6ae")
 			(effects
 				(font
 					(size 1 1)
@@ -17330,45 +17405,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ec9c1f9e-ec90-42e6-b2f8-08bd671078b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C472K4T4A"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ef177edb-9ac4-4cef-a62a-3c7212e26f76")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "581-08055C472K4T4A"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "afbb0449-2548-4532-a040-96df673d1c0a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.10"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -17417,6 +17453,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "477aac4f-4f5a-43bc-8b14-3efee747bd01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "08055C472K4T4A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "195ad321-599f-4b05-89df-1f1f9dd5235c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "581-08055C472K4T4A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4310c3dc-6c31-4ea3-9e86-1a5f7c1ec0a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8623b46e-5b13-43e8-a122-b8d6ae920225")
 			(effects
 				(font
 					(size 1 1)
@@ -17667,45 +17745,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f28362a0-84fe-4c25-80aa-baf55b819f5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRT21BC71E106KE13L"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1e09be3f-f059-4909-b30f-522726a0b95f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "81-GRT21BC71E106KE13"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c7569bd5-b880-463d-abae-c4307c529bea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.35"
 			(at 0 0 180)
 			(unlocked yes)
@@ -17754,6 +17793,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3ad92eb7-4165-48e7-8353-6219ae1b469d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "GRT21BC71E106KE13L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9083d70c-b660-4b37-9a04-945949535865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "81-GRT21BC71E106KE13"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "235f4dce-7290-4554-a627-ce850c1c1150")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Murata Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e2322460-d8ed-45b0-b1f2-2f4fe226daad")
 			(effects
 				(font
 					(size 1 1)
@@ -18015,45 +18096,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a1b57d2e-fe08-458a-9b32-9d3e8255980a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2dc85c64-5241-4462-82ff-10b578d3f0e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8636b32a-0188-4423-b744-2172b14231b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
 			(at 0 0 0)
 			(layer "B.Fab")
@@ -18101,6 +18143,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6f44759a-0d1d-4baf-a46e-dd0057f74fed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "PTS526 SK15 SMTR2 LFS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "27bfa8e8-d12d-45f4-8d9d-d4206abd9990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "611-PTS526SK15SMR2L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c1074230-ba2b-484a-8d98-0c60935fff2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "C & K COMPONENTS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d34a208b-71ff-4269-91d3-6a258dc75bbf")
 			(effects
 				(font
 					(size 1 1)
@@ -18468,45 +18552,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c3f37875-82c3-4870-b961-0b21fa3415cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW08057K15FKEAC"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1b0dac4f-23f7-49b1-8de1-f5471f101285")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW08057K15FKEAC"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "78afd1b2-7444-4864-bb4f-e3dfeaf79248")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.11"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -18555,6 +18600,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3474cf5a-9b09-40c8-ad12-eb9310cacd6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CRCW08057K15FKEAC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d9d93e03-5b70-458b-a7a7-7c4f18a3b198")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "71-CRCW08057K15FKEAC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a3d6e53d-3d00-441d-9e09-992ae7792571")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Vishay / Dale"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4bd744f2-167a-4eb5-aa20-0b7a5176c1fd")
 			(effects
 				(font
 					(size 1 1)
@@ -18794,54 +18881,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "963-MAMK2520H2R2M"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "96560889-d802-4063-89d6-305345309b15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/MAMK2520H2R2M?qs=4JX4e57RtWy63Hw12ZxQ0w%3D%3D"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bd78189e-0eab-457a-9dca-cf3e9bf947bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "06346b90-a1f6-462a-b9ab-ef6ecc7f7bf4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MAMK2520H2R2M"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "79adea8d-0e20-42d3-b367-158beb0e4da2")
 			(effects
 				(font
 					(size 1 1)
@@ -18884,6 +18929,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3833b28c-3b97-4222-9372-1d653a7a5ab9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "MAMK2520H2R2M"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "822990b0-46b0-4dbc-b9a1-22dc2eb02e71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "963-MAMK2520H2R2M"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6176eb96-4097-4fac-bfa5-d2e06de1b85c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "TAIYO YUDEN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f82a143-5c8e-481e-b929-17bca08b7766")
 			(effects
 				(font
 					(size 1 1)
@@ -19069,7 +19156,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/AutoMLCC-2952695.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19108,45 +19195,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "56fa7aab-2130-4cf4-849f-5a4cb79916a8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805JRX7R9BB104"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1bc378cb-626e-4d50-8ca3-fda27e9f0687")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "603-AC0805JX7R9BB104"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6590fb30-59cb-4a2e-a535-e94c73d07486")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.10"
 			(at 0 0 90)
 			(unlocked yes)
@@ -19161,7 +19209,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY10" "0.065"
+		(property "Mouser Price QTY10" "0.037"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19175,7 +19223,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21NR71H104KT?qs=Jm2GQyTW%2Fbj%252BykwLLGtT1A%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19195,6 +19243,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "402f4239-a65b-4c61-894d-2d8073a693ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "KGM21NR71H104KT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a6d380d6-20a0-4a75-8752-9597f4de0a37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "581-KGM21NR71H104KT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "46996bfc-c714-4ca8-bf93-4b12086f6319")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a09d5d4d-bbd1-491d-96f1-c1adc7ac2866")
 			(effects
 				(font
 					(size 1 1)
@@ -19436,45 +19526,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3b85536c-f43f-443e-ab38-366504e41c6f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SRP7050WA-330M"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "97f40c02-191d-4573-9afd-6c64e7bbf291")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "652-SRP7050WA-330M"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bbf653a2-8ce9-4785-a53f-56f255060044")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Bourns/SRP7050WA-330M?qs=9vOqFld9vZUZDPDePm2oBQ%3D%3D"
 			(at 0 0 0)
 			(layer "B.Fab")
@@ -19522,6 +19573,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f8f28f05-9989-439a-a9bc-9f642f822f38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "SRP7050WA-330M"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8cf7ab9b-7b3b-4a22-9266-0cd9214c82c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "652-SRP7050WA-330M"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3f3419aa-9c19-456e-8430-7a168731ace6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d88cc118-266f-42bb-8133-77942defdfa7")
 			(effects
 				(font
 					(size 1 1)
@@ -19770,45 +19863,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay / Dale"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bdc59f25-7b1e-4ba4-8f85-cb842d54d44b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW080510K0JNEA"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b3d9c338-6d19-479d-87f8-61e9600624c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805J-10K-E3"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cd29b387-2056-4e89-af1f-8ea8acc236ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.10"
 			(at 0 0 180)
 			(unlocked yes)
@@ -19857,6 +19911,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f747d6c0-7cfa-44db-9861-d436dff2d20e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "810a9daf-9e7c-4935-ab41-9738109d98f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "71-CRCW0805J-10K-E3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce40c5ff-2304-4562-9c1e-69853daaa6f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Vishay / Dale"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30b197ae-b100-4328-a1cd-e5a0e9de38c6")
 			(effects
 				(font
 					(size 1 1)
@@ -20104,45 +20200,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6d57b0bc-60e3-4419-9a79-bfbe94b71ed5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN65HVD231DRG4"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "39589603-9c31-4321-81a6-0a19d160675d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "595-SN65HVD231DRG4"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "48d7ed9b-3940-437f-b825-8070ac6880e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "2.51"
 			(at 0 0 180)
 			(unlocked yes)
@@ -20191,6 +20248,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f1cf9d17-f77c-47a4-9939-0de87fa0a993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "SN65HVD231DRG4"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "55e366de-15d4-4354-a6f7-9698817d21af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "595-SN65HVD231DRG4"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2b2fd73b-c23e-4cb1-add7-afcd73af15b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ade830a6-1ef0-436f-9c26-8ed783dbf754")
 			(effects
 				(font
 					(size 1 1)
@@ -20516,47 +20615,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "621-AL8862SP-13"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "67493cb9-8c1b-4fee-a83b-7648fef8d4cd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AL8862SP-13"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6983a087-d253-4e5e-9ded-1ef709672e4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "22b8db59-09c4-4119-bed7-0e165df0b74f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.93"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -20605,6 +20663,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "90aa55a2-7fa0-4485-829b-ad7c5c7e8069")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "AL8862SP-13"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8765a448-a6f2-4851-967f-6a2d94bdbf6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "621-AL8862SP-13"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d11e7385-6fe2-4623-b181-00a11228b98d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Diodes"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "95f0710a-8f43-41c2-ae36-d38b429f1df4")
 			(effects
 				(font
 					(size 1 1)
@@ -20926,45 +21026,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b0f4aebc-1a55-4cfd-a99c-c0511a524cf0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "87832-6123"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "62134ce7-5895-4032-94ca-c381ff0624d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "538-87832-6123"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a11b22a5-5428-451b-9b3d-5abb07ae4ba5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "2.05"
 			(at 0 0 0)
 			(unlocked yes)
@@ -21013,6 +21074,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5cb1ec24-b085-4836-a14a-7579d0136ed1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "87832-6123"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ca456cc0-b865-48ee-9111-08ae05f706ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "538-87832-6123"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17d03574-23fe-46dc-9677-026cb9e04149")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Molex"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f5b3987-7a38-4dab-885d-d490282959a2")
 			(effects
 				(font
 					(size 1 1)
@@ -21499,47 +21602,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-2N7002A"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f7eebf9c-37c3-4835-8c04-c68adebd979d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2N7002A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5506600e-068d-467f-992d-7675548af6cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dc72926b-3ea5-4977-a97d-f41b39f0ced3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.11"
 			(at 0 0 90)
 			(unlocked yes)
@@ -21588,6 +21650,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e26ea994-e5ab-4554-8a88-0e3d54fb1e65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "2N7002A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2b8117c5-b3c3-4dcb-a5cb-46ba933b8059")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "637-2N7002A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dc0bafd9-8d94-42c6-9a14-4481a1aae444")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Diotec"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "458a5f1c-d523-457c-9cad-26eda0afd840")
 			(effects
 				(font
 					(size 1 1)
@@ -22095,48 +22199,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A226MQQNNNE"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "14635ca6-ce3a-4230-88dd-ff445cfdf707")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ea331e43-223c-4744-9d56-a85d182076d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21A226MQQNNNE"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ee3c3807-cdba-4d21-aaf8-afeea0d87e91")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Digikey Part Number" ""
 			(at 0 0 -90)
 			(unlocked yes)
@@ -22213,6 +22275,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f020f2c2-13f8-437c-9b63-755fd873c239")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CL21A226MQQNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6f37ab7d-0f91-4fee-a39c-e93f90525afe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "187-CL21A226MQQNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "34e86b2a-718a-46a4-a4c9-9cff7c467f21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0752f522-35b4-4ecf-a374-d0cec46aefde")
 			(effects
 				(font
 					(size 1 1)
@@ -22424,7 +22528,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "LCD Backlight Output Cap"
+		(property "Description" "36V -> 15V VCC Decoupling"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22463,46 +22567,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d65cf82a-ec21-4dc6-8120-16368c83a0ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B105MBFNNNE"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "20c3ecd5-22c3-4b5d-af05-88ddb0be0bc2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21B105MBFNNNE"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "298b2948-c6d3-4257-a4aa-3fbc88f1bddf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Price QTY1" "0.10"
+		(property "Mouser Price QTY1" "0.11"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22516,7 +22581,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY10" "0.027"
+		(property "Mouser Price QTY10" "0.045"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22530,7 +22595,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105MBFNNNE?qs=Znm5pLBrcAIRYa0zX3s5Qw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22550,6 +22615,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "72eda493-bb9c-4fad-99b3-cab3cf2b72ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CL21B105KBFNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6bb9b918-b89f-45ad-bc03-8c08981e8545")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "187-CL21B105KBFNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c414ad06-73b4-4411-b9a2-6173b6aa968b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "023a085b-ccaa-4d25-8f42-de29a8194349")
 			(effects
 				(font
 					(size 1 1)
@@ -22800,45 +22907,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "27ca5b0c-6b56-4a1d-a8db-54bb3f1874c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL32Y475MCIVPNE"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5ad9a946-3663-43bd-8c42-75b0d506a25a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "187-CL32B475KBUYNNE"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4652619b-5006-47e6-9a0a-517fb89f1a61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.36"
 			(at 0 0 180)
 			(unlocked yes)
@@ -22887,6 +22955,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "32f391b4-a92b-4e8e-95b0-4cd7688364d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CL21B105KBFNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "09ba038d-4d39-4b74-b582-53366e4aad78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "187-CL32B475KBUYNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d0813ead-a956-4670-97e7-483785cbcb59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "19fd5fe6-1446-4acf-8682-a052fc3b4f18")
 			(effects
 				(font
 					(size 1 1)
@@ -23109,47 +23219,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "530-0ZCM0001FF2G"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "13d81152-bc44-438a-b7d5-0b3b5bf0f0c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0ZCM0001FF2G"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f6032baf-64c8-4f01-bd9b-1be28b6b195e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Bel Fuse"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c9dc3fa2-7efb-439f-809a-6066aeebc1ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Mouser Price QTY1" "0.19"
 			(at 0 0 0)
 			(unlocked yes)
@@ -23198,6 +23267,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e9e504a7-a7a2-4e4c-b6b4-fb80ab893c9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "0ZCM0001FF2G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c96efba6-63de-4556-ad55-44412dbd8323")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "530-0ZCM0001FF2G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f1ae52d9-618b-44d9-bc8c-1c1c76cdd4c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Bel Fuse"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "62ec1536-d96e-449a-a243-43377eeb0fca")
 			(effects
 				(font
 					(size 1 1)
@@ -23384,7 +23495,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/Samsung_MLCC_1837944-1929650.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23436,46 +23547,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2631d4c0-5f61-478a-b113-560509ad249f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21A226MAYNNNE"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "68fa602c-e9cc-42b8-8aa6-1cb073d58c5b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21A226MAYNNNE"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "542cd482-17c9-4709-9e8e-2ee79923c8dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Price QTY1" "0.25"
+		(property "Mouser Price QTY1" "0.32"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23489,7 +23561,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY10" "0.115"
+		(property "Mouser Price QTY10" "0.145"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23523,6 +23595,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "92c944af-16b7-49ff-b334-8f0ce3e43a27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "CL21A226MAYNNWE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d9055fe8-2037-4f3f-9f90-87e8e5e1d490")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "187-CL21A226MAYNNWE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1c50b8a-7654-4449-b1f1-8b7baa8316c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "496e987b-4db7-4fa5-aaad-3d99a698d14d")
 			(effects
 				(font
 					(size 1 1)
@@ -23721,7 +23835,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/UPY_AC_NP0X7RX7S_6_3V_to_2KV_18-3003021.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23743,48 +23857,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "603-AC0805JX7R9BB104"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e3dc140c-3c21-4d2c-9b68-c74b2f92a84d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2d82c090-baa4-4156-9886-8c9991daeb7e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805JRX7R9BB104"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "787cce31-8628-4e25-b594-e34c9a3abb02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -23817,7 +23889,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price QTY10" "0.065"
+		(property "Mouser Price QTY10" "0.037"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23831,7 +23903,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/AC0805JRX7R9BB104?qs=Znm5pLBrcAKKHbaCmv3b8Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21NR71H104KT?qs=Jm2GQyTW%2Fbj%252BykwLLGtT1A%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23851,6 +23923,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "328720f5-c2a5-41e6-b754-ea54a52fcd96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf#" "KGM21NR71H104KT"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b9baef1d-e0d6-4dc5-bb2a-cc5607e622fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser#" "581-KGM21NR71H104KT"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b6938789-11db-4e21-bf94-87b1f1da6b1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "acb18b5a-d1ab-4037-9bfc-3ef6a6c4d7e4")
 			(effects
 				(font
 					(size 1 1)
